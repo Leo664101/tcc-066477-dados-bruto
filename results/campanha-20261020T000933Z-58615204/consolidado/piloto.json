@@ -1,0 +1,501 @@
+{
+  "versao": "criterios-piloto-v1",
+  "geradoUtc": "2026-10-20T00:34:44.0097165Z",
+  "campanha": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T000933Z-58615204",
+  "criterios": {
+    "cvAlertaPercent": 10,
+    "medicaoMinimaSegundos": 300,
+    "blocoSegundos": 30,
+    "pisoMs": 1,
+    "limiarRelativoPercent": 10,
+    "sucessosMinimosPorBloco": 200,
+    "blocos": 3
+  },
+  "execucoes": [
+    {
+      "execucao": "netem0-pedidos-taxa20-m50-50-r1-bff",
+      "cenario": "bff",
+      "condicoesId": "cb37228fe4dc98b0ebd0127146e86c341efcaaf7c7dc3d6b17fa7006ac2438e2",
+      "estadoTecnico": "incluida",
+      "motivo": "Dados completos; consultar estadoExecutor para eventuais falhas fora da medicao.",
+      "errosHttpBrutos": 0,
+      "perfis": {
+        "mobile": {
+          "aquecimento": {
+            "estado": "confirmado-pela-triagem",
+            "criterios": [
+              {
+                "metrica": "media",
+                "mudancaMedicaoMs": 0.8033333333333332,
+                "limiteMs": 1.0,
+                "atendido": true,
+                "amplitudeWarmMs": 0.5433333333333334,
+                "referenciaMs": 4.22
+              },
+              {
+                "metrica": "mediana",
+                "mudancaMedicaoMs": 1.0,
+                "limiteMs": 1.0,
+                "atendido": true,
+                "amplitudeWarmMs": 0.0,
+                "referenciaMs": 4.0
+              }
+            ]
+          },
+          "blocos": {
+            "w0": {
+              "media": 4.22,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "i1": {
+              "media": 3.4166666666666665,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "i2": {
+              "media": 3.37,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "w2": {
+              "media": 3.7466666666666666,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "i0": {
+              "media": 3.5733333333333333,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "w1": {
+              "media": 4.29,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "metade1": {
+              "media": 3.4106666666666667,
+              "n": 1500,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "metade2": {
+              "media": 3.2993333333333332,
+              "n": 1500,
+              "mediana": 3.0,
+              "falhas": 0
+            }
+          },
+          "duracao": {
+            "estado": "sem-alerta-pela-triagem",
+            "criterios": [
+              {
+                "atendido": true,
+                "metrica": "media",
+                "diferencaMs": 0.1113333333333335,
+                "limiteMs": 1.0
+              },
+              {
+                "atendido": true,
+                "metrica": "mediana",
+                "diferencaMs": 0.0,
+                "limiteMs": 1.0
+              }
+            ]
+          },
+          "medicao": {
+            "p99Ms": "5",
+            "p95Ms": "4",
+            "erros": "0",
+            "sucessos": "3000"
+          }
+        },
+        "web": {
+          "aquecimento": {
+            "estado": "confirmado-pela-triagem",
+            "criterios": [
+              {
+                "metrica": "media",
+                "mudancaMedicaoMs": 0.8066666666666666,
+                "limiteMs": 1.0,
+                "atendido": true,
+                "amplitudeWarmMs": 0.4833333333333334,
+                "referenciaMs": 4.233333333333333
+              },
+              {
+                "metrica": "mediana",
+                "mudancaMedicaoMs": 1.0,
+                "limiteMs": 1.0,
+                "atendido": true,
+                "amplitudeWarmMs": 0.0,
+                "referenciaMs": 4.0
+              }
+            ]
+          },
+          "blocos": {
+            "w0": {
+              "media": 4.233333333333333,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "i1": {
+              "media": 3.4266666666666667,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "i2": {
+              "media": 3.3933333333333335,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "w2": {
+              "media": 3.8,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "i0": {
+              "media": 3.5633333333333335,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "w1": {
+              "media": 4.283333333333333,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "metade1": {
+              "media": 3.416,
+              "n": 1500,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "metade2": {
+              "media": 3.3146666666666667,
+              "n": 1500,
+              "mediana": 3.0,
+              "falhas": 0
+            }
+          },
+          "duracao": {
+            "estado": "sem-alerta-pela-triagem",
+            "criterios": [
+              {
+                "atendido": true,
+                "metrica": "media",
+                "diferencaMs": 0.10133333333333328,
+                "limiteMs": 1.0
+              },
+              {
+                "atendido": true,
+                "metrica": "mediana",
+                "diferencaMs": 0.0,
+                "limiteMs": 1.0
+              }
+            ]
+          },
+          "medicao": {
+            "p99Ms": "5",
+            "p95Ms": "4",
+            "erros": "0",
+            "sucessos": "3000"
+          }
+        }
+      }
+    },
+    {
+      "execucao": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+      "cenario": "unificada",
+      "condicoesId": "7f083d1e42722e647d43457896c07aae3575c40b2e709c0e37b48c303759fd17",
+      "estadoTecnico": "incluida",
+      "motivo": "Dados completos; consultar estadoExecutor para eventuais falhas fora da medicao.",
+      "errosHttpBrutos": 0,
+      "perfis": {
+        "mobile": {
+          "aquecimento": {
+            "estado": "confirmado-pela-triagem",
+            "criterios": [
+              {
+                "metrica": "media",
+                "mudancaMedicaoMs": 0.77,
+                "limiteMs": 1.0,
+                "atendido": true,
+                "amplitudeWarmMs": 0.5966666666666667,
+                "referenciaMs": 4.006666666666667
+              },
+              {
+                "metrica": "mediana",
+                "mudancaMedicaoMs": 1.0,
+                "limiteMs": 1.0,
+                "atendido": true,
+                "amplitudeWarmMs": 0.0,
+                "referenciaMs": 4.0
+              }
+            ]
+          },
+          "blocos": {
+            "w0": {
+              "media": 4.006666666666667,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "i1": {
+              "media": 3.236666666666667,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "i2": {
+              "media": 3.1333333333333333,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "w2": {
+              "media": 3.54,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "i0": {
+              "media": 3.2666666666666666,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "w1": {
+              "media": 4.136666666666667,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "metade1": {
+              "media": 3.206,
+              "n": 1500,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "metade2": {
+              "media": 3.1806666666666668,
+              "n": 1500,
+              "mediana": 3.0,
+              "falhas": 0
+            }
+          },
+          "duracao": {
+            "estado": "sem-alerta-pela-triagem",
+            "criterios": [
+              {
+                "atendido": true,
+                "metrica": "media",
+                "diferencaMs": 0.025333333333333208,
+                "limiteMs": 1.0
+              },
+              {
+                "atendido": true,
+                "metrica": "mediana",
+                "diferencaMs": 0.0,
+                "limiteMs": 1.0
+              }
+            ]
+          },
+          "medicao": {
+            "p99Ms": "4",
+            "p95Ms": "4",
+            "erros": "0",
+            "sucessos": "3000"
+          }
+        },
+        "web": {
+          "aquecimento": {
+            "estado": "confirmado-pela-triagem",
+            "criterios": [
+              {
+                "metrica": "media",
+                "mudancaMedicaoMs": 0.7766666666666664,
+                "limiteMs": 1.0,
+                "atendido": true,
+                "amplitudeWarmMs": 0.5966666666666671,
+                "referenciaMs": 4.02
+              },
+              {
+                "metrica": "mediana",
+                "mudancaMedicaoMs": 1.0,
+                "limiteMs": 1.0,
+                "atendido": true,
+                "amplitudeWarmMs": 1.0,
+                "referenciaMs": 4.0
+              }
+            ]
+          },
+          "blocos": {
+            "w0": {
+              "media": 4.02,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "i1": {
+              "media": 3.243333333333333,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "i2": {
+              "media": 3.13,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "w2": {
+              "media": 3.53,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "i0": {
+              "media": 3.276666666666667,
+              "n": 300,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "w1": {
+              "media": 4.126666666666667,
+              "n": 300,
+              "mediana": 4.0,
+              "falhas": 0
+            },
+            "metade1": {
+              "media": 3.2106666666666666,
+              "n": 1500,
+              "mediana": 3.0,
+              "falhas": 0
+            },
+            "metade2": {
+              "media": 3.1766666666666667,
+              "n": 1500,
+              "mediana": 3.0,
+              "falhas": 0
+            }
+          },
+          "duracao": {
+            "estado": "sem-alerta-pela-triagem",
+            "criterios": [
+              {
+                "atendido": true,
+                "metrica": "media",
+                "diferencaMs": 0.03399999999999981,
+                "limiteMs": 1.0
+              },
+              {
+                "atendido": true,
+                "metrica": "mediana",
+                "diferencaMs": 0.0,
+                "limiteMs": 1.0
+              }
+            ]
+          },
+          "medicao": {
+            "p99Ms": "5",
+            "p95Ms": "4",
+            "erros": "0",
+            "sucessos": "3000"
+          }
+        }
+      }
+    }
+  ],
+  "variabilidade": [
+    {
+      "repeticoes": 1,
+      "estado": "dados-insuficientes",
+      "cvPercent": null,
+      "desvioPadraoMs": null,
+      "cenario": "bff",
+      "condicoesId": "cb37228fe4dc98b0ebd0127146e86c341efcaaf7c7dc3d6b17fa7006ac2438e2",
+      "valoresMs": [
+        3.355
+      ],
+      "execucoes": [
+        "netem0-pedidos-taxa20-m50-50-r1-bff"
+      ],
+      "mediaMs": 3.355,
+      "perfil": "mobile"
+    },
+    {
+      "repeticoes": 1,
+      "estado": "dados-insuficientes",
+      "cvPercent": null,
+      "desvioPadraoMs": null,
+      "cenario": "bff",
+      "condicoesId": "cb37228fe4dc98b0ebd0127146e86c341efcaaf7c7dc3d6b17fa7006ac2438e2",
+      "valoresMs": [
+        3.3653333333333335
+      ],
+      "execucoes": [
+        "netem0-pedidos-taxa20-m50-50-r1-bff"
+      ],
+      "mediaMs": 3.3653333333333335,
+      "perfil": "web"
+    },
+    {
+      "repeticoes": 1,
+      "estado": "dados-insuficientes",
+      "cvPercent": null,
+      "desvioPadraoMs": null,
+      "cenario": "unificada",
+      "condicoesId": "7f083d1e42722e647d43457896c07aae3575c40b2e709c0e37b48c303759fd17",
+      "valoresMs": [
+        3.1933333333333334
+      ],
+      "execucoes": [
+        "netem0-pedidos-taxa20-m50-50-r1-unificada"
+      ],
+      "mediaMs": 3.1933333333333334,
+      "perfil": "mobile"
+    },
+    {
+      "repeticoes": 1,
+      "estado": "dados-insuficientes",
+      "cvPercent": null,
+      "desvioPadraoMs": null,
+      "cenario": "unificada",
+      "condicoesId": "7f083d1e42722e647d43457896c07aae3575c40b2e709c0e37b48c303759fd17",
+      "valoresMs": [
+        3.1936666666666667
+      ],
+      "execucoes": [
+        "netem0-pedidos-taxa20-m50-50-r1-unificada"
+      ],
+      "mediaMs": 3.1936666666666667,
+      "perfil": "web"
+    }
+  ],
+  "limites": "Triagem exploratoria; nao aprova campanha oficial, nao ajusta janelas, nao exclui falhas HTTP nem calcula IC.",
+  "fontes": [
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T000933Z-58615204\\campanha.json",
+      "Hash": "5418D1833EE333C27693318928CD440B5F4E10537C0189AD9247E403E39DDA2F"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\criterios-piloto.ps1",
+      "Hash": "59BCBE6A14CC8100A885F19F65CD16695678B7B5545CF3A22492FCB5E3DEE71E"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\analisar-piloto.ps1",
+      "Hash": "328E247D5B23068BA1CE74B6060CE321692AD3D96354F5F6C7256BCE0461A1A8"
+    }
+  ]
+}

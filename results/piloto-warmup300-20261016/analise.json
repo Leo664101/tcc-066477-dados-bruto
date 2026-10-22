@@ -1,0 +1,1089 @@
+{
+  "versao": "consolidacao-piloto-offline-v1",
+  "geradoUtc": "2026-10-16T15:45:35.051712+00:00",
+  "scriptSha256": "260b6be25a4f9c1c01d1ce14c4a57255a2bb7f0b03bb2d55bea8f397672df7a8",
+  "fontes": [
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\campanha.json",
+      "sha256": "88d5d51747285bf79ca9927fc25291b144f45f99eb9e97c8bdeeb0eafacf4a9d"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\consolidado\\http-por-execucao.csv",
+      "sha256": "9e4739cbb3fff0454f4866cd0a22f5901dcfee4f87b569ddaf59fc35b649f916"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\consolidado\\execucoes.csv",
+      "sha256": "5e7ee13c928e5f1a0c728b976d64d63ea105b6406b3e409d03c58886c4ca26d2"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\configuracao.json",
+      "sha256": "997d461e222d726c5f8332b8c8d23571f5d4842763b7d2bca8f619bb09faf066"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\janela.json",
+      "sha256": "bf8939d25834ee039016c380b50fee4a7c220d985899cec6e8bc071feb623fd2"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\bruto.jtl",
+      "sha256": "be2321376a60dbf2e21f65985dab44d7878c991ea398c3076ff2f14dded6acb8"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\medicao.jtl",
+      "sha256": "79207ed117645456f9b93a52c6c9d0104930dc9a12d24082847eb51ea27e7164"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\rede-inicial.json",
+      "sha256": "77360a49838b96007c802787d7674e5d4be66c8efac89a6350b6f8f127819ad1"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\rede-final.json",
+      "sha256": "7c0c99931bb25e4d32f25caf0d319bc03b3b1a396b9c1dd4d14cbf9e4811d719"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\ambiente-inicial.json",
+      "sha256": "951277336bc503763e60122da8e768ff0511db1bf856a0ed2e383ea74f28b790"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\ambiente-final.json",
+      "sha256": "fa814311f4b62cde114b651ee1b42e62a49d3ee27fc8a08a9190dd330e873c30"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\preparacao.json",
+      "sha256": "fb0ed0effda26910c4e41020ac18f2180561ccd550ca384b0860d11f975d1225"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\descanso.json",
+      "sha256": "3e43e8b839775496680a1bcf2752c9c008b6ca13ada92dba501bcb582f347c32"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\gc-gerador.log",
+      "sha256": "1ead45354f9b909db3ba8fc229bd46b29d7183590f456ce04cc9e98e75e2f48f"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\consolidado\\recursos-por-execucao.csv",
+      "sha256": "8d43adbb0a0299d4286b555b06e8346d5a13a52e67c8384e2e4f0d44061ba99e"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\recursos-medicao.csv",
+      "sha256": "0717c9c7162a3a595b3d0b4fee7ca57d55ff56799bba2b4eff1781ac555e51d6"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\recursos-agregados.csv",
+      "sha256": "92ce7a6d78fd94adb30f2d42659cc701fd78f2f1f34f3f8b20ecc6de369464a6"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\cpu-diagnostico.csv",
+      "sha256": "f4d8f88510989a3f932b50648748ca1850337ae5ec848b7723db8285e0a8b9c2"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-unificada\\gerador-recursos.csv",
+      "sha256": "4b0ced2d86bb57e16229186265eca129e642bef2976a36d0d9dcaa567804650e"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\configuracao.json",
+      "sha256": "1eff5677120a5a4c86205d9f0bebb69b324661262072cd0ec2972ccae1cab67d"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\janela.json",
+      "sha256": "d8e318402ca139ec0cd508041aff62f0744f451f25506a3292f3afe04450c78d"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\bruto.jtl",
+      "sha256": "6aea37b78ae745c527bc88edbb142f49aec5ddafd486f0770c4c4ee44c7647af"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\medicao.jtl",
+      "sha256": "5dd04792381dbcc0084b3cac5433cd74bb29c25f81faaf20192988630dde6d2c"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\rede-inicial.json",
+      "sha256": "cf64912ea6c1c3ab9ab2b6babb448d913fb4f77865589351416d020373abd1e8"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\rede-final.json",
+      "sha256": "612abf6d085ec000ad0214d5e1707e3b5f8a4960b227b5e3643367b1b8c08fae"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\ambiente-inicial.json",
+      "sha256": "4e2cfbbbb225d4c3f2767a367aee3ded6897a323c1936a8b126d9cd221683585"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\ambiente-final.json",
+      "sha256": "e9232ed5d347c3a7257d7a379169bf487362bb8040d61484cb8f13fbdd4a0ebc"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\preparacao.json",
+      "sha256": "a3d34dc20c7053fea337c661a1323e19725d948fae9f7f63233792303e2d5795"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\descanso.json",
+      "sha256": "67ffd280f5f6aae4023ff8083a5733821d87a4f59fb117ed2f5525ab6afe2ac6"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\gc-gerador.log",
+      "sha256": "07d8b02c249caf1f3258e6128162697275881eb73468640f90e3f5cbe9e49835"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\consolidado\\recursos-por-execucao.csv",
+      "sha256": "8d43adbb0a0299d4286b555b06e8346d5a13a52e67c8384e2e4f0d44061ba99e"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\recursos-medicao.csv",
+      "sha256": "af60944f2e1097127dbf915a9e95779a0819c97f19e457ec0a3d99b5814f175c"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\recursos-agregados.csv",
+      "sha256": "0ba032848b9fb41528e9785b90e0e10dff61b7d6d9b5ea47fd88e78ff857976e"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\cpu-diagnostico.csv",
+      "sha256": "d9c48926b89bd5c12d990f454514bb8b8b8c50b70d0451e5df876993ce10d5e8"
+    },
+    {
+      "arquivo": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261016T120235Z-10709986\\netem0-pedidos-taxa20-m50-50-r1-bff\\gerador-recursos.csv",
+      "sha256": "403ad98d5de2595f857613c2f8ab623654c965cf1faf7f4e7964c6927f85d57f"
+    }
+  ],
+  "execucoes": [
+    {
+      "etapa": "W300",
+      "execucao": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+      "cenario": "unificada",
+      "repeticao": 1,
+      "brutas": 12300,
+      "perfis": {
+        "web": {
+          "n": 3000,
+          "media": 3.3733333333333335,
+          "mediana": 3.0,
+          "p95": 4.0,
+          "p99": 5.0,
+          "maximo": 11.0,
+          "amostras": 3000,
+          "erros": 0,
+          "errosBrutos": 0,
+          "payloadMedioBytes": 1037.1336666666666,
+          "taxaInicios": 10.0,
+          "vazao": 10.0,
+          "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+          "atrasoMaximoChegadaMs": 66,
+          "blocos": [
+            {
+              "inicioSegundos": 0,
+              "n": 300,
+              "media": 3.5233333333333334,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 6.0
+            },
+            {
+              "inicioSegundos": 30,
+              "n": 300,
+              "media": 3.38,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 8.0
+            },
+            {
+              "inicioSegundos": 60,
+              "n": 300,
+              "media": 3.28,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 4.0
+            },
+            {
+              "inicioSegundos": 90,
+              "n": 300,
+              "media": 3.3466666666666667,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 7.0
+            },
+            {
+              "inicioSegundos": 120,
+              "n": 300,
+              "media": 3.32,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 150,
+              "n": 300,
+              "media": 3.433333333333333,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 180,
+              "n": 300,
+              "media": 3.4366666666666665,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 11.0
+            },
+            {
+              "inicioSegundos": 210,
+              "n": 300,
+              "media": 3.3333333333333335,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 6.0
+            },
+            {
+              "inicioSegundos": 240,
+              "n": 300,
+              "media": 3.3533333333333335,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 4.0
+            },
+            {
+              "inicioSegundos": 270,
+              "n": 300,
+              "media": 3.3266666666666667,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 8.0
+            }
+          ],
+          "mediaPrimeiraMetade": 3.37,
+          "mediaSegundaMetade": 3.3766666666666665,
+          "quedaMetadesPercent": -0.19782393669633164,
+          "picos90ms": 0,
+          "picos90Percent": 0.0,
+          "eventosPorThread": []
+        },
+        "mobile": {
+          "n": 3000,
+          "media": 3.3713333333333333,
+          "mediana": 3.0,
+          "p95": 4.0,
+          "p99": 5.0,
+          "maximo": 11.0,
+          "amostras": 3000,
+          "erros": 0,
+          "errosBrutos": 0,
+          "payloadMedioBytes": 1037.1336666666666,
+          "taxaInicios": 10.0,
+          "vazao": 10.0,
+          "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+          "atrasoMaximoChegadaMs": 66,
+          "blocos": [
+            {
+              "inicioSegundos": 0,
+              "n": 300,
+              "media": 3.52,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 6.0
+            },
+            {
+              "inicioSegundos": 30,
+              "n": 300,
+              "media": 3.35,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 8.0
+            },
+            {
+              "inicioSegundos": 60,
+              "n": 300,
+              "media": 3.3333333333333335,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 90,
+              "n": 300,
+              "media": 3.3333333333333335,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 120,
+              "n": 300,
+              "media": 3.3533333333333335,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 9.0
+            },
+            {
+              "inicioSegundos": 150,
+              "n": 300,
+              "media": 3.39,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 180,
+              "n": 300,
+              "media": 3.4266666666666667,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 11.0
+            },
+            {
+              "inicioSegundos": 210,
+              "n": 300,
+              "media": 3.3466666666666667,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 6.0
+            },
+            {
+              "inicioSegundos": 240,
+              "n": 300,
+              "media": 3.3466666666666667,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 4.0
+            },
+            {
+              "inicioSegundos": 270,
+              "n": 300,
+              "media": 3.3133333333333335,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 9.0
+            }
+          ],
+          "mediaPrimeiraMetade": 3.378,
+          "mediaSegundaMetade": 3.3646666666666665,
+          "quedaMetadesPercent": 0.39471087428459567,
+          "picos90ms": 0,
+          "picos90Percent": 0.0,
+          "eventosPorThread": []
+        }
+      },
+      "recursosDiagnosticos": [
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+          "cenario": "unificada",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+          "camada": "ambiente",
+          "ciclos": "148",
+          "cpuMediaPercent": "10.349662162162163",
+          "cpuPicoAmostradoPercent": "25.490000000000002",
+          "memoriaMediaMiB": "1188.1686959459464",
+          "memoriaPicoAmostradoMiB": "1204.701"
+        },
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+          "cenario": "unificada",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+          "camada": "emulacao",
+          "ciclos": "148",
+          "cpuMediaPercent": "0.777635135135135",
+          "cpuPicoAmostradoPercent": "1.92",
+          "memoriaMediaMiB": "7.241668918918918",
+          "memoriaPicoAmostradoMiB": "9.484"
+        },
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+          "cenario": "unificada",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+          "camada": "entrada",
+          "ciclos": "148",
+          "cpuMediaPercent": "6.529391891891892",
+          "cpuPicoAmostradoPercent": "14.45",
+          "memoriaMediaMiB": "362.2513513513515",
+          "memoriaPicoAmostradoMiB": "363.1"
+        },
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+          "cenario": "unificada",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+          "camada": "internos",
+          "ciclos": "148",
+          "cpuMediaPercent": "3.0426351351351357",
+          "cpuPicoAmostradoPercent": "17.9",
+          "memoriaMediaMiB": "818.6756756756754",
+          "memoriaPicoAmostradoMiB": "835.5000000000001"
+        },
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+          "cenario": "unificada",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+          "camada": "total",
+          "ciclos": "148",
+          "cpuMediaPercent": "9.572027027027028",
+          "cpuPicoAmostradoPercent": "24.25",
+          "memoriaMediaMiB": "1180.9270270270263",
+          "memoriaPicoAmostradoMiB": "1197.4"
+        }
+      ],
+      "cgroupIntervaloCompleto": [
+        {
+          "servico": "usuarios",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "670.2799999999997",
+          "cpuMediaIntervaloPercent": "1.8899358477054373",
+          "periodos": "5414",
+          "periodosLimitados": "1",
+          "periodosLimitadosPercent": "0.01847063169560399",
+          "tempoLimitadoSegundos": "0.001343"
+        },
+        {
+          "servico": "produtos",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "670.2799999999997",
+          "cpuMediaIntervaloPercent": "2.1338662946828197",
+          "periodos": "5355",
+          "periodosLimitados": "5",
+          "periodosLimitadosPercent": "0.09337068160597572",
+          "tempoLimitadoSegundos": "0.011315"
+        },
+        {
+          "servico": "pedidos",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "670.2749999999996",
+          "cpuMediaIntervaloPercent": "1.9288160829510286",
+          "periodos": "5329",
+          "periodosLimitados": "1",
+          "periodosLimitadosPercent": "0.018765246762994934",
+          "tempoLimitadoSegundos": "0.001918"
+        },
+        {
+          "servico": "api-unificada",
+          "quotaUs": "200000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "670.2600000000002",
+          "cpuMediaIntervaloPercent": "8.23016530898457",
+          "periodos": "6314",
+          "periodosLimitados": "0",
+          "periodosLimitadosPercent": "0",
+          "tempoLimitadoSegundos": "0"
+        },
+        {
+          "servico": "rede",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "670.25",
+          "cpuMediaIntervaloPercent": "0.7770133532264081",
+          "periodos": "757",
+          "periodosLimitados": "0",
+          "periodosLimitadosPercent": "0",
+          "tempoLimitadoSegundos": "0"
+        }
+      ],
+      "geradorMedicao": {
+        "cpuUmNucleo": {
+          "n": 297,
+          "media": 1.5424640694440017,
+          "mediana": 0.0,
+          "p95": 6.180638403579497,
+          "p99": 13.953024569229552,
+          "maximo": 19.969007117863196
+        },
+        "memoriaWorkingSetMiB": {
+          "n": 297,
+          "media": 355.9336858164983,
+          "mediana": 353.61328125,
+          "p95": 362.71484375,
+          "p99": 362.71484375,
+          "maximo": 362.71484375
+        }
+      },
+      "safepointsGeradorMedicaoMs": {
+        "n": 12,
+        "media": 1.9503666666666666,
+        "mediana": 2.37825,
+        "p95": 3.9113,
+        "p99": 3.9113,
+        "maximo": 3.9113
+      }
+    },
+    {
+      "etapa": "W300",
+      "execucao": "netem0-pedidos-taxa20-m50-50-r1-bff",
+      "cenario": "bff",
+      "repeticao": 1,
+      "brutas": 12300,
+      "perfis": {
+        "web": {
+          "n": 3000,
+          "media": 3.514666666666667,
+          "mediana": 3.0,
+          "p95": 4.0,
+          "p99": 5.0,
+          "maximo": 14.0,
+          "amostras": 3000,
+          "erros": 0,
+          "errosBrutos": 0,
+          "payloadMedioBytes": 1037.1336666666666,
+          "taxaInicios": 10.0,
+          "vazao": 10.0,
+          "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+          "atrasoMaximoChegadaMs": 77,
+          "blocos": [
+            {
+              "inicioSegundos": 0,
+              "n": 300,
+              "media": 3.66,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 14.0
+            },
+            {
+              "inicioSegundos": 30,
+              "n": 300,
+              "media": 3.6333333333333333,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 8.0
+            },
+            {
+              "inicioSegundos": 60,
+              "n": 300,
+              "media": 3.526666666666667,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 4.0,
+              "maximo": 6.0
+            },
+            {
+              "inicioSegundos": 90,
+              "n": 300,
+              "media": 3.55,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 120,
+              "n": 300,
+              "media": 3.52,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 9.0
+            },
+            {
+              "inicioSegundos": 150,
+              "n": 300,
+              "media": 3.48,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 180,
+              "n": 300,
+              "media": 3.5433333333333334,
+              "mediana": 3.5,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 12.0
+            },
+            {
+              "inicioSegundos": 210,
+              "n": 300,
+              "media": 3.46,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 6.0
+            },
+            {
+              "inicioSegundos": 240,
+              "n": 300,
+              "media": 3.38,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 10.0
+            },
+            {
+              "inicioSegundos": 270,
+              "n": 300,
+              "media": 3.3933333333333335,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 5.0
+            }
+          ],
+          "mediaPrimeiraMetade": 3.578,
+          "mediaSegundaMetade": 3.4513333333333334,
+          "quedaMetadesPercent": 3.540152785541266,
+          "picos90ms": 0,
+          "picos90Percent": 0.0,
+          "eventosPorThread": []
+        },
+        "mobile": {
+          "n": 3000,
+          "media": 3.5126666666666666,
+          "mediana": 3.0,
+          "p95": 4.0,
+          "p99": 5.0,
+          "maximo": 12.0,
+          "amostras": 3000,
+          "erros": 0,
+          "errosBrutos": 0,
+          "payloadMedioBytes": 217.88933333333333,
+          "taxaInicios": 10.0,
+          "vazao": 10.0,
+          "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+          "atrasoMaximoChegadaMs": 77,
+          "blocos": [
+            {
+              "inicioSegundos": 0,
+              "n": 300,
+              "media": 3.6633333333333336,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 12.0
+            },
+            {
+              "inicioSegundos": 30,
+              "n": 300,
+              "media": 3.6366666666666667,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 7.0
+            },
+            {
+              "inicioSegundos": 60,
+              "n": 300,
+              "media": 3.54,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 6.0
+            },
+            {
+              "inicioSegundos": 90,
+              "n": 300,
+              "media": 3.5366666666666666,
+              "mediana": 4.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 120,
+              "n": 300,
+              "media": 3.5033333333333334,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 9.0
+            },
+            {
+              "inicioSegundos": 150,
+              "n": 300,
+              "media": 3.47,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 180,
+              "n": 300,
+              "media": 3.546666666666667,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 12.0
+            },
+            {
+              "inicioSegundos": 210,
+              "n": 300,
+              "media": 3.473333333333333,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 5.0
+            },
+            {
+              "inicioSegundos": 240,
+              "n": 300,
+              "media": 3.38,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 10.0
+            },
+            {
+              "inicioSegundos": 270,
+              "n": 300,
+              "media": 3.3766666666666665,
+              "mediana": 3.0,
+              "p95": 4.0,
+              "p99": 5.0,
+              "maximo": 5.0
+            }
+          ],
+          "mediaPrimeiraMetade": 3.576,
+          "mediaSegundaMetade": 3.449333333333333,
+          "quedaMetadesPercent": 3.5421327367636164,
+          "picos90ms": 0,
+          "picos90Percent": 0.0,
+          "eventosPorThread": []
+        }
+      },
+      "recursosDiagnosticos": [
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-bff",
+          "cenario": "bff",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+          "camada": "ambiente",
+          "ciclos": "147",
+          "cpuMediaPercent": "13.252040816326529",
+          "cpuPicoAmostradoPercent": "49.63",
+          "memoriaMediaMiB": "1304.300778061225",
+          "memoriaPicoAmostradoMiB": "1362.3187500000001"
+        },
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-bff",
+          "cenario": "bff",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+          "camada": "emulacao",
+          "ciclos": "147",
+          "cpuMediaPercent": "0.7795918367346939",
+          "cpuPicoAmostradoPercent": "1.79",
+          "memoriaMediaMiB": "1.4912542517006804",
+          "memoriaPicoAmostradoMiB": "4.211"
+        },
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-bff",
+          "cenario": "bff",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+          "camada": "entrada",
+          "ciclos": "147",
+          "cpuMediaPercent": "9.152925170068029",
+          "cpuPicoAmostradoPercent": "46.09",
+          "memoriaMediaMiB": "571.5095238095236",
+          "memoriaPicoAmostradoMiB": "576.4"
+        },
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-bff",
+          "cenario": "bff",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+          "camada": "internos",
+          "ciclos": "147",
+          "cpuMediaPercent": "3.3195238095238095",
+          "cpuPicoAmostradoPercent": "27.4",
+          "memoriaMediaMiB": "731.3000000000003",
+          "memoriaPicoAmostradoMiB": "792"
+        },
+        {
+          "redeModelo": "roteador-netem-v2",
+          "atrasoRedeMs": "0",
+          "operacao": "pedidos",
+          "modeloCarga": "chegadas-deterministicas-v1",
+          "execucao": "netem0-pedidos-taxa20-m50-50-r1-bff",
+          "cenario": "bff",
+          "usuarios": "",
+          "repeticao": "1",
+          "baseMistura": "operacoes-agendadas",
+          "mistura": "50/50",
+          "taxaPorSegundo": "20",
+          "misturaUsuarios": "",
+          "usuariosWeb": "",
+          "usuariosMobile": "",
+          "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+          "camada": "total",
+          "ciclos": "147",
+          "cpuMediaPercent": "12.472448979591837",
+          "cpuPicoAmostradoPercent": "48.2",
+          "memoriaMediaMiB": "1302.8095238095239",
+          "memoriaPicoAmostradoMiB": "1361.6000000000001"
+        }
+      ],
+      "cgroupIntervaloCompleto": [
+        {
+          "servico": "usuarios",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "669.5149999999994",
+          "cpuMediaIntervaloPercent": "2.043168412955649",
+          "periodos": "5511",
+          "periodosLimitados": "1",
+          "periodosLimitadosPercent": "0.018145527127563055",
+          "tempoLimitadoSegundos": "0.002044"
+        },
+        {
+          "servico": "produtos",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "669.5300000000007",
+          "cpuMediaIntervaloPercent": "2.2617265843203422",
+          "periodos": "5590",
+          "periodosLimitados": "2",
+          "periodosLimitadosPercent": "0.03577817531305903",
+          "tempoLimitadoSegundos": "0.004271"
+        },
+        {
+          "servico": "pedidos",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "669.5200000000004",
+          "cpuMediaIntervaloPercent": "2.01472771537818",
+          "periodos": "5484",
+          "periodosLimitados": "1",
+          "periodosLimitadosPercent": "0.01823486506199854",
+          "tempoLimitadoSegundos": "0.003274"
+        },
+        {
+          "servico": "bff-web",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "669.4899999999998",
+          "cpuMediaIntervaloPercent": "5.732346711676054",
+          "periodos": "6308",
+          "periodosLimitados": "5",
+          "periodosLimitadosPercent": "0.07926442612555486",
+          "tempoLimitadoSegundos": "0.019258"
+        },
+        {
+          "servico": "bff-mobile",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "669.5",
+          "cpuMediaIntervaloPercent": "5.765446303211352",
+          "periodos": "6316",
+          "periodosLimitados": "15",
+          "periodosLimitadosPercent": "0.23749208359721344",
+          "tempoLimitadoSegundos": "0.031554"
+        },
+        {
+          "servico": "rede",
+          "quotaUs": "100000",
+          "periodoUs": "100000",
+          "intervaloSegundos": "669.4949999999999",
+          "cpuMediaIntervaloPercent": "0.7777474066273835",
+          "periodos": "731",
+          "periodosLimitados": "0",
+          "periodosLimitadosPercent": "0",
+          "tempoLimitadoSegundos": "0"
+        }
+      ],
+      "geradorMedicao": {
+        "cpuUmNucleo": {
+          "n": 297,
+          "media": 1.8757579030051157,
+          "mediana": 0.0,
+          "p95": 6.218140734134639,
+          "p99": 15.444382579052863,
+          "maximo": 15.493521972541396
+        },
+        "memoriaWorkingSetMiB": {
+          "n": 297,
+          "media": 341.61379419191917,
+          "mediana": 337.02734375,
+          "p95": 354.34765625,
+          "p99": 354.4765625,
+          "maximo": 354.48828125
+        }
+      },
+      "safepointsGeradorMedicaoMs": {
+        "n": 13,
+        "media": 1.9124384615384615,
+        "mediana": 3.4352,
+        "p95": 3.7478,
+        "p99": 3.7478,
+        "maximo": 3.7478
+      }
+    }
+  ],
+  "exclusoes": [],
+  "variabilidade": [
+    {
+      "etapa": "W300",
+      "cenario": "unificada",
+      "perfil": "web",
+      "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+      "n": 1,
+      "medias": [
+        3.3733333333333335
+      ],
+      "mediaDasMedias": 3.3733333333333335,
+      "desvioAmostral": null,
+      "cvPercent": null
+    },
+    {
+      "etapa": "W300",
+      "cenario": "unificada",
+      "perfil": "mobile",
+      "condicoesId": "e08b11dbc85e2c3571110654f6032eb5b9e3b4f166e0313cf917648a0782a1bf",
+      "n": 1,
+      "medias": [
+        3.3713333333333333
+      ],
+      "mediaDasMedias": 3.3713333333333333,
+      "desvioAmostral": null,
+      "cvPercent": null
+    },
+    {
+      "etapa": "W300",
+      "cenario": "bff",
+      "perfil": "web",
+      "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+      "n": 1,
+      "medias": [
+        3.514666666666667
+      ],
+      "mediaDasMedias": 3.514666666666667,
+      "desvioAmostral": null,
+      "cvPercent": null
+    },
+    {
+      "etapa": "W300",
+      "cenario": "bff",
+      "perfil": "mobile",
+      "condicoesId": "d083fadda57ebb4fc38a187ba2399b1a1284af6f0b2ae2612410ac3637de498c",
+      "n": 1,
+      "medias": [
+        3.5126666666666666
+      ],
+      "mediaDasMedias": 3.5126666666666666,
+      "desvioAmostral": null,
+      "cvPercent": null
+    }
+  ]
+}

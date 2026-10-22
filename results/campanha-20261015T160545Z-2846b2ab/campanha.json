@@ -1,0 +1,77 @@
+{
+  "versao": 1,
+  "finalidade": "validacao-piloto",
+  "inicioUtc": "2026-10-15T16:05:45.1245496Z",
+  "avaliarPiloto": true,
+  "descansoSegundos": 1,
+  "estado": "concluida",
+  "rede": "netem",
+  "atrasosRedeMs": 0,
+  "operacao": "produtos",
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "primeiroCenario": "unificada",
+  "repeticoes": 1,
+  "niveis": [
+    20
+  ],
+  "misturas": [
+    "50/50"
+  ],
+  "diagnosticarGerador": true,
+  "compararCpuAlinhada": false,
+  "parametros": {
+    "Semente": 20260929,
+    "DuracaoSegundos": 15,
+    "AquecimentoSegundos": 5,
+    "IntervaloRecursosSegundos": 2,
+    "SubidaSegundos": 2,
+    "MaximoEmVooPorPerfil": 8,
+    "PreparacaoSegundos": 1,
+    "DescansoPlanejadoSegundos": 1,
+    "AtrasoMaximoMs": 250
+  },
+  "execucoes": [
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "produtos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "unificada",
+      "pasta": "netem0-produtos-taxa20-m50-50-r1-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "produtos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "bff",
+      "pasta": "netem0-produtos-taxa20-m50-50-r1-bff",
+      "estado": "concluida",
+      "erro": null
+    }
+  ]
+}

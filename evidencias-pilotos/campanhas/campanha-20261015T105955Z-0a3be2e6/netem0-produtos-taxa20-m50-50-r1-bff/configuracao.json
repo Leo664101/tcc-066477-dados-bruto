@@ -1,0 +1,153 @@
+{
+  "rede": {
+    "modelo": "roteador-netem-v2",
+    "atrasoPorSentidoMs": 0,
+    "trecho": "cliente-entrada",
+    "limiteFilaPacotes": 10000,
+    "filaCompartilhadaSentidos": true
+  },
+  "finalidade": "validacao-piloto",
+  "cenario": "bff",
+  "operacao": "produtos",
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "usuarios": null,
+  "distribuicao": {
+    "base": "operacoes-agendadas",
+    "mistura": "50/50",
+    "web": 10,
+    "mobile": 10
+  },
+  "subidaSegundos": 2,
+  "aquecimentoSegundos": 5,
+  "duracaoSegundos": 15,
+  "pausaMs": 0,
+  "sementeSequencia": 20260929,
+  "massa": "sintetica-json-v1-20260929",
+  "jmeter": "5.6.3",
+  "java": "java version \"21.0.2\" 2024-01-16 LTS\r\nJava(TM) SE Runtime Environment (build 21.0.2+13-LTS-58)\r\nJava HotSpot(TM) 64-Bit Server VM (build 21.0.2+13-LTS-58, mixed mode, sharing)",
+  "gerador": "host local, junto ao Docker",
+  "inicioUtc": "2026-10-15T11:01:23.8682965Z",
+  "coletaRecursos": {
+    "ferramenta": "docker stats --no-stream",
+    "compararCpuAlinhada": false,
+    "intervaloAlvoSegundos": 2
+  },
+  "hashes": [
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\jmeter\\taxa.jmx",
+      "Hash": "0AEC7D7264C27C482320C99BE105B6025E4429A5770F208CE1D3AF503A4A56E8"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\distribuicao-usuarios.ps1",
+      "Hash": "D99CEC8BA5C5C9D674712AC0DD75912AD20EF4E47FDB47E0E1B4ACE7F90474AD"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\jmeter\\preparar.groovy",
+      "Hash": "ACDBFE9B7390DDFCCE5EF188821C2BD2DD479D4A1D47A01B09598272875B23DE"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\jmeter\\validar.groovy",
+      "Hash": "6621F5B0AE35A99C8526368BDA6DECD73AFB18C564B4C674E1BCE64F575542AD"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\jmeter\\jmeter.properties",
+      "Hash": "6B9EEEE561A3D6899FED97EEECBB0E1BACB4603C7C90487FB5C3F843A03C7F8A"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\executar-jmeter.ps1",
+      "Hash": "DC20B53C992D741A2DB0314C1D0BFFE9D693146DE72581484C7EC464F755A84D"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\coletar-recursos.ps1",
+      "Hash": "A95849A514235FD49F0834D9ACD4398F0E33F1BE9614ADFD73A4A0E47055516D"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\registrar-ambiente.ps1",
+      "Hash": "B8312C3CFDF07BD6D00B8DE093BB2E22890347F05C22E668EBCA84C00E222373"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cgroup.ps1",
+      "Hash": "7C727DA4A2BB54F38D1FE2F5091719C08812CC779BFB956A7F3414D097FBE096"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\ler-cgroup.sh",
+      "Hash": "CA6419B5C59A4581E82B291E92357925A1258700203A0D85BBCB0E0DF00E31D3"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\analisar-diagnostico.ps1",
+      "Hash": "B544741C6FBB261DB026C630D4251EC9E7BF27FD734680E01A965EA0C3674EE5"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\infra\\compose.yaml",
+      "Hash": "192BDE07CF85D67C97384124AB77316018CDA4B94BB57E307869488D6DFFA5B0"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\services\\usuarios\\src\\main\\resources\\synthetic\\usuarios.json",
+      "Hash": "AF4DB2CC4B308235008B496BAFD1AB221A623C34C8C7CF307B06058626437A7A"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\services\\produtos\\src\\main\\resources\\synthetic\\produtos.json",
+      "Hash": "18BBC9964F963C5230C574B4047A08A811E2B6AABA7A556B15DBAD5E12116DC3"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\services\\pedidos\\src\\main\\resources\\synthetic\\pedidos.json",
+      "Hash": "693E710683EDF29DE07D91A8E974FC256163C117EFF953B42571DCE690C1A4D3"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\jmeter\\AgendaChegadas.groovy",
+      "Hash": "0A1D7F76AA50BBBD94F5F32E5C98C3699C48064E89B6608378641E3F1BE463B8"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\jmeter\\iniciar-taxa.groovy",
+      "Hash": "C2C4872B348128E9A4704F598995CE37D23E1E24888DAD5AAA84C2C8064371D6"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\jmeter\\chegada.groovy",
+      "Hash": "66B404854F7A37C0FAB6C836F2C0D856BE9B33E73CCD819453B1DA1189498D44"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\modelo-taxa.ps1",
+      "Hash": "3ED7E9FB1F2B1C5798F5F73309236611AA42169059CD5B82D393686D58DFC23E"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\analisar-taxa.ps1",
+      "Hash": "F3B71513D9A9FD08DCE005430E691DD08CB1BAEF5F2F67078E4994E5FFF8B351"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\controlar-rede.ps1",
+      "Hash": "F7CE8D3A76A8D2961A7C1538BE234266646902C2400B0BB23C823870CB2DDE47"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\rede-experimento.ps1",
+      "Hash": "CDE0B0C5DE4FD700E31058123451A6E01F689CBEBF5F17249BB27D658CB48B40"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\infra\\compose.rede.yaml",
+      "Hash": "A17DE7CFD9E65DE3DAB1F159B7D6F3F36D95304B32853FD40B9372385E0BEC48"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\infra\\rede\\Dockerfile",
+      "Hash": "57274140A1A0BF2B47FB745D70834FB5A48DC2AFCBE424DDA4C154E6A5E95928"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\infra\\rede\\iniciar.sh",
+      "Hash": "492E7A5F794E731F3335EA1C3C9288D6F7CC5AEA7E4B99719E7D5B157E8C5F85"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\monitorar-gerador.ps1",
+      "Hash": "573513CCFEEC92F4D674B918EB5BBDAA688D7FE10FDA0C95877B7B5BD477B606"
+    }
+  ],
+  "taxaPorSegundo": 20,
+  "maximoEmVooPorPerfil": 8,
+  "atrasoMaximoMs": 250,
+  "recorte": "inicio-coorte-v1",
+  "limiteHttpMs": 17000,
+  "drenagemMaximaMs": 20000,
+  "diagnosticoGerador": {
+    "modelo": "processo-dotnet-v1",
+    "unidadeCpu": "100%=um-processador-logico",
+    "logJvm": "gc*,safepoint",
+    "intervaloAlvoMs": 1000
+  }
+}

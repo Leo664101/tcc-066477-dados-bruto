@@ -1,0 +1,161 @@
+{
+  "versao": 1,
+  "finalidade": "validacao-piloto",
+  "inicioUtc": "2026-10-15T21:23:24.5283608Z",
+  "avaliarPiloto": true,
+  "descansoSegundos": 60,
+  "estado": "concluida",
+  "rede": "netem",
+  "atrasosRedeMs": 0,
+  "operacao": "pedidos",
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "primeiroCenario": "unificada",
+  "repeticoes": 3,
+  "niveis": [
+    20
+  ],
+  "misturas": [
+    "50/50"
+  ],
+  "diagnosticarGerador": true,
+  "compararCpuAlinhada": false,
+  "parametros": {
+    "Semente": 20260929,
+    "PreparacaoSegundos": 30,
+    "AtrasoMaximoMs": 250,
+    "DuracaoSegundos": 300,
+    "AquecimentoSegundos": 120,
+    "IntervaloRecursosSegundos": 2,
+    "MaximoEmVooPorPerfil": 8,
+    "DescansoPlanejadoSegundos": 60,
+    "SubidaSegundos": 30
+  },
+  "execucoes": [
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "unificada",
+      "pasta": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "bff",
+      "pasta": "netem0-pedidos-taxa20-m50-50-r1-bff",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 2,
+      "cenario": "bff",
+      "pasta": "netem0-pedidos-taxa20-m50-50-r2-bff",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 2,
+      "cenario": "unificada",
+      "pasta": "netem0-pedidos-taxa20-m50-50-r2-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 3,
+      "cenario": "unificada",
+      "pasta": "netem0-pedidos-taxa20-m50-50-r3-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 3,
+      "cenario": "bff",
+      "pasta": "netem0-pedidos-taxa20-m50-50-r3-bff",
+      "estado": "concluida",
+      "erro": null
+    }
+  ]
+}

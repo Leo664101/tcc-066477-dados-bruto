@@ -1,0 +1,404 @@
+{
+  "unificada-0": [
+    {
+      "porta": 8080,
+      "caminho": "/api/v1/produtos/1",
+      "amostrasMs": [
+        5.490700001246296,
+        6.263399998715613,
+        8.130000001983717,
+        6.697799999528797,
+        6.366200002958067,
+        6.467800001701107,
+        6.811999999627005,
+        8.467100000416394,
+        7.520600000134436,
+        5.904800000280375
+      ],
+      "medianaMs": 6.582800000614952,
+      "resposta": {
+        "id": 1,
+        "nome": "Produto 1",
+        "descricao": "Descricao do produto 1: item sintetico para consulta de pedidos no experimento de desempenho.",
+        "categoria": "Casa",
+        "preco": 611.26
+      },
+      "sha256Corpo": "71d09f880e48aeae2b5d986045bae0fb6fcf1147ada1dc974d8ae69928608508"
+    },
+    {
+      "porta": 8080,
+      "caminho": "/api/v1/pedidos/1",
+      "amostrasMs": [
+        11.201299999811454,
+        11.122799998702249,
+        15.873799999098992,
+        29.24899999925401,
+        9.175499999400927,
+        9.034599999722559,
+        11.428100002376596,
+        10.3506000014022,
+        9.51080000231741,
+        10.34580000123242
+      ],
+      "medianaMs": 10.736700000052224,
+      "resposta": {
+        "id": 1,
+        "data": "2026-01-01T00:00:00Z",
+        "status": "PAGO",
+        "usuario": {
+          "id": 967,
+          "nome": "Usuario 967",
+          "email": "usuario967@example.invalid",
+          "endereco": "Rua Exemplo 68, 967, Erechim - RS"
+        },
+        "enderecoEntrega": "Rua Exemplo 68, 967, Erechim - RS",
+        "total": 1676.85,
+        "itens": [
+          {
+            "id": 1,
+            "produto": {
+              "id": 978,
+              "nome": "Produto 978",
+              "descricao": "Descricao do produto 978: item sintetico para consulta de pedidos no experimento de desempenho.",
+              "categoria": "Esporte",
+              "preco": 558.95
+            },
+            "quantidade": 3,
+            "precoUnitario": 558.95,
+            "subtotal": 1676.85
+          }
+        ]
+      },
+      "sha256Corpo": "0f566c118ae3cbb920a4eefbfb864fcc15cedab8cf481b351d2bc4f6a8d30158"
+    }
+  ],
+  "unificada-25": [
+    {
+      "porta": 8080,
+      "caminho": "/api/v1/produtos/1",
+      "amostrasMs": [
+        57.15979999877163,
+        57.533700000931276,
+        57.0795999992697,
+        57.85260000266135,
+        57.258499997260515,
+        57.204900000215275,
+        57.68990000069607,
+        56.77060000016354,
+        57.11610000071232,
+        56.80260000008275
+      ],
+      "medianaMs": 57.182349999493454,
+      "resposta": {
+        "id": 1,
+        "nome": "Produto 1",
+        "descricao": "Descricao do produto 1: item sintetico para consulta de pedidos no experimento de desempenho.",
+        "categoria": "Casa",
+        "preco": 611.26
+      },
+      "sha256Corpo": "71d09f880e48aeae2b5d986045bae0fb6fcf1147ada1dc974d8ae69928608508"
+    },
+    {
+      "porta": 8080,
+      "caminho": "/api/v1/pedidos/1",
+      "amostrasMs": [
+        62.91929999861168,
+        63.236999998480314,
+        63.120999999227934,
+        62.675100001797546,
+        61.804100001609186,
+        62.43679999897722,
+        61.2944000022253,
+        60.59810000078869,
+        62.17359999936889,
+        61.76229999982752
+      ],
+      "medianaMs": 62.305199999173055,
+      "resposta": {
+        "id": 1,
+        "data": "2026-01-01T00:00:00Z",
+        "status": "PAGO",
+        "usuario": {
+          "id": 967,
+          "nome": "Usuario 967",
+          "email": "usuario967@example.invalid",
+          "endereco": "Rua Exemplo 68, 967, Erechim - RS"
+        },
+        "enderecoEntrega": "Rua Exemplo 68, 967, Erechim - RS",
+        "total": 1676.85,
+        "itens": [
+          {
+            "id": 1,
+            "produto": {
+              "id": 978,
+              "nome": "Produto 978",
+              "descricao": "Descricao do produto 978: item sintetico para consulta de pedidos no experimento de desempenho.",
+              "categoria": "Esporte",
+              "preco": 558.95
+            },
+            "quantidade": 3,
+            "precoUnitario": 558.95,
+            "subtotal": 1676.85
+          }
+        ]
+      },
+      "sha256Corpo": "0f566c118ae3cbb920a4eefbfb864fcc15cedab8cf481b351d2bc4f6a8d30158"
+    }
+  ],
+  "bff-0": [
+    {
+      "porta": 8081,
+      "caminho": "/api/v1/produtos/1",
+      "amostrasMs": [
+        7.7505999979621265,
+        7.530500002758345,
+        7.630899999639951,
+        7.672499999898719,
+        7.694899999478366,
+        58.20809999931953,
+        7.996799999091309,
+        7.450699999026256,
+        7.008799999312032,
+        7.438399999955436
+      ],
+      "medianaMs": 7.651699999769335,
+      "resposta": {
+        "id": 1,
+        "nome": "Produto 1",
+        "descricao": "Descricao do produto 1: item sintetico para consulta de pedidos no experimento de desempenho.",
+        "categoria": "Casa",
+        "preco": 611.26
+      },
+      "sha256Corpo": "71d09f880e48aeae2b5d986045bae0fb6fcf1147ada1dc974d8ae69928608508"
+    },
+    {
+      "porta": 8081,
+      "caminho": "/api/v1/pedidos/1",
+      "amostrasMs": [
+        13.565399996878114,
+        13.008800000534393,
+        14.148099999147234,
+        59.44330000056652,
+        12.653300000238232,
+        13.088299998344155,
+        12.839400002121693,
+        52.82670000087819,
+        12.68260000142618,
+        13.699300001462689
+      ],
+      "medianaMs": 13.326849997611134,
+      "resposta": {
+        "id": 1,
+        "data": "2026-01-01T00:00:00Z",
+        "status": "PAGO",
+        "usuario": {
+          "id": 967,
+          "nome": "Usuario 967",
+          "email": "usuario967@example.invalid",
+          "endereco": "Rua Exemplo 68, 967, Erechim - RS"
+        },
+        "enderecoEntrega": "Rua Exemplo 68, 967, Erechim - RS",
+        "total": 1676.85,
+        "itens": [
+          {
+            "id": 1,
+            "produto": {
+              "id": 978,
+              "nome": "Produto 978",
+              "descricao": "Descricao do produto 978: item sintetico para consulta de pedidos no experimento de desempenho.",
+              "categoria": "Esporte",
+              "preco": 558.95
+            },
+            "quantidade": 3,
+            "precoUnitario": 558.95,
+            "subtotal": 1676.85
+          }
+        ]
+      },
+      "sha256Corpo": "0f566c118ae3cbb920a4eefbfb864fcc15cedab8cf481b351d2bc4f6a8d30158"
+    },
+    {
+      "porta": 8082,
+      "caminho": "/api/v1/produtos/1",
+      "amostrasMs": [
+        7.432900001731468,
+        7.218400001875125,
+        8.316700001159916,
+        7.651799998711795,
+        6.832900002336828,
+        7.226499998068903,
+        57.57369999992079,
+        7.072200001857709,
+        7.576799998787465,
+        6.857000000309199
+      ],
+      "medianaMs": 7.3296999999001855,
+      "resposta": {
+        "id": 1,
+        "nome": "Produto 1",
+        "descricao": "Descricao do produto 1: item sintetico para consulta de pedidos no experimento de desempenho.",
+        "categoria": "Casa",
+        "preco": 611.26
+      },
+      "sha256Corpo": "71d09f880e48aeae2b5d986045bae0fb6fcf1147ada1dc974d8ae69928608508"
+    },
+    {
+      "porta": 8082,
+      "caminho": "/api/v1/pedidos/1",
+      "amostrasMs": [
+        13.67010000103619,
+        12.512199999036966,
+        71.55250000141677,
+        12.141700000938727,
+        11.392899999918882,
+        12.001600000075996,
+        39.58430000056978,
+        12.444399999367306,
+        13.174099996831501,
+        12.329900000622729
+      ],
+      "medianaMs": 12.478299999202136,
+      "resposta": {
+        "id": 1,
+        "status": "PAGO",
+        "nomeUsuario": "Usuario 967",
+        "total": 1676.85,
+        "itens": [
+          {
+            "nomeProduto": "Produto 978",
+            "quantidade": 3
+          }
+        ]
+      },
+      "sha256Corpo": "2e24d10ba3a2bfdf41ec16684b6d7628c1dbaa196ce0ba111f5ba433ae383558"
+    }
+  ],
+  "bff-25": [
+    {
+      "porta": 8081,
+      "caminho": "/api/v1/produtos/1",
+      "amostrasMs": [
+        59.62530000033439,
+        59.12710000120569,
+        58.62200000046869,
+        58.20070000117994,
+        58.85820000185049,
+        60.18889999904786,
+        59.13470000086818,
+        58.65800000174204,
+        59.3864999973448,
+        58.801999999559484
+      ],
+      "medianaMs": 58.99265000152809,
+      "resposta": {
+        "id": 1,
+        "nome": "Produto 1",
+        "descricao": "Descricao do produto 1: item sintetico para consulta de pedidos no experimento de desempenho.",
+        "categoria": "Casa",
+        "preco": 611.26
+      },
+      "sha256Corpo": "71d09f880e48aeae2b5d986045bae0fb6fcf1147ada1dc974d8ae69928608508"
+    },
+    {
+      "porta": 8081,
+      "caminho": "/api/v1/pedidos/1",
+      "amostrasMs": [
+        63.41210000027786,
+        65.10310000157915,
+        63.62589999844204,
+        63.90330000067479,
+        66.48109999878216,
+        64.33499999911874,
+        64.69510000169976,
+        64.19459999960964,
+        63.74649999997928,
+        64.12149999960093
+      ],
+      "medianaMs": 64.15804999960528,
+      "resposta": {
+        "id": 1,
+        "data": "2026-01-01T00:00:00Z",
+        "status": "PAGO",
+        "usuario": {
+          "id": 967,
+          "nome": "Usuario 967",
+          "email": "usuario967@example.invalid",
+          "endereco": "Rua Exemplo 68, 967, Erechim - RS"
+        },
+        "enderecoEntrega": "Rua Exemplo 68, 967, Erechim - RS",
+        "total": 1676.85,
+        "itens": [
+          {
+            "id": 1,
+            "produto": {
+              "id": 978,
+              "nome": "Produto 978",
+              "descricao": "Descricao do produto 978: item sintetico para consulta de pedidos no experimento de desempenho.",
+              "categoria": "Esporte",
+              "preco": 558.95
+            },
+            "quantidade": 3,
+            "precoUnitario": 558.95,
+            "subtotal": 1676.85
+          }
+        ]
+      },
+      "sha256Corpo": "0f566c118ae3cbb920a4eefbfb864fcc15cedab8cf481b351d2bc4f6a8d30158"
+    },
+    {
+      "porta": 8082,
+      "caminho": "/api/v1/produtos/1",
+      "amostrasMs": [
+        59.411199999885866,
+        58.27300000237301,
+        69.63129999712692,
+        58.35509999815258,
+        58.2799999974668,
+        58.16419999973732,
+        58.610399999452056,
+        58.25649999678717,
+        58.63069999759318,
+        58.17439999736962
+      ],
+      "medianaMs": 58.31754999780969,
+      "resposta": {
+        "id": 1,
+        "nome": "Produto 1",
+        "descricao": "Descricao do produto 1: item sintetico para consulta de pedidos no experimento de desempenho.",
+        "categoria": "Casa",
+        "preco": 611.26
+      },
+      "sha256Corpo": "71d09f880e48aeae2b5d986045bae0fb6fcf1147ada1dc974d8ae69928608508"
+    },
+    {
+      "porta": 8082,
+      "caminho": "/api/v1/pedidos/1",
+      "amostrasMs": [
+        64.11260000095353,
+        64.78280000010272,
+        64.14270000095712,
+        63.740199999301694,
+        62.98090000200318,
+        62.42250000286731,
+        63.39099999968312,
+        63.86220000058529,
+        63.72240000200691,
+        64.31280000106199
+      ],
+      "medianaMs": 63.80119999994349,
+      "resposta": {
+        "id": 1,
+        "status": "PAGO",
+        "nomeUsuario": "Usuario 967",
+        "total": 1676.85,
+        "itens": [
+          {
+            "nomeProduto": "Produto 978",
+            "quantidade": 3
+          }
+        ]
+      },
+      "sha256Corpo": "2e24d10ba3a2bfdf41ec16684b6d7628c1dbaa196ce0ba111f5ba433ae383558"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "amostras": {
+    "web": 3000,
+    "mobile": 3000
+  },
+  "perfis": {
+    "web": {
+      "fases": {
+        "subida": {
+          "agendadas": 150,
+          "atrasoMaxMs": 70,
+          "atrasadas": 0,
+          "atrasoMedioMs": 17.06,
+          "iniciadas": 150,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "agendadas": 3000,
+          "atrasoMaxMs": 25,
+          "atrasadas": 0,
+          "atrasoMedioMs": 16.115333333333332,
+          "iniciadas": 3000,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 1200,
+          "atrasoMaxMs": 25,
+          "atrasadas": 0,
+          "atrasoMedioMs": 16.16,
+          "iniciadas": 1200,
+          "naoIniciadas": 0
+        }
+      },
+      "iniciadas": 4350,
+      "atrasoMedioMs": 16.160229885057472,
+      "agendadas": 4350,
+      "naoIniciadas": 0,
+      "foraDosLimites": 0,
+      "atrasoMaxMs": 70.0,
+      "atrasadas": 0
+    },
+    "mobile": {
+      "fases": {
+        "subida": {
+          "agendadas": 150,
+          "atrasoMaxMs": 70,
+          "atrasadas": 0,
+          "atrasoMedioMs": 17.066666666666666,
+          "iniciadas": 150,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "agendadas": 3000,
+          "atrasoMaxMs": 25,
+          "atrasadas": 0,
+          "atrasoMedioMs": 16.134,
+          "iniciadas": 3000,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 1200,
+          "atrasoMaxMs": 25,
+          "atrasadas": 0,
+          "atrasoMedioMs": 16.148333333333333,
+          "iniciadas": 1200,
+          "naoIniciadas": 0
+        }
+      },
+      "iniciadas": 4350,
+      "atrasoMedioMs": 16.170114942528734,
+      "agendadas": 4350,
+      "naoIniciadas": 0,
+      "foraDosLimites": 0,
+      "atrasoMaxMs": 70.0,
+      "atrasadas": 0
+    }
+  },
+  "errosBrutos": 0,
+  "erros": {
+    "web": 0,
+    "mobile": 0
+  },
+  "geracaoValida": true,
+  "modeloCarga": "chegadas-deterministicas-v1"
+}

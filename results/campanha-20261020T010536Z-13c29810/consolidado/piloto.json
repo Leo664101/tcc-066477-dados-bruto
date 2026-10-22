@@ -1,0 +1,501 @@
+{
+  "versao": "criterios-piloto-v1",
+  "geradoUtc": "2026-10-20T01:31:30.8583654Z",
+  "campanha": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810",
+  "criterios": {
+    "cvAlertaPercent": 10,
+    "medicaoMinimaSegundos": 300,
+    "blocoSegundos": 30,
+    "pisoMs": 1,
+    "limiarRelativoPercent": 10,
+    "sucessosMinimosPorBloco": 200,
+    "blocos": 3
+  },
+  "execucoes": [
+    {
+      "execucao": "netem25-pedidos-taxa160-m50-50-r1-unificada",
+      "cenario": "unificada",
+      "condicoesId": "e525ec82a599cde8f5e1e3e5c83cb5b3c9b5d419a1e864d55832a7ead1e242c8",
+      "estadoTecnico": "incluida",
+      "motivo": "Dados completos; consultar estadoExecutor para eventuais falhas fora da medicao.",
+      "errosHttpBrutos": 0,
+      "perfis": {
+        "mobile": {
+          "aquecimento": {
+            "estado": "confirmado-pela-triagem",
+            "criterios": [
+              {
+                "metrica": "media",
+                "mudancaMedicaoMs": 0.014166666666667993,
+                "limiteMs": 5.349333333333334,
+                "atendido": true,
+                "amplitudeWarmMs": 0.030833333333333712,
+                "referenciaMs": 53.49333333333333
+              },
+              {
+                "metrica": "mediana",
+                "mudancaMedicaoMs": 0.0,
+                "limiteMs": 5.300000000000001,
+                "atendido": true,
+                "amplitudeWarmMs": 0.0,
+                "referenciaMs": 53.0
+              }
+            ]
+          },
+          "blocos": {
+            "w0": {
+              "media": 53.504583333333336,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i1": {
+              "media": 53.47875,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i2": {
+              "media": 53.49187161317216,
+              "n": 2399,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "w2": {
+              "media": 53.47375,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i0": {
+              "media": 53.479166666666664,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "w1": {
+              "media": 53.49333333333333,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "metade1": {
+              "media": 53.499916666666664,
+              "n": 12000,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "metade2": {
+              "media": 53.477666666666664,
+              "n": 12000,
+              "mediana": 53.0,
+              "falhas": 0
+            }
+          },
+          "duracao": {
+            "estado": "sem-alerta-pela-triagem",
+            "criterios": [
+              {
+                "atendido": true,
+                "metrica": "media",
+                "diferencaMs": 0.02224999999999966,
+                "limiteMs": 5.349991666666667
+              },
+              {
+                "atendido": true,
+                "metrica": "mediana",
+                "diferencaMs": 0.0,
+                "limiteMs": 5.300000000000001
+              }
+            ]
+          },
+          "medicao": {
+            "p99Ms": "63",
+            "p95Ms": "54",
+            "erros": "0",
+            "sucessos": "24000"
+          }
+        },
+        "web": {
+          "aquecimento": {
+            "estado": "confirmado-pela-triagem",
+            "criterios": [
+              {
+                "metrica": "media",
+                "mudancaMedicaoMs": 0.006250000000001421,
+                "limiteMs": 5.349125000000001,
+                "atendido": true,
+                "amplitudeWarmMs": 0.027083333333330017,
+                "referenciaMs": 53.49125
+              },
+              {
+                "metrica": "mediana",
+                "mudancaMedicaoMs": 0.0,
+                "limiteMs": 5.300000000000001,
+                "atendido": true,
+                "amplitudeWarmMs": 0.0,
+                "referenciaMs": 53.0
+              }
+            ]
+          },
+          "blocos": {
+            "w0": {
+              "media": 53.51,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i1": {
+              "media": 53.475833333333334,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i2": {
+              "media": 53.48645268862026,
+              "n": 2399,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "w2": {
+              "media": 53.48291666666667,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i0": {
+              "media": 53.485,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "w1": {
+              "media": 53.49125,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "metade1": {
+              "media": 53.499916666666664,
+              "n": 12000,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "metade2": {
+              "media": 53.48041666666666,
+              "n": 12000,
+              "mediana": 53.0,
+              "falhas": 0
+            }
+          },
+          "duracao": {
+            "estado": "sem-alerta-pela-triagem",
+            "criterios": [
+              {
+                "atendido": true,
+                "metrica": "media",
+                "diferencaMs": 0.01950000000000074,
+                "limiteMs": 5.349991666666667
+              },
+              {
+                "atendido": true,
+                "metrica": "mediana",
+                "diferencaMs": 0.0,
+                "limiteMs": 5.300000000000001
+              }
+            ]
+          },
+          "medicao": {
+            "p99Ms": "63",
+            "p95Ms": "54",
+            "erros": "0",
+            "sucessos": "24000"
+          }
+        }
+      }
+    },
+    {
+      "execucao": "netem25-pedidos-taxa160-m50-50-r1-bff",
+      "cenario": "bff",
+      "condicoesId": "4687b584de43768c5ec64eb7901e5ab2854991d8d59709fdac7c05c3d68e6eb0",
+      "estadoTecnico": "incluida",
+      "motivo": "Dados completos; consultar estadoExecutor para eventuais falhas fora da medicao.",
+      "errosHttpBrutos": 0,
+      "perfis": {
+        "mobile": {
+          "aquecimento": {
+            "estado": "confirmado-pela-triagem",
+            "criterios": [
+              {
+                "metrica": "media",
+                "mudancaMedicaoMs": 0.01726639572044064,
+                "limiteMs": 5.342208333333334,
+                "atendido": true,
+                "amplitudeWarmMs": 0.020655108982367665,
+                "referenciaMs": 53.42208333333333
+              },
+              {
+                "metrica": "mediana",
+                "mudancaMedicaoMs": 0.0,
+                "limiteMs": 5.300000000000001,
+                "atendido": true,
+                "amplitudeWarmMs": 0.0,
+                "referenciaMs": 53.0
+              }
+            ]
+          },
+          "blocos": {
+            "w0": {
+              "media": 53.4277384423157,
+              "n": 2401,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i1": {
+              "media": 53.458333333333336,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i2": {
+              "media": 53.439349729053774,
+              "n": 2399,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "w2": {
+              "media": 53.42208333333333,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i0": {
+              "media": 53.41791666666666,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "w1": {
+              "media": 53.40708333333333,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "metade1": {
+              "media": 53.423785315442956,
+              "n": 11999,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "metade2": {
+              "media": 53.40654945421215,
+              "n": 12001,
+              "mediana": 53.0,
+              "falhas": 0
+            }
+          },
+          "duracao": {
+            "estado": "sem-alerta-pela-triagem",
+            "criterios": [
+              {
+                "atendido": true,
+                "metrica": "media",
+                "diferencaMs": 0.01723586123080878,
+                "limiteMs": 5.342378531544296
+              },
+              {
+                "atendido": true,
+                "metrica": "mediana",
+                "diferencaMs": 0.0,
+                "limiteMs": 5.300000000000001
+              }
+            ]
+          },
+          "medicao": {
+            "p99Ms": "79",
+            "p95Ms": "54",
+            "erros": "0",
+            "sucessos": "24000"
+          }
+        },
+        "web": {
+          "aquecimento": {
+            "estado": "confirmado-pela-triagem",
+            "criterios": [
+              {
+                "metrica": "media",
+                "mudancaMedicaoMs": 0.020180283451438186,
+                "limiteMs": 5.3412500000000005,
+                "atendido": true,
+                "amplitudeWarmMs": 0.021488615854501347,
+                "referenciaMs": 53.4125
+              },
+              {
+                "metrica": "mediana",
+                "mudancaMedicaoMs": 0.0,
+                "limiteMs": 5.300000000000001,
+                "atendido": true,
+                "amplitudeWarmMs": 0.0,
+                "referenciaMs": 53.0
+              }
+            ]
+          },
+          "blocos": {
+            "w0": {
+              "media": 53.427321949187835,
+              "n": 2401,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i1": {
+              "media": 53.440416666666664,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i2": {
+              "media": 53.43268028345144,
+              "n": 2399,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "w2": {
+              "media": 53.4125,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "i0": {
+              "media": 53.4225,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "w1": {
+              "media": 53.405833333333334,
+              "n": 2400,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "metade1": {
+              "media": 53.42478539878323,
+              "n": 11999,
+              "mediana": 53.0,
+              "falhas": 0
+            },
+            "metade2": {
+              "media": 53.40621614865428,
+              "n": 12001,
+              "mediana": 53.0,
+              "falhas": 0
+            }
+          },
+          "duracao": {
+            "estado": "sem-alerta-pela-triagem",
+            "criterios": [
+              {
+                "atendido": true,
+                "metrica": "media",
+                "diferencaMs": 0.018569250128948056,
+                "limiteMs": 5.342478539878323
+              },
+              {
+                "atendido": true,
+                "metrica": "mediana",
+                "diferencaMs": 0.0,
+                "limiteMs": 5.300000000000001
+              }
+            ]
+          },
+          "medicao": {
+            "p99Ms": "61",
+            "p95Ms": "54",
+            "erros": "0",
+            "sucessos": "24000"
+          }
+        }
+      }
+    }
+  ],
+  "variabilidade": [
+    {
+      "repeticoes": 1,
+      "estado": "dados-insuficientes",
+      "cvPercent": null,
+      "desvioPadraoMs": null,
+      "cenario": "bff",
+      "condicoesId": "4687b584de43768c5ec64eb7901e5ab2854991d8d59709fdac7c05c3d68e6eb0",
+      "valoresMs": [
+        53.415166666666664
+      ],
+      "execucoes": [
+        "netem25-pedidos-taxa160-m50-50-r1-bff"
+      ],
+      "mediaMs": 53.415166666666664,
+      "perfil": "mobile"
+    },
+    {
+      "repeticoes": 1,
+      "estado": "dados-insuficientes",
+      "cvPercent": null,
+      "desvioPadraoMs": null,
+      "cenario": "bff",
+      "condicoesId": "4687b584de43768c5ec64eb7901e5ab2854991d8d59709fdac7c05c3d68e6eb0",
+      "valoresMs": [
+        53.4155
+      ],
+      "execucoes": [
+        "netem25-pedidos-taxa160-m50-50-r1-bff"
+      ],
+      "mediaMs": 53.4155,
+      "perfil": "web"
+    },
+    {
+      "repeticoes": 1,
+      "estado": "dados-insuficientes",
+      "cvPercent": null,
+      "desvioPadraoMs": null,
+      "cenario": "unificada",
+      "condicoesId": "e525ec82a599cde8f5e1e3e5c83cb5b3c9b5d419a1e864d55832a7ead1e242c8",
+      "valoresMs": [
+        53.488791666666664
+      ],
+      "execucoes": [
+        "netem25-pedidos-taxa160-m50-50-r1-unificada"
+      ],
+      "mediaMs": 53.488791666666664,
+      "perfil": "mobile"
+    },
+    {
+      "repeticoes": 1,
+      "estado": "dados-insuficientes",
+      "cvPercent": null,
+      "desvioPadraoMs": null,
+      "cenario": "unificada",
+      "condicoesId": "e525ec82a599cde8f5e1e3e5c83cb5b3c9b5d419a1e864d55832a7ead1e242c8",
+      "valoresMs": [
+        53.49016666666667
+      ],
+      "execucoes": [
+        "netem25-pedidos-taxa160-m50-50-r1-unificada"
+      ],
+      "mediaMs": 53.49016666666667,
+      "perfil": "web"
+    }
+  ],
+  "limites": "Triagem exploratoria; nao aprova campanha oficial, nao ajusta janelas, nao exclui falhas HTTP nem calcula IC.",
+  "fontes": [
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\campanha.json",
+      "Hash": "A134FB716D80C1DFDEAB25F29F42A26BB81E937EA3D5A889055B38EF897C308B"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\criterios-piloto.ps1",
+      "Hash": "59BCBE6A14CC8100A885F19F65CD16695678B7B5545CF3A22492FCB5E3DEE71E"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\analisar-piloto.ps1",
+      "Hash": "328E247D5B23068BA1CE74B6060CE321692AD3D96354F5F6C7256BCE0461A1A8"
+    }
+  ]
+}

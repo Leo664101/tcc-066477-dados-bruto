@@ -1,0 +1,80 @@
+{
+  "versao": 1,
+  "finalidade": "principal",
+  "identificacaoPrincipal": "principal-v1-b01-P3",
+  "inicioUtc": "2026-10-19T16:32:33.2397231Z",
+  "avaliarPiloto": true,
+  "descansoSegundos": 60,
+  "estado": "concluida",
+  "rede": "netem",
+  "atrasosRedeMs": 0,
+  "operacao": "pedidos",
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "primeiroCenario": "unificada",
+  "repeticoes": 1,
+  "niveis": [
+    160
+  ],
+  "misturas": [
+    "50/50"
+  ],
+  "diagnosticarGerador": true,
+  "compararCpuAlinhada": true,
+  "parametros": {
+    "AquecimentoSegundos": 300,
+    "DuracaoSegundos": 300,
+    "Finalidade": "principal",
+    "PreparacaoSegundos": 30,
+    "IntervaloRecursosSegundos": 2,
+    "MaximoEmVooPorPerfil": 8,
+    "SubidaSegundos": 30,
+    "DescansoPlanejadoSegundos": 60,
+    "AtrasoMaximoMs": 250,
+    "IdentificacaoPrincipal": "principal-v1-b01-P3",
+    "Semente": 20260929
+  },
+  "execucoes": [
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 160,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "unificada",
+      "pasta": "netem0-pedidos-taxa160-m50-50-r1-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 160,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "bff",
+      "pasta": "netem0-pedidos-taxa160-m50-50-r1-bff",
+      "estado": "concluida",
+      "erro": null
+    }
+  ]
+}

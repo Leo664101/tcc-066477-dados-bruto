@@ -1,0 +1,66 @@
+[
+  {
+    "execucao": "netem25-pedidos-taxa160-m50-50-r1-unificada",
+    "metodo": "cpu-tempo-amostrado-v1",
+    "estado": "calculada",
+    "motivo": "Pares validos; cobertura informada, sem limiar metodologico de suficiencia aprovado.",
+    "fontesSha256": [
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\netem25-pedidos-taxa160-m50-50-r1-unificada\\cpu-alinhado-bruto.jsonl",
+        "Hash": "99B9FFC79CE21BDCDDECF39A36186937388F67B92C350894F1B25932257C168C"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\netem25-pedidos-taxa160-m50-50-r1-unificada\\janela.json",
+        "Hash": "972E07522588679166F5AAD42F145D96D7757BA91F22145C6C69DB550AE53099"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\netem25-pedidos-taxa160-m50-50-r1-unificada\\ambiente-inicial.json",
+        "Hash": "505EC916A4D23C9734093E8599B299EB0B19A44DFB8E859DE6B169659EA68E19"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\netem25-pedidos-taxa160-m50-50-r1-unificada\\configuracao.json",
+        "Hash": "F82F641A7CF79D105147E49958793179DC34DAB86A47CFBB431E9C5DCA76B086"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cpu-ponderada.ps1",
+        "Hash": "FC72901F2D9CF4C2E36C08C17CFA9FAB3C29BF66C49E4258F0A8D224764E5483"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cpu-alinhado.ps1",
+        "Hash": "D76B91A135023247A09524BDEA820145BA294CB65068BD5DCBB5187D90E59EED"
+      }
+    ]
+  },
+  {
+    "execucao": "netem25-pedidos-taxa160-m50-50-r1-bff",
+    "metodo": "cpu-tempo-amostrado-v1",
+    "estado": "calculada",
+    "motivo": "Pares validos; cobertura informada, sem limiar metodologico de suficiencia aprovado.",
+    "fontesSha256": [
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\netem25-pedidos-taxa160-m50-50-r1-bff\\cpu-alinhado-bruto.jsonl",
+        "Hash": "13C73713B209F3B698E534CF95FF003B814310C8EE5A0FAFCC4F398D81F54C63"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\netem25-pedidos-taxa160-m50-50-r1-bff\\janela.json",
+        "Hash": "DB53AFCB77FF9B0F9A261C3D4762532C00A23BEFA8DA0F9987B88683DDBF4B65"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\netem25-pedidos-taxa160-m50-50-r1-bff\\ambiente-inicial.json",
+        "Hash": "32A10C64DA0FD0DC1F830E361F6859615141FFC7F217BCF6BA3241F6E83C3F05"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T010536Z-13c29810\\netem25-pedidos-taxa160-m50-50-r1-bff\\configuracao.json",
+        "Hash": "190E67F7D93BE8BAC21BAB6A39A5C60649C2DF62D84887ADF274E71C8C10164A"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cpu-ponderada.ps1",
+        "Hash": "FC72901F2D9CF4C2E36C08C17CFA9FAB3C29BF66C49E4258F0A8D224764E5483"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cpu-alinhado.ps1",
+        "Hash": "D76B91A135023247A09524BDEA820145BA294CB65068BD5DCBB5187D90E59EED"
+      }
+    ]
+  }
+]

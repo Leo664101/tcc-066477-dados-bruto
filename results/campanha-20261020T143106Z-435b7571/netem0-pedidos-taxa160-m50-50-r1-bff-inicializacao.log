@@ -1,0 +1,105 @@
+ Image tcc/rede:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 569B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 311B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/alpine:3.22@sha256:5291449c3df73caf6ed85e649dec1b9e818b39a5d8c871e97afc13e9cd5e8fa8
+#3 DONE 1.2s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/alpine:3.22@sha256:5291449c3df73caf6ed85e649dec1b9e818b39a5d8c871e97afc13e9cd5e8fa8
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 32B done
+#6 DONE 0.0s
+
+#7 [2/4] RUN apk add --no-cache iproute2 iptables curl iputils
+#7 CACHED
+
+#8 [3/4] COPY iniciar.sh /usr/local/bin/iniciar-rede
+#8 CACHED
+
+#9 [4/4] RUN chmod 755 /usr/local/bin/iniciar-rede
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:8e97c27ab3103e9fedd83a1652082c0fd3ec5141d4f72dfff11ff8363381e9b2 done
+#10 naming to docker.io/tcc/rede:local done
+#10 DONE 0.0s
+
+#11 resolving provenance for metadata file
+#11 DONE 0.0s
+ Image tcc/rede:local Built 
+ Container tcc-bff-bff-mobile-1 Stopping 
+ Container tcc-bff-rede-1 Stopping 
+ Container tcc-bff-bff-web-1 Stopping 
+ Container tcc-bff-api-unificada-1 Stopping 
+ Container tcc-bff-bff-mobile-1 Stopped 
+ Container tcc-bff-rede-1 Stopped 
+ Container tcc-bff-bff-web-1 Stopped 
+ Container tcc-bff-api-unificada-1 Stopped 
+ Container tcc-bff-usuarios-1 Stopping 
+ Container tcc-bff-pedidos-1 Stopping 
+ Container tcc-bff-produtos-1 Stopping 
+ Container tcc-bff-pedidos-1 Stopped 
+ Container tcc-bff-usuarios-1 Stopped 
+ Container tcc-bff-produtos-1 Stopped 
+time="2026-10-20T11:31:09-03:00" level=warning msg="Found orphan containers (tcc-bff-postgres-1) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container tcc-bff-pedidos-1 Recreate 
+ Container tcc-bff-produtos-1 Recreate 
+ Container tcc-bff-rede-1 Recreate 
+ Container tcc-bff-usuarios-1 Recreate 
+ Container tcc-bff-rede-1 Recreated 
+ Container tcc-bff-usuarios-1 Recreated 
+ Container tcc-bff-produtos-1 Recreated 
+ Container tcc-bff-pedidos-1 Recreated 
+ Container tcc-bff-bff-mobile-1 Recreate 
+ Container tcc-bff-bff-web-1 Recreate 
+ Container tcc-bff-bff-mobile-1 Recreated 
+ Container tcc-bff-bff-web-1 Recreated 
+ Container tcc-bff-usuarios-1 Starting 
+ Container tcc-bff-pedidos-1 Starting 
+ Container tcc-bff-rede-1 Starting 
+ Container tcc-bff-produtos-1 Starting 
+ Container tcc-bff-produtos-1 Started 
+ Container tcc-bff-rede-1 Started 
+ Container tcc-bff-pedidos-1 Started 
+ Container tcc-bff-usuarios-1 Started 
+ Container tcc-bff-usuarios-1 Waiting 
+ Container tcc-bff-produtos-1 Waiting 
+ Container tcc-bff-pedidos-1 Waiting 
+ Container tcc-bff-usuarios-1 Waiting 
+ Container tcc-bff-produtos-1 Waiting 
+ Container tcc-bff-pedidos-1 Waiting 
+ Container tcc-bff-usuarios-1 Healthy 
+ Container tcc-bff-usuarios-1 Healthy 
+ Container tcc-bff-produtos-1 Healthy 
+ Container tcc-bff-produtos-1 Healthy 
+ Container tcc-bff-pedidos-1 Healthy 
+ Container tcc-bff-bff-mobile-1 Starting 
+ Container tcc-bff-pedidos-1 Healthy 
+ Container tcc-bff-bff-web-1 Starting 
+ Container tcc-bff-bff-web-1 Started 
+ Container tcc-bff-bff-mobile-1 Started 
+ Container tcc-bff-bff-web-1 Waiting 
+ Container tcc-bff-bff-mobile-1 Waiting 
+ Container tcc-bff-usuarios-1 Waiting 
+ Container tcc-bff-rede-1 Waiting 
+ Container tcc-bff-produtos-1 Waiting 
+ Container tcc-bff-pedidos-1 Waiting 
+ Container tcc-bff-pedidos-1 Healthy 
+ Container tcc-bff-produtos-1 Healthy 
+ Container tcc-bff-usuarios-1 Healthy 
+ Container tcc-bff-bff-mobile-1 Healthy 
+ Container tcc-bff-bff-web-1 Healthy 
+ Container tcc-bff-rede-1 Healthy 
+Configuracao e contadores registrados: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\results\campanha-20261020T143106Z-435b7571\netem0-pedidos-taxa160-m50-50-r1-bff-rede-inicializacao.json. A medicao do efeito da rede deve ser validada separadamente.

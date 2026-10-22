@@ -1,0 +1,85 @@
+{
+  "amostras": {
+    "web": 3000,
+    "mobile": 3000
+  },
+  "perfis": {
+    "web": {
+      "fases": {
+        "subida": {
+          "agendadas": 150,
+          "atrasoMaxMs": 66,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.72,
+          "iniciadas": 150,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "agendadas": 3000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.384333333333334,
+          "iniciadas": 3000,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 3000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.214333333333334,
+          "iniciadas": 3000,
+          "naoIniciadas": 0
+        }
+      },
+      "iniciadas": 6150,
+      "atrasoMedioMs": 15.30959349593496,
+      "agendadas": 6150,
+      "naoIniciadas": 0,
+      "foraDosLimites": 0,
+      "atrasoMaxMs": 66.0,
+      "atrasadas": 0
+    },
+    "mobile": {
+      "fases": {
+        "subida": {
+          "agendadas": 150,
+          "atrasoMaxMs": 66,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.72,
+          "iniciadas": 150,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "agendadas": 3000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.393,
+          "iniciadas": 3000,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 3000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.207,
+          "iniciadas": 3000,
+          "naoIniciadas": 0
+        }
+      },
+      "iniciadas": 6150,
+      "atrasoMedioMs": 15.310243902439025,
+      "agendadas": 6150,
+      "naoIniciadas": 0,
+      "foraDosLimites": 0,
+      "atrasoMaxMs": 66.0,
+      "atrasadas": 0
+    }
+  },
+  "errosBrutos": 0,
+  "erros": {
+    "web": 0,
+    "mobile": 0
+  },
+  "geracaoValida": true,
+  "modeloCarga": "chegadas-deterministicas-v1"
+}

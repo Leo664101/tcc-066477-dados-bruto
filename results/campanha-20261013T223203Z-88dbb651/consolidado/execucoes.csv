@@ -1,0 +1,3 @@
+"operacao","modeloCarga","taxaPorSegundo","baseMistura","mistura","execucao","usuarios","repeticao","cenario","misturaUsuarios","estadoExecutor","incluida","condicoesId","motivo"
+"pedidos","chegadas-deterministicas-v1","20","operacoes-agendadas","80/20","pedidos-taxa20-m80-20-r1-unificada",,"1","unificada","","concluida","True","ad2e67dd2860a7b467ce803773fda4a36a8035425f94be28f0fd31b7003f2a46","Dados completos; consultar estadoExecutor para eventuais falhas fora da medicao."
+"pedidos","chegadas-deterministicas-v1","20","operacoes-agendadas","80/20","pedidos-taxa20-m80-20-r1-bff",,"1","bff","","concluida","True","a22c0add2e15cfcb3ca8b897e27d5bfa07c5ad9bad7b2f2137eafb273d4294c9","Dados completos; consultar estadoExecutor para eventuais falhas fora da medicao."

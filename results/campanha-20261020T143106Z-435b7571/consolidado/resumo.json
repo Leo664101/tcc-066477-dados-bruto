@@ -1,0 +1,11 @@
+{
+  "versao": 1,
+  "geradoUtc": "2026-10-20T14:44:05.0513452Z",
+  "planejadas": 2,
+  "incluidas": 0,
+  "naoIncluidas": 2,
+  "percentis": "nearest-rank por execucao; media dos percentis nao e percentil global",
+  "mediana": "valor central; media dos dois centrais para N par; modelo fechado inclui sucessos e falhas; modelo por taxa usa sucessos da coorte e reporta falhas separadamente; media entre execucoes nao e mediana global",
+  "recursos": "media aritmetica de ciclos e picos amostrados; nao integra consumo no tempo",
+  "finalidade": "descritiva; protocolo estatistico oficial pendente"
+}

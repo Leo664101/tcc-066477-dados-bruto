@@ -1,0 +1,314 @@
+{
+  "versao": "principal-v1",
+  "estado": "preparado-nao-iniciado",
+  "execucaoAutomatica": false,
+  "condicoes": [
+    {
+      "id": "P1",
+      "operacao": "produtos",
+      "taxaPorSegundo": 20,
+      "atrasoRedeMs": 0
+    },
+    {
+      "id": "P2",
+      "operacao": "pedidos",
+      "taxaPorSegundo": 20,
+      "atrasoRedeMs": 0
+    },
+    {
+      "id": "P3",
+      "operacao": "pedidos",
+      "taxaPorSegundo": 160,
+      "atrasoRedeMs": 0
+    },
+    {
+      "id": "P4",
+      "operacao": "pedidos",
+      "taxaPorSegundo": 160,
+      "atrasoRedeMs": 25
+    }
+  ],
+  "repeticoesPorArquiteturaCondicao": 6,
+  "totalExecucoes": 48,
+  "tempoConhecidoSegundos": 34560,
+  "parametros": {
+    "Rede": "netem",
+    "Misturas": [
+      "50/50"
+    ],
+    "MaximoEmVooPorPerfil": 8,
+    "AtrasoMaximoMs": 250,
+    "PreparacaoSegundos": 30,
+    "SubidaSegundos": 30,
+    "AquecimentoSegundos": 300,
+    "DuracaoSegundos": 300,
+    "DescansoSegundos": 60,
+    "IntervaloRecursosSegundos": 2,
+    "DiagnosticarGerador": true,
+    "CompararCpu": true,
+    "recorte": "inicio-coorte-v2",
+    "Semente": 20260929
+  },
+  "pendencias": [
+    "Definir destino da copia dos brutos e registrar verificacao",
+    "Reservar tempo para os blocos e registrar hashes/versoes antes da primeira rodada"
+  ],
+  "pares": [
+    {
+      "posicao": 1,
+      "bloco": 1,
+      "condicao": "P1",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b01-P1"
+    },
+    {
+      "posicao": 2,
+      "bloco": 1,
+      "condicao": "P2",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b01-P2"
+    },
+    {
+      "posicao": 3,
+      "bloco": 1,
+      "condicao": "P3",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b01-P3"
+    },
+    {
+      "posicao": 4,
+      "bloco": 1,
+      "condicao": "P4",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b01-P4"
+    },
+    {
+      "posicao": 5,
+      "bloco": 2,
+      "condicao": "P2",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b02-P2"
+    },
+    {
+      "posicao": 6,
+      "bloco": 2,
+      "condicao": "P3",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b02-P3"
+    },
+    {
+      "posicao": 7,
+      "bloco": 2,
+      "condicao": "P4",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b02-P4"
+    },
+    {
+      "posicao": 8,
+      "bloco": 2,
+      "condicao": "P1",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b02-P1"
+    },
+    {
+      "posicao": 9,
+      "bloco": 3,
+      "condicao": "P3",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b03-P3"
+    },
+    {
+      "posicao": 10,
+      "bloco": 3,
+      "condicao": "P4",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b03-P4"
+    },
+    {
+      "posicao": 11,
+      "bloco": 3,
+      "condicao": "P1",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b03-P1"
+    },
+    {
+      "posicao": 12,
+      "bloco": 3,
+      "condicao": "P2",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b03-P2"
+    },
+    {
+      "posicao": 13,
+      "bloco": 4,
+      "condicao": "P4",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b04-P4"
+    },
+    {
+      "posicao": 14,
+      "bloco": 4,
+      "condicao": "P1",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b04-P1"
+    },
+    {
+      "posicao": 15,
+      "bloco": 4,
+      "condicao": "P2",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b04-P2"
+    },
+    {
+      "posicao": 16,
+      "bloco": 4,
+      "condicao": "P3",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b04-P3"
+    },
+    {
+      "posicao": 17,
+      "bloco": 5,
+      "condicao": "P1",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b05-P1"
+    },
+    {
+      "posicao": 18,
+      "bloco": 5,
+      "condicao": "P2",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b05-P2"
+    },
+    {
+      "posicao": 19,
+      "bloco": 5,
+      "condicao": "P3",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b05-P3"
+    },
+    {
+      "posicao": 20,
+      "bloco": 5,
+      "condicao": "P4",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b05-P4"
+    },
+    {
+      "posicao": 21,
+      "bloco": 6,
+      "condicao": "P2",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b06-P2"
+    },
+    {
+      "posicao": 22,
+      "bloco": 6,
+      "condicao": "P3",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b06-P3"
+    },
+    {
+      "posicao": 23,
+      "bloco": 6,
+      "condicao": "P4",
+      "primeiroCenario": "unificada",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b06-P4"
+    },
+    {
+      "posicao": 24,
+      "bloco": 6,
+      "condicao": "P1",
+      "primeiroCenario": "bff",
+      "repeticoesLocais": 1,
+      "pastaCampanha": null,
+      "estado": "planejada",
+      "identificacaoPrincipal": "principal-v1-b06-P1"
+    }
+  ],
+  "dataRevisao": "2026-10-19",
+  "backup": {
+    "destino": null,
+    "estado": "pendente",
+    "gitIncluiBrutos": false
+  },
+  "criterios": {
+    "coberturaMinimaPercentAlerta": 45,
+    "paresMinimosAlerta": 120,
+    "lacunaMaximaSegundosAlerta": 5,
+    "diferencaCoberturaBffsPontosPercentuaisAlerta": 5,
+    "variacaoMetadesPercentAlerta": 10,
+    "acao": "investigar e preservar; nao excluir HTTP automaticamente",
+    "cpuMetodo": "cpu-tempo-amostrado-v1",
+    "coletaCompleta": false
+  }
+}

@@ -1,0 +1,5 @@
+"redeModelo","atrasoRedeMs","operacao","modeloCarga","taxaPorSegundo","baseMistura","mistura","execucao","usuarios","repeticao","cenario","misturaUsuarios","estadoExecutor","incluida","condicoesId","motivo"
+"roteador-netem-v2","0","produtos","chegadas-deterministicas-v1","20","operacoes-agendadas","50/50","netem0-produtos-taxa20-m50-50-r1-unificada",,"1","unificada","","falha","False","","Gerador nao cumpriu a agenda; preservar dados para diagnostico."
+"",,"produtos","chegadas-deterministicas-v1","20",,"50/50","netem0-produtos-taxa20-m50-50-r1-bff",,"1","bff","50/50","pendente","False","","Execucao pendente; nao consolidar como concluida."
+"",,"produtos","chegadas-deterministicas-v1","20",,"50/50","netem25-produtos-taxa20-m50-50-r1-unificada",,"1","unificada","50/50","pendente","False","","Execucao pendente; nao consolidar como concluida."
+"",,"produtos","chegadas-deterministicas-v1","20",,"50/50","netem25-produtos-taxa20-m50-50-r1-bff",,"1","bff","50/50","pendente","False","","Execucao pendente; nao consolidar como concluida."

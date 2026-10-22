@@ -1,0 +1,20 @@
+2026-10-19 12:07:26,202 INFO o.a.j.u.JMeterUtils: Setting Locale to pt_BR
+2026-10-19 12:07:26,215 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3\bin\user.properties
+2026-10-19 12:07:26,216 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3\bin\system.properties
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: java.version=21.0.2
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: os.name=Windows 11
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: os.version=10.0
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: java.awt.headless=null
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: Max memory     =8350859264
+2026-10-19 12:07:26,220 INFO o.a.j.JMeter: Available Processors =12
+2026-10-19 12:07:26,230 INFO o.a.j.JMeter: Default Locale=português (Brasil)
+2026-10-19 12:07:26,230 INFO o.a.j.JMeter: JMeter  Locale=português (Brasil)
+2026-10-19 12:07:26,230 INFO o.a.j.JMeter: JMeterHome=C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3
+2026-10-19 12:07:26,230 INFO o.a.j.JMeter: user.dir  =C:\Users\Th3Br\Downloads\TCC_desenvolvimento
+2026-10-19 12:07:26,231 INFO o.a.j.JMeter: PWD       =C:\Users\Th3Br\Downloads\TCC_desenvolvimento
+2026-10-19 12:07:26,231 INFO o.a.j.JMeter: IP: 192.168.0.13 Name: Brisa FullName: Brisa

@@ -1,0 +1,93 @@
+{
+  "errosBrutos": 0,
+  "comparacaoCpu": {
+    "habilitada": false,
+    "coletaValida": null
+  },
+  "geracao": {
+    "errosBrutos": 0,
+    "erros": {
+      "mobile": 0,
+      "web": 0
+    },
+    "modeloCarga": "chegadas-deterministicas-v1",
+    "geracaoValida": true,
+    "perfis": {
+      "mobile": {
+        "atrasadas": 0,
+        "agendadas": 210,
+        "foraDosLimites": 0,
+        "fases": {
+          "subida": {
+            "iniciadas": 10,
+            "agendadas": 10
+          },
+          "aquecimento": {
+            "iniciadas": 50,
+            "agendadas": 50
+          },
+          "medicao": {
+            "iniciadas": 150,
+            "agendadas": 150
+          }
+        },
+        "atrasoMedioMs": 15.085714285714285,
+        "atrasoMaxMs": 81.0,
+        "naoIniciadas": 0,
+        "iniciadas": 210
+      },
+      "web": {
+        "atrasadas": 0,
+        "agendadas": 210,
+        "foraDosLimites": 0,
+        "fases": {
+          "subida": {
+            "iniciadas": 10,
+            "agendadas": 10
+          },
+          "aquecimento": {
+            "iniciadas": 50,
+            "agendadas": 50
+          },
+          "medicao": {
+            "iniciadas": 150,
+            "agendadas": 150
+          }
+        },
+        "atrasoMedioMs": 15.09047619047619,
+        "atrasoMaxMs": 81.0,
+        "naoIniciadas": 0,
+        "iniciadas": 210
+      }
+    },
+    "amostras": {
+      "mobile": 150,
+      "web": 150
+    }
+  },
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "descartadasPorJanela": null,
+  "recursos": {
+    "ciclosMedicao": 6,
+    "linhasMedicao": 30,
+    "ambienteEstavel": true,
+    "coletorConcluido": true
+  },
+  "erros": {
+    "mobile": 0,
+    "web": 0
+  },
+  "amostras": {
+    "mobile": 150,
+    "web": 150
+  },
+  "operacao": "produtos",
+  "duracaoSegundos": 15,
+  "janela": {
+    "inicioCarga": 1791930146764,
+    "todosIniciados": 1791930148764,
+    "inicio": 1791930153764,
+    "fim": 1791930168764,
+    "modeloCarga": "chegadas-deterministicas-v1"
+  }
+}

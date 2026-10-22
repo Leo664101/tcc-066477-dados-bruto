@@ -1,0 +1,85 @@
+{
+  "amostras": {
+    "web": 3000,
+    "mobile": 3000
+  },
+  "perfis": {
+    "web": {
+      "fases": {
+        "subida": {
+          "agendadas": 150,
+          "atrasoMaxMs": 79,
+          "atrasadas": 0,
+          "atrasoMedioMs": 16.486666666666668,
+          "iniciadas": 150,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "agendadas": 3000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.020666666666667,
+          "iniciadas": 3000,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 1200,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.198333333333334,
+          "iniciadas": 1200,
+          "naoIniciadas": 0
+        }
+      },
+      "iniciadas": 4350,
+      "atrasoMedioMs": 15.120229885057471,
+      "agendadas": 4350,
+      "naoIniciadas": 0,
+      "foraDosLimites": 0,
+      "atrasoMaxMs": 79.0,
+      "atrasadas": 0
+    },
+    "mobile": {
+      "fases": {
+        "subida": {
+          "agendadas": 150,
+          "atrasoMaxMs": 79,
+          "atrasadas": 0,
+          "atrasoMedioMs": 16.473333333333333,
+          "iniciadas": 150,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "agendadas": 3000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.013666666666667,
+          "iniciadas": 3000,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 1200,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.194166666666666,
+          "iniciadas": 1200,
+          "naoIniciadas": 0
+        }
+      },
+      "iniciadas": 4350,
+      "atrasoMedioMs": 15.113793103448275,
+      "agendadas": 4350,
+      "naoIniciadas": 0,
+      "foraDosLimites": 0,
+      "atrasoMaxMs": 79.0,
+      "atrasadas": 0
+    }
+  },
+  "errosBrutos": 0,
+  "erros": {
+    "web": 0,
+    "mobile": 0
+  },
+  "geracaoValida": true,
+  "modeloCarga": "chegadas-deterministicas-v1"
+}

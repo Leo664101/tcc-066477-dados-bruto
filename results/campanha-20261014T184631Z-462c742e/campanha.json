@@ -1,0 +1,116 @@
+{
+  "versao": 1,
+  "finalidade": "validacao-piloto",
+  "inicioUtc": "2026-10-14T18:46:31.1243648Z",
+  "estado": "concluida",
+  "rede": "netem",
+  "atrasosRedeMs": [
+    0,
+    25
+  ],
+  "operacao": "produtos",
+  "modeloCarga": "usuarios-fechado-v1",
+  "primeiroCenario": "unificada",
+  "repeticoes": 1,
+  "niveis": [
+    2
+  ],
+  "misturas": [
+    "50/50"
+  ],
+  "compararCpuAlinhada": false,
+  "parametros": {
+    "IntervaloRecursosSegundos": 2,
+    "PausaMs": 100,
+    "SubidaSegundos": 2,
+    "DuracaoSegundos": 15,
+    "Semente": 20260929,
+    "AquecimentoSegundos": 5
+  },
+  "execucoes": [
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "produtos",
+      "modeloCarga": "usuarios-fechado-v1",
+      "taxaPorSegundo": null,
+      "usuarios": 2,
+      "mistura": "50/50",
+      "usuariosWeb": 1,
+      "usuariosMobile": 1,
+      "repeticao": 1,
+      "cenario": "unificada",
+      "pasta": "netem0-produtos-u2-m50-50-r1-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "produtos",
+      "modeloCarga": "usuarios-fechado-v1",
+      "taxaPorSegundo": null,
+      "usuarios": 2,
+      "mistura": "50/50",
+      "usuariosWeb": 1,
+      "usuariosMobile": 1,
+      "repeticao": 1,
+      "cenario": "bff",
+      "pasta": "netem0-produtos-u2-m50-50-r1-bff",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 25,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "produtos",
+      "modeloCarga": "usuarios-fechado-v1",
+      "taxaPorSegundo": null,
+      "usuarios": 2,
+      "mistura": "50/50",
+      "usuariosWeb": 1,
+      "usuariosMobile": 1,
+      "repeticao": 1,
+      "cenario": "unificada",
+      "pasta": "netem25-produtos-u2-m50-50-r1-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 25,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "produtos",
+      "modeloCarga": "usuarios-fechado-v1",
+      "taxaPorSegundo": null,
+      "usuarios": 2,
+      "mistura": "50/50",
+      "usuariosWeb": 1,
+      "usuariosMobile": 1,
+      "repeticao": 1,
+      "cenario": "bff",
+      "pasta": "netem25-produtos-u2-m50-50-r1-bff",
+      "estado": "concluida",
+      "erro": null
+    }
+  ]
+}

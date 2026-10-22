@@ -1,0 +1,16 @@
+[
+  {
+    "execucao": "netem0-pedidos-taxa160-m50-50-r1-bff",
+    "metodo": "cpu-tempo-amostrado-v1",
+    "estado": "invalida",
+    "motivo": "Execucao excluida na auditoria geral: Gerador nao cumpriu a agenda; preservar dados para diagnostico.",
+    "fontesSha256": []
+  },
+  {
+    "execucao": "netem0-pedidos-taxa160-m50-50-r1-unificada",
+    "metodo": "cpu-tempo-amostrado-v1",
+    "estado": "invalida",
+    "motivo": "Cannot find path 'C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T143106Z-435b7571\\netem0-pedidos-taxa160-m50-50-r1-unificada\\configuracao.json' because it does not exist.",
+    "fontesSha256": []
+  }
+]

@@ -1,0 +1,3 @@
+"execucao","cenario","repeticao","condicoesId","metodo","camada","servicos","cpuTempoPonderadaPercent","cpuDockerPonderadaPercent","coberturaMinimaServicosPercent","maiorLacunaServicosSegundos"
+"netem25-pedidos-taxa160-m50-50-r1-bff","bff","1","15cb1a88b5f3f161584628471f695e336eeb1e686b12d9f1fe23ea247c751fbe","cpu-tempo-amostrado-v1","entrada","bff-web+bff-mobile","44.17421496396287","44.34872303908633","49.84693696666665","1.5797647"
+"netem25-pedidos-taxa160-m50-50-r1-unificada","unificada","1","0f97d37b9d2682c5f19be045f50a4fcaef0860d16da878bd5348afba4b25d357","cpu-tempo-amostrado-v1","entrada","api-unificada","41.151892586464164","41.23119288943935","49.78497070000002","1.3884746"

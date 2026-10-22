@@ -1,0 +1,11 @@
+{
+  "memoria": "working-set-e-private-bytes-nao-heap",
+  "erro": null,
+  "processoId": 9320,
+  "modelo": "processo-dotnet-v1",
+  "cpuUnidade": "100%=um-processador-logico",
+  "processoConcluido": true,
+  "intervaloAlvoMs": 1000,
+  "amostras": 628,
+  "observacao": "Amostras nao atomicas; ultimo intervalo antes da saida pode nao ser observado."
+}

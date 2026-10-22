@@ -1,0 +1,16 @@
+[
+  {
+    "execucao": "netem0-pedidos-taxa20-m50-50-r1-bff",
+    "metodo": "cpu-tempo-amostrado-v1",
+    "estado": "invalida",
+    "motivo": "Cannot find path 'C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261019T100216Z-a9dd4997\\netem0-pedidos-taxa20-m50-50-r1-bff\\configuracao.json' because it does not exist.",
+    "fontesSha256": []
+  },
+  {
+    "execucao": "netem0-pedidos-taxa20-m50-50-r1-unificada",
+    "metodo": "cpu-tempo-amostrado-v1",
+    "estado": "invalida",
+    "motivo": "Cannot find path 'C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261019T100216Z-a9dd4997\\netem0-pedidos-taxa20-m50-50-r1-unificada\\configuracao.json' because it does not exist.",
+    "fontesSha256": []
+  }
+]

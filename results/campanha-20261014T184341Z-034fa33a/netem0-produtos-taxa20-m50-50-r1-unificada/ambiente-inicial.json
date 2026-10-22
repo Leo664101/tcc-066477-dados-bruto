@@ -1,0 +1,178 @@
+{
+  "instanteUtc": "2026-10-14T18:44:06.7659736Z",
+  "docker": {
+    "os": "Docker Desktop (containerized)",
+    "servidor": "29.7.2",
+    "kernel": "6.18.54.1-microsoft-standard-WSL2",
+    "cgroup": "2",
+    "compose": "5.4.0",
+    "arquitetura": "x86_64",
+    "memoriaBytes": 16295694336,
+    "cliente": "29.7.2",
+    "cpus": 12
+  },
+  "gerador": {
+    "heapMaximaMiB": 1024,
+    "local": "host local, junto ao Docker",
+    "heapInicialMiB": 256,
+    "os": "Microsoft Windows 10.0.26200",
+    "powershell": "7.6.5",
+    "cpusLogicas": 12
+  },
+  "containers": [
+    {
+      "servico": "usuarios",
+      "id": "0af0f4f6eaa5bf135fd0fd95c02fd11a4b56f0df05be37bc523ed2b0d48c1cfb",
+      "imagem": "tcc/usuarios:local",
+      "imagemId": "sha256:11e6f4313ddc905e806a00cd8747843c08d586f051e47b7405e8c8988d82306a",
+      "inicio": "2026-10-14T18:43:46.955982609Z",
+      "reinicios": 0,
+      "oomKilled": false,
+      "cpus": 1.0,
+      "cpuQuota": 0,
+      "cpuPeriod": 0,
+      "cpuset": "",
+      "memoriaBytes": 1073741824,
+      "memoriaSwapBytes": 2147483648,
+      "javaToolOptions": [
+        "JAVA_TOOL_OPTIONS=-XX:+UseG1GC -Xms128m -Xmx512m -Duser.timezone=UTC -Dfile.encoding=UTF-8"
+      ],
+      "atrasoSintetico": [
+        "SINTETICO_ATRASO_MS=0"
+      ],
+      "cpuCgroup": {
+        "versao": 2,
+        "quotaUs": 100000,
+        "periodoUs": 100000,
+        "usoNs": 6930859000,
+        "periodos": 100,
+        "periodosLimitados": 63,
+        "tempoLimitadoNs": 8518027000,
+        "uptimeInicio": 21753.26,
+        "uptimeFim": 21753.26
+      }
+    },
+    {
+      "servico": "produtos",
+      "id": "22b2d1183d8573a5419778b2526a90b02c927b9b310d47c7602f5e7727e7244d",
+      "imagem": "tcc/produtos:local",
+      "imagemId": "sha256:2ae9701bbcaa7e1407c4381cf491ee331bffff371d7b111fd0a489e807f95696",
+      "inicio": "2026-10-14T18:43:46.942542504Z",
+      "reinicios": 0,
+      "oomKilled": false,
+      "cpus": 1.0,
+      "cpuQuota": 0,
+      "cpuPeriod": 0,
+      "cpuset": "",
+      "memoriaBytes": 1073741824,
+      "memoriaSwapBytes": 2147483648,
+      "javaToolOptions": [
+        "JAVA_TOOL_OPTIONS=-XX:+UseG1GC -Xms128m -Xmx512m -Duser.timezone=UTC -Dfile.encoding=UTF-8"
+      ],
+      "atrasoSintetico": [
+        "SINTETICO_ATRASO_MS=0"
+      ],
+      "cpuCgroup": {
+        "versao": 2,
+        "quotaUs": 100000,
+        "periodoUs": 100000,
+        "usoNs": 6807476000,
+        "periodos": 111,
+        "periodosLimitados": 64,
+        "tempoLimitadoNs": 8801885000,
+        "uptimeInicio": 21753.51,
+        "uptimeFim": 21753.51
+      }
+    },
+    {
+      "servico": "pedidos",
+      "id": "d78426bd20eed0fd8c80034d2fd09bf49908db29dc9ed191fb257ba76cc1b2b0",
+      "imagem": "tcc/pedidos:local",
+      "imagemId": "sha256:07e5b896ae9fa0a1f6e9fefcabb8d219fad0efa5dbc6d53fcac116892fea28b5",
+      "inicio": "2026-10-14T18:43:46.952472201Z",
+      "reinicios": 0,
+      "oomKilled": false,
+      "cpus": 1.0,
+      "cpuQuota": 0,
+      "cpuPeriod": 0,
+      "cpuset": "",
+      "memoriaBytes": 1073741824,
+      "memoriaSwapBytes": 2147483648,
+      "javaToolOptions": [
+        "JAVA_TOOL_OPTIONS=-XX:+UseG1GC -Xms128m -Xmx512m -Duser.timezone=UTC -Dfile.encoding=UTF-8"
+      ],
+      "atrasoSintetico": [
+        "SINTETICO_ATRASO_MS=0"
+      ],
+      "cpuCgroup": {
+        "versao": 2,
+        "quotaUs": 100000,
+        "periodoUs": 100000,
+        "usoNs": 7418039000,
+        "periodos": 108,
+        "periodosLimitados": 70,
+        "tempoLimitadoNs": 9496483000,
+        "uptimeInicio": 21753.72,
+        "uptimeFim": 21753.72
+      }
+    },
+    {
+      "servico": "api-unificada",
+      "id": "64bbba2c2f1f229c67885c8e765223c721de2428860ee9bb1011f25435f9613d",
+      "imagem": "tcc/api-unificada:local",
+      "imagemId": "sha256:848a4e5b428db86164ebe582a61c3a6b1da74c350930af014beb0a5578166c7a",
+      "inicio": "2026-10-14T18:43:55.037245445Z",
+      "reinicios": 0,
+      "oomKilled": false,
+      "cpus": 2.0,
+      "cpuQuota": 0,
+      "cpuPeriod": 0,
+      "cpuset": "",
+      "memoriaBytes": 2147483648,
+      "memoriaSwapBytes": 4294967296,
+      "javaToolOptions": [
+        "JAVA_TOOL_OPTIONS=-XX:+UseG1GC -Xms256m -Xmx1024m -Duser.timezone=UTC -Dfile.encoding=UTF-8"
+      ],
+      "atrasoSintetico": [],
+      "cpuCgroup": {
+        "versao": 2,
+        "quotaUs": 200000,
+        "periodoUs": 100000,
+        "usoNs": 6997652000,
+        "periodos": 64,
+        "periodosLimitados": 27,
+        "tempoLimitadoNs": 1633216000,
+        "uptimeInicio": 21753.93,
+        "uptimeFim": 21753.93
+      }
+    },
+    {
+      "servico": "rede",
+      "id": "db8f27142404e772506fa9d20de47fd5488ea11ec20a1f58ec77838750f7337d",
+      "imagem": "tcc/rede:local",
+      "imagemId": "sha256:8e97c27ab3103e9fedd83a1652082c0fd3ec5141d4f72dfff11ff8363381e9b2",
+      "inicio": "2026-10-14T18:43:46.969114211Z",
+      "reinicios": 0,
+      "oomKilled": false,
+      "cpus": 1.0,
+      "cpuQuota": 0,
+      "cpuPeriod": 0,
+      "cpuset": "",
+      "memoriaBytes": 134217728,
+      "memoriaSwapBytes": 268435456,
+      "javaToolOptions": [],
+      "atrasoSintetico": [],
+      "cpuCgroup": {
+        "versao": 2,
+        "quotaUs": 100000,
+        "periodoUs": 100000,
+        "usoNs": 460207000,
+        "periodos": 51,
+        "periodosLimitados": 0,
+        "tempoLimitadoNs": 0,
+        "uptimeInicio": 21754.14,
+        "uptimeFim": 21754.14
+      }
+    }
+  ]
+}

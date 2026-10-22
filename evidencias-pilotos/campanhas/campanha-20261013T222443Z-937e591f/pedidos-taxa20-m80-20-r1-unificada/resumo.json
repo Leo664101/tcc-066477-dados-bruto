@@ -1,0 +1,93 @@
+{
+  "geracao": {
+    "erros": {
+      "web": 0,
+      "mobile": 0
+    },
+    "modeloCarga": "chegadas-deterministicas-v1",
+    "geracaoValida": true,
+    "errosBrutos": 0,
+    "amostras": {
+      "web": 240,
+      "mobile": 60
+    },
+    "perfis": {
+      "web": {
+        "iniciadas": 336,
+        "naoIniciadas": 0,
+        "agendadas": 336,
+        "atrasoMedioMs": 15.00297619047619,
+        "fases": {
+          "aquecimento": {
+            "iniciadas": 80,
+            "agendadas": 80
+          },
+          "subida": {
+            "iniciadas": 16,
+            "agendadas": 16
+          },
+          "medicao": {
+            "iniciadas": 240,
+            "agendadas": 240
+          }
+        },
+        "foraDosLimites": 0,
+        "atrasoMaxMs": 75.0,
+        "atrasadas": 0
+      },
+      "mobile": {
+        "iniciadas": 84,
+        "naoIniciadas": 0,
+        "agendadas": 84,
+        "atrasoMedioMs": 15.202380952380953,
+        "fases": {
+          "aquecimento": {
+            "iniciadas": 20,
+            "agendadas": 20
+          },
+          "subida": {
+            "iniciadas": 4,
+            "agendadas": 4
+          },
+          "medicao": {
+            "iniciadas": 60,
+            "agendadas": 60
+          }
+        },
+        "foraDosLimites": 0,
+        "atrasoMaxMs": 24.0,
+        "atrasadas": 0
+      }
+    }
+  },
+  "amostras": {
+    "web": 240,
+    "mobile": 60
+  },
+  "comparacaoCpu": {
+    "habilitada": false,
+    "coletaValida": null
+  },
+  "descartadasPorJanela": null,
+  "operacao": "pedidos",
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "errosBrutos": 0,
+  "janela": {
+    "inicioCarga": 1791930310709,
+    "todosIniciados": 1791930312709,
+    "inicio": 1791930317709,
+    "fim": 1791930332709,
+    "modeloCarga": "chegadas-deterministicas-v1"
+  },
+  "erros": {
+    "web": 0,
+    "mobile": 0
+  },
+  "duracaoSegundos": 15,
+  "recursos": {
+    "ambienteEstavel": true,
+    "linhasMedicao": 24,
+    "coletorConcluido": true,
+    "ciclosMedicao": 6
+  }
+}

@@ -1,0 +1,170 @@
+ Image tcc/api-unificada:local Building 
+ Image tcc/usuarios:local Building 
+ Image tcc/produtos:local Building 
+ Image tcc/pedidos:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 2.29kB 0.0s done
+#1 DONE 0.0s
+
+#2 [api-unificada internal] load build definition from Dockerfile
+#2 transferring dockerfile: 397B done
+#2 DONE 0.0s
+
+#3 [produtos internal] load metadata for docker.io/library/eclipse-temurin:21-jdk-jammy@sha256:6adefddd4a20bceef702cedb0b03952fcd7691f9c7ccffe27014992abc0b46bd
+#3 DONE 0.0s
+
+#4 [usuarios internal] load .dockerignore
+#4 transferring context: 257B done
+#4 DONE 0.0s
+
+#5 [usuarios 1/5] FROM docker.io/library/eclipse-temurin:21-jdk-jammy@sha256:6adefddd4a20bceef702cedb0b03952fcd7691f9c7ccffe27014992abc0b46bd
+#5 DONE 0.0s
+
+#6 [api-unificada internal] load build context
+#6 transferring context: 18.13MB 5.0s
+#6 transferring context: 23.67MB 6.7s done
+#6 DONE 6.7s
+
+#7 [api-unificada 3/5] COPY infra/docker/Healthcheck.java /app/Healthcheck.java
+#7 CACHED
+
+#8 [api-unificada 4/5] RUN javac Healthcheck.java && rm Healthcheck.java
+#8 CACHED
+
+#9 [api-unificada 2/5] WORKDIR /app
+#9 CACHED
+
+#10 [api-unificada 5/5] COPY apps/api-unificada/target/*-SNAPSHOT.jar /app/app.jar
+#10 CACHED
+
+#11 [api-unificada] exporting to image
+#11 exporting layers done
+#11 writing image sha256:848a4e5b428db86164ebe582a61c3a6b1da74c350930af014beb0a5578166c7a done
+#11 naming to docker.io/tcc/api-unificada:local done
+#11 DONE 0.0s
+
+#12 [pedidos internal] load build context
+#12 ...
+
+#13 [api-unificada] resolving provenance for metadata file
+#13 DONE 0.0s
+
+#12 [pedidos internal] load build context
+#12 ...
+
+#14 [usuarios internal] load build context
+#14 ...
+
+#12 [pedidos internal] load build context
+#12 transferring context: 24.18MB 7.0s done
+#12 DONE 7.0s
+
+#15 [produtos internal] load build context
+#15 transferring context: 23.66MB 6.9s done
+#15 DONE 6.9s
+
+#16 [produtos 4/5] RUN javac Healthcheck.java && rm Healthcheck.java
+#16 CACHED
+
+#17 [produtos 3/5] COPY infra/docker/Healthcheck.java /app/Healthcheck.java
+#17 CACHED
+
+#18 [produtos 5/5] COPY services/produtos/target/*-SNAPSHOT.jar /app/app.jar
+#18 CACHED
+
+#19 [produtos] exporting to image
+#19 exporting layers done
+#19 writing image sha256:2ae9701bbcaa7e1407c4381cf491ee331bffff371d7b111fd0a489e807f95696 done
+#19 naming to docker.io/tcc/produtos:local done
+#19 DONE 0.0s
+
+#14 [usuarios internal] load build context
+#14 transferring context: 23.65MB 6.9s done
+#14 DONE 7.0s
+
+#20 [pedidos 3/5] COPY infra/docker/Healthcheck.java /app/Healthcheck.java
+#20 CACHED
+
+#21 [pedidos 4/5] RUN javac Healthcheck.java && rm Healthcheck.java
+#21 CACHED
+
+#22 [usuarios 4/5] RUN javac Healthcheck.java && rm Healthcheck.java
+#22 CACHED
+
+#9 [usuarios 2/5] WORKDIR /app
+#9 CACHED
+
+#23 [usuarios 3/5] COPY infra/docker/Healthcheck.java /app/Healthcheck.java
+#23 CACHED
+
+#24 [usuarios 5/5] COPY services/usuarios/target/*-SNAPSHOT.jar /app/app.jar
+#24 CACHED
+
+#25 [pedidos 5/5] COPY services/pedidos/target/*-SNAPSHOT.jar /app/app.jar
+#25 CACHED
+
+#26 [usuarios] exporting to image
+#26 exporting layers done
+#26 writing image sha256:11e6f4313ddc905e806a00cd8747843c08d586f051e47b7405e8c8988d82306a 0.0s done
+#26 naming to docker.io/tcc/usuarios:local 0.0s done
+#26 DONE 0.1s
+
+#27 [produtos] resolving provenance for metadata file
+#27 DONE 0.0s
+
+#28 [pedidos] exporting to image
+#28 exporting layers done
+#28 writing image sha256:07e5b896ae9fa0a1f6e9fefcabb8d219fad0efa5dbc6d53fcac116892fea28b5 0.0s done
+#28 naming to docker.io/tcc/pedidos:local done
+#28 DONE 0.0s
+
+#29 [pedidos] resolving provenance for metadata file
+#29 DONE 0.0s
+
+#30 [usuarios] resolving provenance for metadata file
+#30 DONE 0.0s
+ Image tcc/pedidos:local Built 
+ Image tcc/produtos:local Built 
+ Image tcc/usuarios:local Built 
+ Image tcc/api-unificada:local Built 
+ Container tcc-bff-bff-mobile-1 Stopping 
+ Container tcc-bff-api-unificada-1 Stopping 
+ Container tcc-bff-bff-web-1 Stopping 
+ Container tcc-bff-bff-mobile-1 Stopped 
+ Container tcc-bff-bff-web-1 Stopped 
+ Container tcc-bff-api-unificada-1 Stopped 
+ Container tcc-bff-usuarios-1 Stopping 
+ Container tcc-bff-produtos-1 Stopping 
+ Container tcc-bff-pedidos-1 Stopping 
+ Container tcc-bff-produtos-1 Stopped 
+ Container tcc-bff-usuarios-1 Stopped 
+ Container tcc-bff-pedidos-1 Stopped 
+time="2026-10-13T19:29:58-03:00" level=warning msg="Found orphan containers (tcc-bff-postgres-1) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container tcc-bff-produtos-1 Starting 
+ Container tcc-bff-pedidos-1 Starting 
+ Container tcc-bff-usuarios-1 Starting 
+ Container tcc-bff-usuarios-1 Started 
+ Container tcc-bff-produtos-1 Started 
+ Container tcc-bff-pedidos-1 Started 
+ Container tcc-bff-pedidos-1 Waiting 
+ Container tcc-bff-usuarios-1 Waiting 
+ Container tcc-bff-produtos-1 Waiting 
+ Container tcc-bff-produtos-1 Healthy 
+ Container tcc-bff-usuarios-1 Healthy 
+ Container tcc-bff-pedidos-1 Healthy 
+ Container tcc-bff-api-unificada-1 Starting 
+ Container tcc-bff-api-unificada-1 Started 
+ Container tcc-bff-produtos-1 Waiting 
+ Container tcc-bff-pedidos-1 Waiting 
+ Container tcc-bff-api-unificada-1 Waiting 
+ Container tcc-bff-usuarios-1 Waiting 
+ Container tcc-bff-pedidos-1 Healthy 
+ Container tcc-bff-produtos-1 Healthy 
+ Container tcc-bff-usuarios-1 Healthy 
+ Container tcc-bff-api-unificada-1 Healthy 
+NAME                      IMAGE                     COMMAND                  SERVICE         CREATED       STATUS                    PORTS
+tcc-bff-api-unificada-1   tcc/api-unificada:local   "java -jar /app/app.…"   api-unificada   5 hours ago   Up 4 seconds (healthy)    127.0.0.1:8080->8080/tcp
+tcc-bff-pedidos-1         tcc/pedidos:local         "java -jar /app/app.…"   pedidos         5 hours ago   Up 12 seconds (healthy)   
+tcc-bff-produtos-1        tcc/produtos:local        "java -jar /app/app.…"   produtos        5 hours ago   Up 12 seconds (healthy)   
+tcc-bff-usuarios-1        tcc/usuarios:local        "java -jar /app/app.…"   usuarios        5 hours ago   Up 12 seconds (healthy)   
+Cenario unificada iniciado. Dados sinteticos carregados dos JSONs versionados; sem banco de dados.

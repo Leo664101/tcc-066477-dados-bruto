@@ -1,0 +1,61 @@
+{
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "errosBrutos": 0,
+  "perfis": {
+    "web": {
+      "atrasoMedioMs": 16.928571428571427,
+      "atrasoMaxMs": 87.0,
+      "atrasadas": 0,
+      "iniciadas": 210,
+      "agendadas": 210,
+      "fases": {
+        "subida": {
+          "agendadas": 10,
+          "iniciadas": 10
+        },
+        "medicao": {
+          "agendadas": 150,
+          "iniciadas": 150
+        },
+        "aquecimento": {
+          "agendadas": 50,
+          "iniciadas": 50
+        }
+      },
+      "foraDosLimites": 0,
+      "naoIniciadas": 0
+    },
+    "mobile": {
+      "atrasoMedioMs": 16.923809523809524,
+      "atrasoMaxMs": 87.0,
+      "atrasadas": 0,
+      "iniciadas": 210,
+      "agendadas": 210,
+      "fases": {
+        "subida": {
+          "agendadas": 10,
+          "iniciadas": 10
+        },
+        "medicao": {
+          "agendadas": 150,
+          "iniciadas": 150
+        },
+        "aquecimento": {
+          "agendadas": 50,
+          "iniciadas": 50
+        }
+      },
+      "foraDosLimites": 0,
+      "naoIniciadas": 0
+    }
+  },
+  "amostras": {
+    "web": 150,
+    "mobile": 150
+  },
+  "geracaoValida": true,
+  "erros": {
+    "web": 0,
+    "mobile": 0
+  }
+}

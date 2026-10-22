@@ -1,0 +1,3 @@
+"operacao","modeloCarga","taxaPorSegundo","baseMistura","mistura","execucao","usuarios","repeticao","cenario","misturaUsuarios","estadoExecutor","incluida","condicoesId","motivo"
+"produtos","chegadas-deterministicas-v1","20","operacoes-agendadas","50/50","produtos-taxa20-m50-50-r1-unificada",,"1","unificada","","concluida","True","61bc28391ac83bb1237219b38dd18299704ee89ea8e9d53aa8960d30c160498e","Dados completos; consultar estadoExecutor para eventuais falhas fora da medicao."
+"produtos","chegadas-deterministicas-v1","20","operacoes-agendadas","50/50","produtos-taxa20-m50-50-r1-bff",,"1","bff","","concluida","True","6c1b65ffb5c441af25852c034e3629665ffa705a70d3f1e5f7dd6be7f36e4f99","Dados completos; consultar estadoExecutor para eventuais falhas fora da medicao."

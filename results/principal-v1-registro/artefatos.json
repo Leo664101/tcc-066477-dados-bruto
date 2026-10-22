@@ -1,0 +1,1643 @@
+{
+  "commit": "4fcaff659a9a335b939511b8dd05b54101eb24ad",
+  "dataUtc": "2026-10-19T15:07:07.463436+00:00",
+  "estado": "preparado-nao-iniciado",
+  "javaHost": "21.0.2",
+  "imagens": {
+    "tcc/api-unificada:local": "sha256:848a4e5b428db86164ebe582a61c3a6b1da74c350930af014beb0a5578166c7a",
+    "tcc/bff-web:local": "sha256:ad5729d0c4c3e3bc12181c17c77a7d26af84cd769f9cfcc099095f7dfba459b0",
+    "tcc/bff-mobile:local": "sha256:d3596130d844b7cd6c3d332ada4e8439b30745db8bab343d4eeaa97a32a05f37",
+    "tcc/usuarios:local": "sha256:11e6f4313ddc905e806a00cd8747843c08d586f051e47b7405e8c8988d82306a",
+    "tcc/produtos:local": "sha256:2ae9701bbcaa7e1407c4381cf491ee331bffff371d7b111fd0a489e807f95696",
+    "tcc/pedidos:local": "sha256:07e5b896ae9fa0a1f6e9fefcabb8d219fad0efa5dbc6d53fcac116892fea28b5",
+    "tcc/rede:local": "sha256:8e97c27ab3103e9fedd83a1652082c0fd3ec5141d4f72dfff11ff8363381e9b2"
+  },
+  "arquivos": [
+    {
+      "arquivo": "apps/api-unificada/pom.xml",
+      "bytes": 1249,
+      "sha256": "5916bc83895227c872f5f6e6493301629ec6559d27a10f68e10a3814b5396d83"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/api/ApiExceptionHandler.java",
+      "bytes": 306,
+      "sha256": "150b0f83c9555442fdf23be9571c161411152dbf6ca5659fc1497b494547f15e"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/api/PedidoController.java",
+      "bytes": 922,
+      "sha256": "d982b1cf81790880601621b53d5e87947769727b111ed226a49bdce6458377dd"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/api/PedidoResponse.java",
+      "bytes": 701,
+      "sha256": "a04b80d1f0f879643d231b2d03fc07e72bdc14b1fecea8f2812b946a3f9fcc19"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/api/ProdutoController.java",
+      "bytes": 934,
+      "sha256": "2e03b8dc368ae29cf3e6df95775ae13755a5eb9dd604fa2467c055f24927c41f"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/api/ProdutoResponse.java",
+      "bytes": 185,
+      "sha256": "89d95a3aefa706dc824a8bb2f14deacb6ff817a5bd79c53bf1239880abfb216b"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/ApiUnificadaApplication.java",
+      "bytes": 346,
+      "sha256": "1043955d99f220a8e3b7780157f7916a1ed2fbbb1ac42f6b3aef42303ff06575"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/client/ContratosInternos.java",
+      "bytes": 683,
+      "sha256": "d23ef1aee9576c1093c7ce5422ce0b42262161bdb1bfa15e36e305ab25c24b73"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/client/ServicosClient.java",
+      "bytes": 4147,
+      "sha256": "6f0dc7784b151857e7ab0306ae7662622c65c2426052b58b93509fe57d891477"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/config/HttpClientConfig.java",
+      "bytes": 1060,
+      "sha256": "87073df30ad51737c9bebc79cc549a87384885a0537b6844c08374bcb2e26ad9"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/config/ServicosProperties.java",
+      "bytes": 1048,
+      "sha256": "a3925b1a8da2744533a7f160a81a35d5bb93844d96bd1e584d5a869ea530a142"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/service/ConsultasParalelas.java",
+      "bytes": 3030,
+      "sha256": "c6945787852966d434615340eeb5c9ec318ba7357d5ae0d2b57bbc0c185c5ee2"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/service/PedidoService.java",
+      "bytes": 4392,
+      "sha256": "adf30935cd6621241c4bfbd15bfedbb54fdae7d1451978ac30088dad3c8cd183"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/java/br/edu/uricer/tcc/apiunificada/service/ProdutoService.java",
+      "bytes": 1276,
+      "sha256": "9815ec1dad6803f4a97a3104030b32fb6895c6203b3799b20480b54b2b241cb1"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/main/resources/application.properties",
+      "bytes": 476,
+      "sha256": "a5e1e17bca8c9555dac463c90d00af2337fb83145bc7edb40f6f9e9fd6823b88"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/test/java/br/edu/uricer/tcc/apiunificada/ConsultasParalelasTest.java",
+      "bytes": 5130,
+      "sha256": "2bfb939bfc7d1dd32d769b6e40d9310bf6405fedfc498f53a20bf33fc9cbfb07"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/test/java/br/edu/uricer/tcc/apiunificada/PedidoApiTest.java",
+      "bytes": 11235,
+      "sha256": "8c6dce23baebe2c6d1ae1e869a5e0182535f50276311032c48dadbcde7c3d218"
+    },
+    {
+      "arquivo": "apps/api-unificada/src/test/java/br/edu/uricer/tcc/apiunificada/ProdutoApiTest.java",
+      "bytes": 7146,
+      "sha256": "29e0a90c9b057fbcdd20851f860311da603d73afa1aabee4caebdfb269c17dab"
+    },
+    {
+      "arquivo": "apps/api-unificada/target/api-unificada-0.0.1-SNAPSHOT.jar",
+      "bytes": 23660792,
+      "sha256": "844b7abddf4f03e0668179af6e50c1f2bd018c6b7991d06fa4273ead101f0198"
+    },
+    {
+      "arquivo": "apps/bff-mobile/pom.xml",
+      "bytes": 1243,
+      "sha256": "effa0d0aa395f0236ce61a9f0681a4d41d903620e6e8d8de6d8bc0859dfb3066"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/api/ApiExceptionHandler.java",
+      "bytes": 311,
+      "sha256": "d1fddc0d94d006e7ff98b91482949e44322b87abdcc1b976a69ac2592121cd47"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/api/PedidoController.java",
+      "bytes": 941,
+      "sha256": "2dc09650dec98a08bd420a14b80e8445afc540e0f7e3b1b10b81f8e64e1d8764"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/api/PedidoResponse.java",
+      "bytes": 334,
+      "sha256": "daf6fb8e7989d820738dc10eeb1be980cb6acabde1789e19d15e176a0808819d"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/api/ProdutoController.java",
+      "bytes": 928,
+      "sha256": "2eb01de6ec0234d7c52fd4f5b7096fb34bb049d1cec97d6b636d5b2bb4c4f3f7"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/api/ProdutoResponse.java",
+      "bytes": 182,
+      "sha256": "a75794c872db19c029e36867b8b72128ba45527294cadb8eb1e768d50beb5763"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/BffMobileApplication.java",
+      "bytes": 337,
+      "sha256": "b7884eb38f7ad07d1717d096ece7575beccfecd5206f1b79821a6b613ea16d18"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/client/ContratosInternos.java",
+      "bytes": 703,
+      "sha256": "d4796fd3fef2409175682a3f90b8e6d1066f7c0d0f6e5b9c7ed36d485199a4de"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/client/ServicosClient.java",
+      "bytes": 4138,
+      "sha256": "4e25821d5b8f0941ac3bbcc230067f990497f963c902ad7b0b9d5b2570cec83e"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/config/HttpClientConfig.java",
+      "bytes": 1084,
+      "sha256": "44a962a9b5840ce2c76f3bda7d5ac18f4c0bec19a5dc4e22438b3c2135bf11f9"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/config/ServicosProperties.java",
+      "bytes": 1067,
+      "sha256": "23765941e604c256705ae517c7e3d8db08a057cdb6069de94928726e69f634f2"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/service/ConsultasParalelas.java",
+      "bytes": 3021,
+      "sha256": "d78417d8bf077acf834040a301422c7767aeb2875660f578a43780fb980f634f"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/service/PedidoService.java",
+      "bytes": 3936,
+      "sha256": "2a029ab4b6e6240f0e5df177fb832505fad798e25740155dd201293a833ce598"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/java/br/edu/uricer/tcc/bffmobile/service/ProdutoService.java",
+      "bytes": 1264,
+      "sha256": "6e356aa9f6d6ca46bfe9f2e245923e0c77163e0d0c8fc0ea92367996ef438f42"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/main/resources/application.properties",
+      "bytes": 485,
+      "sha256": "a9656aec0f688a7daf16f5abc510fbbb6f57a3ad3af635ce169fa11ae5277acc"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/test/java/br/edu/uricer/tcc/bffmobile/ConsultasParalelasTest.java",
+      "bytes": 5121,
+      "sha256": "9baf8de7d340e475ff8f01598aab82cd08802e9a26f05ab3ad380befd7c2c41d"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/test/java/br/edu/uricer/tcc/bffmobile/PedidoApiTest.java",
+      "bytes": 10513,
+      "sha256": "acd4743c14cc11982063c5ac521a1c1a4320cc2126808d268be9e447cd9dee56"
+    },
+    {
+      "arquivo": "apps/bff-mobile/src/test/java/br/edu/uricer/tcc/bffmobile/ProdutoApiTest.java",
+      "bytes": 7143,
+      "sha256": "010380d5b9898368af83d226fa412b92b74c578cebf43a6f075a94e9561c40be"
+    },
+    {
+      "arquivo": "apps/bff-mobile/target/bff-mobile-0.0.1-SNAPSHOT.jar",
+      "bytes": 23657534,
+      "sha256": "8169bcc0f41da61cfb9ef1f070df61eb7232982e1237bf01f6ad4d4569fb413d"
+    },
+    {
+      "arquivo": "apps/bff-web/pom.xml",
+      "bytes": 1237,
+      "sha256": "ef541cb72070005fcbabe4700563cb5a95d791c68fbdd55120a16c3c51dc57eb"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/api/ApiExceptionHandler.java",
+      "bytes": 308,
+      "sha256": "69e7a8ff4c988011c7dac827983a7f508119d2f969960402c4bfc770c21abd2c"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/api/PedidoController.java",
+      "bytes": 935,
+      "sha256": "98c0ef699cc58d4245821d12f6329937ef12b1010810920ae03ad69c0a90306b"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/api/PedidoResponse.java",
+      "bytes": 711,
+      "sha256": "6a96c9a48cfe4d7d17e988d100774d57307b0831a9febc579fcc5691f472d76f"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/api/ProdutoController.java",
+      "bytes": 922,
+      "sha256": "3b6f7853e5fc555b2a773019c4f502fe3f84c9dfddf953acaddd960d0323ab1d"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/api/ProdutoResponse.java",
+      "bytes": 179,
+      "sha256": "dece051c502324c152b862129d5d046edb5f9106e957a4636bf61f72739aa634"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/BffWebApplication.java",
+      "bytes": 328,
+      "sha256": "1cb3a67f170e70b2ac11d54b343cc033eeef5402a6f1c6c08a9cdc374c602b23"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/client/ContratosInternos.java",
+      "bytes": 700,
+      "sha256": "314c9c0a825957fb33d772d15272958d6ef1cb7961239444d5935f14bb5d077c"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/client/ServicosClient.java",
+      "bytes": 4129,
+      "sha256": "566be9417fb3c8be35531f18a80f3d3094397693e1ca76e254b44f67fe905fc9"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/config/HttpClientConfig.java",
+      "bytes": 1081,
+      "sha256": "0d89324fc5bb136f852ce249bb95eeed10034defab1445bbcb5b040a8811af8f"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/config/ServicosProperties.java",
+      "bytes": 1064,
+      "sha256": "2f2a15cafd24305d9c9c476fbb491d09d4a9498f79f528d1872a02b2234e72f8"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/service/ConsultasParalelas.java",
+      "bytes": 3012,
+      "sha256": "0fbcb4283e50c9b20c37324d278235efed57d8c82d1c0f1a93c937aec725c9f7"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/service/PedidoService.java",
+      "bytes": 4350,
+      "sha256": "0b86bb2ea34815763daffda53b80f9f751a41fe2cfee4f807e3567ebed794a99"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/java/br/edu/uricer/tcc/bffweb/service/ProdutoService.java",
+      "bytes": 1252,
+      "sha256": "caab60d467c2fa61a0755dbe39476902bf9bc5d74b56e069eea7324b3c76c2cc"
+    },
+    {
+      "arquivo": "apps/bff-web/src/main/resources/application.properties",
+      "bytes": 482,
+      "sha256": "db15353f23c3f2e71f887f0114f568197915b200ecf36d715c6483f93ff48ec3"
+    },
+    {
+      "arquivo": "apps/bff-web/src/test/java/br/edu/uricer/tcc/bffweb/ConsultasParalelasTest.java",
+      "bytes": 5112,
+      "sha256": "6a677f2d2a5f7871187b4b9c2885b5e8c308170c51de9f69a74a8f0f54f930a9"
+    },
+    {
+      "arquivo": "apps/bff-web/src/test/java/br/edu/uricer/tcc/bffweb/PedidoApiTest.java",
+      "bytes": 11229,
+      "sha256": "fc62f990369aa1ead450fba38a7561282882b1d1a768f948e979d094baa566dc"
+    },
+    {
+      "arquivo": "apps/bff-web/src/test/java/br/edu/uricer/tcc/bffweb/ProdutoApiTest.java",
+      "bytes": 7140,
+      "sha256": "e4876b666148ed1430c813913139eb5b185bc9b8864637da08168af46f7f7064"
+    },
+    {
+      "arquivo": "apps/bff-web/target/bff-web-0.0.1-SNAPSHOT.jar",
+      "bytes": 23660297,
+      "sha256": "30d8e6d08d6bcbb9e13aa97bfe02b2dd2949d6cdf7d48588b42a4bda11ac8b5d"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/AgendaChegadas.groovy",
+      "bytes": 3779,
+      "sha256": "5c4efc0a7fbb34a4b1f669ce0ec4ae3912f7a4a1277205085a5973c57beeb3f9"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/chegada.groovy",
+      "bytes": 1035,
+      "sha256": "66b404854f7a37c0fab6c836f2c0d856be9b33e73ccd819453b1da1189498d44"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/iniciar-taxa.groovy",
+      "bytes": 521,
+      "sha256": "c2c4872b348128e9a4704f598995ce37d23e1e24888dad5aaa84c2c8064371d6"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/jmeter.properties",
+      "bytes": 710,
+      "sha256": "6b9eeee561a3d6899fed97eeecbb0e1bacb4603c7c90487fb5c3f843a03c7f8a"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/pedidos.jmx",
+      "bytes": 9386,
+      "sha256": "dbb8b7e98245901a92b9733c0a6a6c79c7a28e7bd93e20a8cb5dfdf6c0dbc7db"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/preparar.groovy",
+      "bytes": 1785,
+      "sha256": "acdbfe9b7390ddfcce5ef188821c2bd2dd479d4a1d47a01b09598272875b23de"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/README.md",
+      "bytes": 22628,
+      "sha256": "1059675866654f0c32cfa142deb2b6a8aa76ca90317ab01c0acb413bba528d28"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/taxa.jmx",
+      "bytes": 10437,
+      "sha256": "0aec7d7264c27c482320c99be105b6025e4429a5770f208ce1d3af503a4a56e8"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/testes/agenda.groovy",
+      "bytes": 2046,
+      "sha256": "ca278f473e8032fe6049b39333fbb392fc1dfdbe14a8e3964b2d2ca7ff848d5a"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/testes/validar-contratos.groovy",
+      "bytes": 5777,
+      "sha256": "9bafd6e92e4ad9952efd5d520df45145a1db81aa5cdd194840b1f3b59f946a2a"
+    },
+    {
+      "arquivo": "benchmarks/jmeter/validar.groovy",
+      "bytes": 4496,
+      "sha256": "4ab7d43bde57c72d1cb3915376f3e261a6583d19168a1c52597d1e035573a080"
+    },
+    {
+      "arquivo": "docs/protocolo-principal-v1.json",
+      "bytes": 8154,
+      "sha256": "2775fb2ef26a0aaaacca0045ff307f909735ad30d7cac47577b53904e7670eb6"
+    },
+    {
+      "arquivo": "infra/.env",
+      "bytes": 236,
+      "sha256": "35aff731044536332ffada0ae9e3da3d9c3de3ce7d4c93ae95870bfa702d0c10"
+    },
+    {
+      "arquivo": "infra/compose.rede.yaml",
+      "bytes": 1246,
+      "sha256": "a17de7cfd9e65de3dab1f159b7d6f3f36d95304b32853fd40b9372385e0bec48"
+    },
+    {
+      "arquivo": "infra/compose.yaml",
+      "bytes": 3090,
+      "sha256": "192bde07cf85d67c97384124ab77316018cda4b94bb57e307869488d6dffa5b0"
+    },
+    {
+      "arquivo": "infra/docker/Healthcheck.java",
+      "bytes": 565,
+      "sha256": "add25c171bb758b573c182cc9c6ef4585c94293a2520d9faf8a203450bdb2e2b"
+    },
+    {
+      "arquivo": "infra/Dockerfile",
+      "bytes": 358,
+      "sha256": "6629c107bf9143f227edc67d76471b5cfc559948bbfcb3a6dba7313465de7879"
+    },
+    {
+      "arquivo": "infra/README.md",
+      "bytes": 4962,
+      "sha256": "f8f646cc7b5bcc356ec9cf653a57c3263e633c6fa39402c4473ba717b4c6b4b4"
+    },
+    {
+      "arquivo": "infra/rede/Dockerfile",
+      "bytes": 272,
+      "sha256": "57274140a1a0bf2b47fb745d70834fb5a48dc2afcbe424dda4c154e6a5e95928"
+    },
+    {
+      "arquivo": "infra/rede/iniciar.sh",
+      "bytes": 1938,
+      "sha256": "492e7a5f794e731f3335ea1c3c9288d6f7cc5aea7e4b99719e7d5b157e8c5f85"
+    },
+    {
+      "arquivo": "pom.xml",
+      "bytes": 2287,
+      "sha256": "be7a95a6e5b9cd7483ddb96853f3b34b254f1f911e722997ef1e660fcac9bb1f"
+    },
+    {
+      "arquivo": "scripts/analisar-diagnostico.ps1",
+      "bytes": 3999,
+      "sha256": "b544741c6fbb261db026c630d4251ec9e7bf27fd734680e01a965ea0c3674ee5"
+    },
+    {
+      "arquivo": "scripts/analisar-piloto.ps1",
+      "bytes": 4406,
+      "sha256": "328e247d5b23068ba1ce74b6060ce321692ad3d96354f5f6c7256bce0461a1a8"
+    },
+    {
+      "arquivo": "scripts/analisar-taxa.ps1",
+      "bytes": 8956,
+      "sha256": "f464fd215c0cf770425abe5d15e6217fab0bb621d73240203378d9ea5b1c7f6d"
+    },
+    {
+      "arquivo": "scripts/cgroup.ps1",
+      "bytes": 3207,
+      "sha256": "7c727da4a2bb54f38d1fe2f5091719c08812cc779bfb956a7f3414d097fbe096"
+    },
+    {
+      "arquivo": "scripts/coletar-cpu-alinhado.ps1",
+      "bytes": 3192,
+      "sha256": "f0d20486dea22326648fcb696bb2edf0e0151280b31c328291c90630c993d7b7"
+    },
+    {
+      "arquivo": "scripts/coletar-recursos.ps1",
+      "bytes": 2644,
+      "sha256": "a95849a514235fd49f0834d9acd4398f0e33f1be9614adfd73a4a0e47055516d"
+    },
+    {
+      "arquivo": "scripts/consolidar-campanha.ps1",
+      "bytes": 27066,
+      "sha256": "8567caa45c0e0351097b7d6fc0ead5009efe568ce0e64b603d6ef831ca953013"
+    },
+    {
+      "arquivo": "scripts/consolidar-piloto.py",
+      "bytes": 12110,
+      "sha256": "260b6be25a4f9c1c01d1ce14c4a57255a2bb7f0b03bb2d55bea8f397672df7a8"
+    },
+    {
+      "arquivo": "scripts/controlar-rede.ps1",
+      "bytes": 7319,
+      "sha256": "f7ce8d3a76a8d2961a7c1538be234266646902c2400b0bb23c823870cb2dde47"
+    },
+    {
+      "arquivo": "scripts/cpu-alinhado.ps1",
+      "bytes": 2546,
+      "sha256": "d76b91a135023247a09524bdea820145ba294cb65068bd5dcbb5187d90e59eed"
+    },
+    {
+      "arquivo": "scripts/cpu-ponderada.ps1",
+      "bytes": 4719,
+      "sha256": "fc72901f2d9cf4c2e36c08c17cfa9fab3c29bf66c49e4258f0a8d224764e5483"
+    },
+    {
+      "arquivo": "scripts/criterios-piloto.ps1",
+      "bytes": 4156,
+      "sha256": "59bcbe6a14cc8100a885f19f65cd16695678b7b5545cf3a22492fcb5e3dee71e"
+    },
+    {
+      "arquivo": "scripts/diagnosticar-ambiente.ps1",
+      "bytes": 3807,
+      "sha256": "a9fb1dae4faf4ee209955f672d2a4a6b54e0b541f1aadbdd7b874b2782331e01"
+    },
+    {
+      "arquivo": "scripts/distribuicao-usuarios.ps1",
+      "bytes": 1177,
+      "sha256": "d99cec8ba5c5c9d674712ac0dd75912ad20ef4e47fdb47e0e1b4ace7f90474ad"
+    },
+    {
+      "arquivo": "scripts/DockerStatsClient.cs",
+      "bytes": 1624,
+      "sha256": "e7a7ffd314f58a538c2ff93705d9627fec9efc735064d681b5b26113c7898c0e"
+    },
+    {
+      "arquivo": "scripts/espera-registrada.ps1",
+      "bytes": 1810,
+      "sha256": "b744bdc4cf986f251d494a3efb97b8b2bbefb67deaefef864d795907aaaa84d3"
+    },
+    {
+      "arquivo": "scripts/executar-campanha.ps1",
+      "bytes": 11637,
+      "sha256": "8577a94a8f0e6b4254af776ef797bcdd782ab3932bfd299cd6f7816439859986"
+    },
+    {
+      "arquivo": "scripts/executar-jmeter.ps1",
+      "bytes": 20839,
+      "sha256": "9ba5530e54f89878a26d57a9844ebc268b619666c2af8e227f477789fea5337c"
+    },
+    {
+      "arquivo": "scripts/gerar-dados-sinteticos.py",
+      "bytes": 2561,
+      "sha256": "f2bbca3bcebf9acb67893976057c7462510dc4c79f45213d2064a59a3ad2c523"
+    },
+    {
+      "arquivo": "scripts/iniciar-cenario.ps1",
+      "bytes": 2256,
+      "sha256": "3ec0fd5c4836df7158cc4db071efa05619dc72dd86a5226c77a20835c4050d1e"
+    },
+    {
+      "arquivo": "scripts/ler-cgroup.sh",
+      "bytes": 1152,
+      "sha256": "ca6419b5c59a4581e82b291e92357925a1258700203a0d85bbcb0e0df00e31d3"
+    },
+    {
+      "arquivo": "scripts/modelo-taxa.ps1",
+      "bytes": 970,
+      "sha256": "3ed7e9fb1f2b1c5798f5f73309236611aa42169059cd5b82d393686d58dfc23e"
+    },
+    {
+      "arquivo": "scripts/monitorar-gerador.ps1",
+      "bytes": 2847,
+      "sha256": "573513ccfeec92f4d674b918eb5bbdaa688d7fe10fda0c95877b7b5bd477b606"
+    },
+    {
+      "arquivo": "scripts/planejar-principal.ps1",
+      "bytes": 2065,
+      "sha256": "5caa3a7bfa6d189624d554ba38edc0f46075c1157edd2f72876c52faf844522a"
+    },
+    {
+      "arquivo": "scripts/rede-experimento.ps1",
+      "bytes": 6387,
+      "sha256": "b590859a4f79871d440c24adc64dbf24a2c886367f870dc0dac43e0fb196dac4"
+    },
+    {
+      "arquivo": "scripts/registrar-ambiente.ps1",
+      "bytes": 3279,
+      "sha256": "b8312c3cfdf07bd6d00b8de093bb2e22890347f05c22e668ebca84c00e222373"
+    },
+    {
+      "arquivo": "scripts/testes/testar-analise-taxa.ps1",
+      "bytes": 6346,
+      "sha256": "346ef14044917aefbbc9580465cf37b43f732ca370481d8abe3deaeef695176c"
+    },
+    {
+      "arquivo": "scripts/testes/testar-canonical.ps1",
+      "bytes": 1526,
+      "sha256": "1b12f5cd58a8176decd5508fce1b23b6376e7cb2873ce69d04f953e219174a74"
+    },
+    {
+      "arquivo": "scripts/testes/testar-ciclo-campanha.ps1",
+      "bytes": 3843,
+      "sha256": "f0ce8016397174c6a20610d01c18990f57debd0f382a2d8fb681fc2ac45985d8"
+    },
+    {
+      "arquivo": "scripts/testes/testar-configuracao-rede.ps1",
+      "bytes": 2950,
+      "sha256": "69148c07d7291559710ff7ee4aeaa88e6e4f008b654f850786210a03e95c99eb"
+    },
+    {
+      "arquivo": "scripts/testes/testar-consolidacao-piloto.py",
+      "bytes": 2888,
+      "sha256": "7e15f31beb81f88f4a3646ec68d3afaba92ba381df69934acd4982cf22d763f4"
+    },
+    {
+      "arquivo": "scripts/testes/testar-consolidacao.ps1",
+      "bytes": 36116,
+      "sha256": "89dff9afb45069cc09d1e4914146ba0294020416bd191462ff8b02230919466f"
+    },
+    {
+      "arquivo": "scripts/testes/testar-cpu-alinhado.ps1",
+      "bytes": 2370,
+      "sha256": "5167017cf7530eab43717545bcfce8c7d76edb8b89be5502397f71c17e3b573c"
+    },
+    {
+      "arquivo": "scripts/testes/testar-cpu-ponderada.ps1",
+      "bytes": 3274,
+      "sha256": "b02c69378b2ec8c0c13108273d181b690940238258efc0940d025e95c5a00d21"
+    },
+    {
+      "arquivo": "scripts/testes/testar-criterios-piloto.ps1",
+      "bytes": 3218,
+      "sha256": "ce8066d2dd461d245415185a9f5e89d379e59a08fe6764109fddd36be32da472"
+    },
+    {
+      "arquivo": "scripts/testes/testar-dados-sinteticos.py",
+      "bytes": 2013,
+      "sha256": "1959633dfcbd9fc4040822bba95013826d8eaee1d3353aab17047b25ad21f1f2"
+    },
+    {
+      "arquivo": "scripts/testes/testar-diagnostico.ps1",
+      "bytes": 3538,
+      "sha256": "d99a691d385ffe99d89c3ab024410dc5c779425d669bdfab97535168eaf1b3c5"
+    },
+    {
+      "arquivo": "scripts/testes/testar-distribuicao.ps1",
+      "bytes": 1611,
+      "sha256": "50b1b666bd8e3df856dbfb333bc8ab10bb44ee0c8743255a7237e8277e6343f1"
+    },
+    {
+      "arquivo": "scripts/testes/testar-monitor-gerador.ps1",
+      "bytes": 2175,
+      "sha256": "936c53ee52f498268c501873f3e85be8fd4bcd5de4844b07494f85ed34bf6dc3"
+    },
+    {
+      "arquivo": "scripts/testes/testar-planejamento-principal.ps1",
+      "bytes": 1234,
+      "sha256": "405cef84a95bcd6c6db952660312b3816b2e803ad136436e36f7e730fe1ea63d"
+    },
+    {
+      "arquivo": "scripts/testes/testar-rede.py",
+      "bytes": 5586,
+      "sha256": "6da9d3f3ec61a5383cf42215204e88525511c38826f2029fa5bd7f66db42dfb1"
+    },
+    {
+      "arquivo": "scripts/testes/testar-taxa.py",
+      "bytes": 5345,
+      "sha256": "3e4a6023b5cfa7a61f6d2461b411e9c0944bfc01ee4f8ab07228c9d32b9fbc01"
+    },
+    {
+      "arquivo": "scripts/testes/verificar-coleta.ps1",
+      "bytes": 3925,
+      "sha256": "2c9b8f8f6032ebb16c9bdf5213363d62c275f97224323e8859f7f074642df3f3"
+    },
+    {
+      "arquivo": "scripts/verificar-equivalencia.ps1",
+      "bytes": 11004,
+      "sha256": "0af4987a8319f7ecd5d50d5abdde36d39cda40fd1136ea8488bcbfe402e315f3"
+    },
+    {
+      "arquivo": "services/pedidos/pom.xml",
+      "bytes": 1278,
+      "sha256": "0b8b4e09438726bb154be6b08ffe96d6311bf4234c05475eb4a6bda010912edd"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/java/br/edu/uricer/tcc/pedidos/api/ApiExceptionHandler.java",
+      "bytes": 309,
+      "sha256": "7b13c8c7d6d43f012b3896c26b06297af7da5236a74bcd3568d02034a3e6557b"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/java/br/edu/uricer/tcc/pedidos/api/PedidoController.java",
+      "bytes": 1254,
+      "sha256": "282a5a40efb317d5f01349d2c6de05d078164d1e7e3e9fae46b622e831871f45"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/java/br/edu/uricer/tcc/pedidos/api/PedidoResponse.java",
+      "bytes": 560,
+      "sha256": "7585b4de6b79a9a2bc84f2e0d6800609f4b5a185adecf57d2eb97c50a27c820d"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/java/br/edu/uricer/tcc/pedidos/domain/StatusPedido.java",
+      "bytes": 119,
+      "sha256": "a3c4e23303b8cbcf0c35872710be30bf614d02fd32861d539dce7db0a56e8413"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/java/br/edu/uricer/tcc/pedidos/PedidosApplication.java",
+      "bytes": 331,
+      "sha256": "68f8ae33942fe3f45b66d9a8d482591b0b175c8dfe3604d5b486af8fab69273d"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/java/br/edu/uricer/tcc/pedidos/synthetic/AtrasoSintetico.java",
+      "bytes": 989,
+      "sha256": "f2527c175aa7350bdb32dd261cfce724a973bd6a8faacf33f0d21d556f35d359"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/java/br/edu/uricer/tcc/pedidos/synthetic/DadosSinteticos.java",
+      "bytes": 999,
+      "sha256": "a025a8d24b21104a897d4689bbe5c5711c943152b11f3da009a5d097e7d0c304"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/resources/application.properties",
+      "bytes": 198,
+      "sha256": "4838b97b0b8db3e18b9839c92553512d8f809b9aec369f9d3ea7a3d49baee620"
+    },
+    {
+      "arquivo": "services/pedidos/src/main/resources/synthetic/pedidos.json",
+      "bytes": 3559564,
+      "sha256": "693e710683edf29de07d91a8e974fc256163c117eff953b42571dce690c1a4d3"
+    },
+    {
+      "arquivo": "services/pedidos/src/test/java/br/edu/uricer/tcc/pedidos/AtrasoSinteticoTest.java",
+      "bytes": 1158,
+      "sha256": "a2b09d81282348bbc9163c1a7bd7ca886ad5e6937c7387eaef0eb125e5c40ff8"
+    },
+    {
+      "arquivo": "services/pedidos/src/test/java/br/edu/uricer/tcc/pedidos/InternalApiTest.java",
+      "bytes": 2440,
+      "sha256": "fb38f79b64ddf84728e74e5b443c5035518c8258c66ceae0cda26c4c2731e118"
+    },
+    {
+      "arquivo": "services/pedidos/target/pedidos-0.0.1-SNAPSHOT.jar",
+      "bytes": 24169081,
+      "sha256": "c0c9f486d503d39d4186010abb3ef88bb59cef494311ef3d04993680621855e8"
+    },
+    {
+      "arquivo": "services/produtos/pom.xml",
+      "bytes": 1280,
+      "sha256": "54f45db189f39789890e6c727a84af480076d95dba334aec17b2bdf87fc20b6f"
+    },
+    {
+      "arquivo": "services/produtos/src/main/java/br/edu/uricer/tcc/produtos/api/ApiExceptionHandler.java",
+      "bytes": 310,
+      "sha256": "7557517fc9642fbd8bc16833352583d00f6f28f9b1cab81801b7f3a71866ba6a"
+    },
+    {
+      "arquivo": "services/produtos/src/main/java/br/edu/uricer/tcc/produtos/api/ProdutoController.java",
+      "bytes": 1516,
+      "sha256": "a575e7feb8b17103e719d32eed4409154e36f58ae0cc579239b6582205cdbe9e"
+    },
+    {
+      "arquivo": "services/produtos/src/main/java/br/edu/uricer/tcc/produtos/api/ProdutoResponse.java",
+      "bytes": 187,
+      "sha256": "cd5bfe697d74b36d52616b10cd2580a8f5b6336a9b87852f2acc5d196e35dcee"
+    },
+    {
+      "arquivo": "services/produtos/src/main/java/br/edu/uricer/tcc/produtos/ProdutosApplication.java",
+      "bytes": 334,
+      "sha256": "fdbac705efa1fbcde4bea589035e8222323e2282450ac2f8f1ce15985691c757"
+    },
+    {
+      "arquivo": "services/produtos/src/main/java/br/edu/uricer/tcc/produtos/synthetic/AtrasoSintetico.java",
+      "bytes": 990,
+      "sha256": "19d4b4724ab84f5d03ca5015fb9128262f5111b97c7aa5a877f7ef85e8c7d2b9"
+    },
+    {
+      "arquivo": "services/produtos/src/main/java/br/edu/uricer/tcc/produtos/synthetic/DadosSinteticos.java",
+      "bytes": 1007,
+      "sha256": "42461cf014eb4767a6438c223231967ce022db74b2a88a556de3b2702764db06"
+    },
+    {
+      "arquivo": "services/produtos/src/main/resources/application.properties",
+      "bytes": 199,
+      "sha256": "89c484f5ecedfd7b2efafe77181fc00ee32464a3ab18f49be3ba299509587aaf"
+    },
+    {
+      "arquivo": "services/produtos/src/main/resources/synthetic/produtos.json",
+      "bytes": 179871,
+      "sha256": "18bbc9964f963c5230c574b4047a08a811e2b6aaba7a556b15dbad5e12116dc3"
+    },
+    {
+      "arquivo": "services/produtos/src/test/java/br/edu/uricer/tcc/produtos/AtrasoSinteticoTest.java",
+      "bytes": 1160,
+      "sha256": "d4f13bc19da41611c3f2b3890609d200b87ad5e61d6fd0d94957bc3fc6aaf9ea"
+    },
+    {
+      "arquivo": "services/produtos/src/test/java/br/edu/uricer/tcc/produtos/InternalApiTest.java",
+      "bytes": 2990,
+      "sha256": "b914f49db79547e863b28e076da2b1dbc7893efdbcff055728f135055e4d8a7e"
+    },
+    {
+      "arquivo": "services/produtos/target/produtos-0.0.1-SNAPSHOT.jar",
+      "bytes": 23649051,
+      "sha256": "6baf308c48ec8c32709b3e3f00272227f91d1b696176472c0ee0c90f0955c78c"
+    },
+    {
+      "arquivo": "services/usuarios/pom.xml",
+      "bytes": 1280,
+      "sha256": "5b8ad8156ce3cdd8ffa502fac050deaa537d6181da3694cf4b2b623ece73072b"
+    },
+    {
+      "arquivo": "services/usuarios/src/main/java/br/edu/uricer/tcc/usuarios/api/ApiExceptionHandler.java",
+      "bytes": 310,
+      "sha256": "5d669169ae1b66daba1f45dad9b7277211ffb150e809fcc5ce725bb9803ca416"
+    },
+    {
+      "arquivo": "services/usuarios/src/main/java/br/edu/uricer/tcc/usuarios/api/UsuarioController.java",
+      "bytes": 1262,
+      "sha256": "edc2ab243064f16de4530345a4a59947f6fcc27fffc0333640433dd4a939371e"
+    },
+    {
+      "arquivo": "services/usuarios/src/main/java/br/edu/uricer/tcc/usuarios/api/UsuarioResponse.java",
+      "bytes": 134,
+      "sha256": "0886b059fa2aa96fb704cfbc3ea12f4a5985f95f4a1cdf6494e658980e3466c0"
+    },
+    {
+      "arquivo": "services/usuarios/src/main/java/br/edu/uricer/tcc/usuarios/synthetic/AtrasoSintetico.java",
+      "bytes": 990,
+      "sha256": "acde386c6ea01b8c716a33ecccdec47e8287a3673e981875058540b970ed0521"
+    },
+    {
+      "arquivo": "services/usuarios/src/main/java/br/edu/uricer/tcc/usuarios/synthetic/DadosSinteticos.java",
+      "bytes": 1007,
+      "sha256": "fb42b48b417b8594756f38acc814de1525eab0768e43e8027d3a589bcb67d8b4"
+    },
+    {
+      "arquivo": "services/usuarios/src/main/java/br/edu/uricer/tcc/usuarios/UsuariosApplication.java",
+      "bytes": 334,
+      "sha256": "9c106f0c11eb42830d07da4169e33967e9a0debc349ebe3d1cc36b2a59e1dcc5"
+    },
+    {
+      "arquivo": "services/usuarios/src/main/resources/application.properties",
+      "bytes": 199,
+      "sha256": "7a98144a8132305d14c7ac5bd7d0e1f438f5d6557ea311b33a2234bd450be529"
+    },
+    {
+      "arquivo": "services/usuarios/src/main/resources/synthetic/usuarios.json",
+      "bytes": 116495,
+      "sha256": "af4db2cc4b308235008b496bafd1ab221a623c34c8c7cf307b06058626437a7a"
+    },
+    {
+      "arquivo": "services/usuarios/src/test/java/br/edu/uricer/tcc/usuarios/AtrasoSinteticoTest.java",
+      "bytes": 1160,
+      "sha256": "a845e183c2b5b24ecc123d7f44f5b070be183cd879e1a8fab54ba479f7f986ba"
+    },
+    {
+      "arquivo": "services/usuarios/src/test/java/br/edu/uricer/tcc/usuarios/InternalApiTest.java",
+      "bytes": 2079,
+      "sha256": "8fa1f56107a7640c037e5741b86b2874f4a7b350035ba4ceaa546199a0fc8c8f"
+    },
+    {
+      "arquivo": "services/usuarios/target/usuarios-0.0.1-SNAPSHOT.jar",
+      "bytes": 23646681,
+      "sha256": "b7e0792172da5b4e57bcbda713060c08a0445f2c97250531aac9214103508fc4"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/bin/ApacheJMeter.jar",
+      "bytes": 13664,
+      "sha256": "9c18010142b88cba2659a8471be414b34dd993e181bb10d6218fbab3e7b8712b"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/bin/jmeter.properties",
+      "bytes": 58774,
+      "sha256": "28f615fb66fee752a5647e590e7231e0734856a546d88aa0cd62341985ff634f"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/bin/reportgenerator.properties",
+      "bytes": 11835,
+      "sha256": "544b9d514db007bb040001ba575dd0c82e026471f39a60a95236bcc0ebd9a2ba"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/bin/saveservice.properties",
+      "bytes": 25672,
+      "sha256": "fcc28aeaced4c0e170e7a89089f6e9492f70be30b4c5aadbf6bbdefa660ad5a9"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/bin/system.properties",
+      "bytes": 4637,
+      "sha256": "80d23e1e7afbb3348be2e36fa2a2cec17e0383deb022d0e59804f7c9e3a1ccdd"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/bin/upgrade.properties",
+      "bytes": 7481,
+      "sha256": "43295cd0904ab61daf47dd9de780007beaabc617aadd01c7a19a42a9286ff3f2"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/bin/user.properties",
+      "bytes": 7103,
+      "sha256": "e73df2a5f754690e5b2a12cd435e3eee7d6d39799b9abe79daaed62717a508b6"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/extras/ant-jmeter-1.1.1.jar",
+      "bytes": 11421,
+      "sha256": "ebe1982185d4695532618f4b0a5a7198487512addd7fb1e90c796de1810edbe8"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/accessors-smart-2.5.0.jar",
+      "bytes": 29901,
+      "sha256": "12314fc6881d66a413fd66370787adba16e504fbf7e138690b0f3952e3fbd321"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/annotations-24.1.0.jar",
+      "bytes": 30570,
+      "sha256": "27a770dc7ce50500918bb8c3c0660c98290630ec796b5e3cf6b90f403b3033c6"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/apiguardian-api-1.1.2.jar",
+      "bytes": 6806,
+      "sha256": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/asm-9.6.jar",
+      "bytes": 123598,
+      "sha256": "3c6fac2424db3d4a853b669f4e3d1d9c3c552235e19a319673f887083c2303a1"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-anim-1.16.jar",
+      "bytes": 485898,
+      "sha256": "93d2948dfc9837c392cb9c97d5ddaa4db95845e3061974b4ab94148f1587ddbf"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-awt-util-1.16.jar",
+      "bytes": 424607,
+      "sha256": "dc0409227230b21a69ac3e79359385e2300df76728ec26081c6ed6c4373d3f13"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-bridge-1.16.jar",
+      "bytes": 704905,
+      "sha256": "a96031c2664599b43eee89ada011b6f20fb1d940bf70d1e830fbf780e7e2c86d"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-codec-1.16.jar",
+      "bytes": 112371,
+      "sha256": "372f8127e7898256c19af3823a3837c80a58c23f5a5e36f34667b648d1a5e58a"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-constants-1.16.jar",
+      "bytes": 8431,
+      "sha256": "0bdc9ac3e0b93f26cafd3fd8e3065d13fe678865115fc162f4d627fa0af35ad5"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-css-1.16.jar",
+      "bytes": 330361,
+      "sha256": "1f7e51c703813f21de58e9be4e6d907cef3a5540d23047507af9c4c5dc396419"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-dom-1.16.jar",
+      "bytes": 184060,
+      "sha256": "968dbc4bd291bb3c0074dc4b60223c4a95e0455c7b8c2a51ce5fe92aa68e15a1"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-ext-1.16.jar",
+      "bytes": 10239,
+      "sha256": "a12be0ba0f20a9f57ca16f76685366485b8c3119eaf5a2da4a34008d4947db73"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-gvt-1.16.jar",
+      "bytes": 192085,
+      "sha256": "2232cfd309c30c5ee2d37d9efbacc8c708da091af747a77c4fc04287e234bd41"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-i18n-1.16.jar",
+      "bytes": 11464,
+      "sha256": "94fc90806f7cb823dabc0d292012ed97d637207329dc8d2f351f52e0a9107d9a"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-parser-1.16.jar",
+      "bytes": 76872,
+      "sha256": "98257ac1b9daf378d917d7ac005ec9d85a17cfbb88fa744d0fed0d176e403220"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-script-1.16.jar",
+      "bytes": 25198,
+      "sha256": "a66febdb41d9bade0e11e6320ed4914ea2799aa6b814c5ec7f35589b370733dc"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-shared-resources-1.16.jar",
+      "bytes": 6665,
+      "sha256": "318543fe05ee0d118938d9302b2fce137d040f31d71e042d2ca02406e386974a"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-svg-dom-1.16.jar",
+      "bytes": 232734,
+      "sha256": "701ee2e9c14ff7d39759db8fa8a8dd04398cbf9d38c75ad5ca178f05d99f4406"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-svggen-1.16.jar",
+      "bytes": 227487,
+      "sha256": "4bb25e0267d80765a4f87063ff3cac77688b045dafe8e903452c6b3fae9b249c"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-transcoder-1.16.jar",
+      "bytes": 129300,
+      "sha256": "eaf365c90f758ab95deedf4d21331d5cdf0fa4e00df715df0240ab8f6653ff1e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-util-1.16.jar",
+      "bytes": 127485,
+      "sha256": "a8306eda7a840685da7a730cdd99a63f8145ceb543017779d438c9d67550bfa2"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/batik-xml-1.16.jar",
+      "bytes": 33870,
+      "sha256": "56f1ed597857bc81f5db7e669d15caa7d9497887e2710f0f98eea4b3e3f8ddaa"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/bsf-2.4.0.jar",
+      "bytes": 113369,
+      "sha256": "f873773deb91c1a1c12150f6cdb13b8a2e1b496a75ac903c4bbfa103b363a7c7"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/bsh-2.0b6.jar",
+      "bytes": 389033,
+      "sha256": "a17955976070c0573235ee662f2794a78082758b61accffce8d3f8aedcd91047"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/bshclient.jar",
+      "bytes": 7821,
+      "sha256": "fa41eafe429fe7b78c5e47a8b579dd7c1c7b8ef8b4c1284bce2008b85445dd5a"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/caffeine-2.9.3.jar",
+      "bytes": 912143,
+      "sha256": "1e0a7bbef1dd791653143f3f05d0e489934bf5481e58a87c9e619cd46b68729b"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/checker-qual-3.42.0.jar",
+      "bytes": 230830,
+      "sha256": "ccaedd33af0b7894d9f2f3b644f4d19e43928e32902e61ac4d10777830f5aac7"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-codec-1.16.0.jar",
+      "bytes": 360738,
+      "sha256": "56595fb20b0b85bc91d0d503dad50bb7f1b9afc0eed5dffa6cbb25929000484d"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-collections-3.2.2.jar",
+      "bytes": 588337,
+      "sha256": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-collections4-4.4.jar",
+      "bytes": 751914,
+      "sha256": "1df8b9430b5c8ed143d7815e403e33ef5371b2400aadbe9bda0883762e0846d1"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-dbcp2-2.9.0.jar",
+      "bytes": 211301,
+      "sha256": "887720912c5cbbcdff6e0e21d5034937555f8ffc597381eff8fa77f33ce6d64e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-io-2.15.1.jar",
+      "bytes": 501218,
+      "sha256": "a58af12ee1b68cfd2ebb0c27caef164f084381a00ec81a48cc275fd7ea54e154"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-jexl-2.1.1.jar",
+      "bytes": 267634,
+      "sha256": "03c9a9fae5da78ce52c0bf24467cc37355b7e23196dff4839e2c0ff018a01306"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-jexl3-3.2.1.jar",
+      "bytes": 462124,
+      "sha256": "0e40a3730b96bf6f2ebbf62552726c1655dba1abaf86ebc4bd14295feea240f6"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-jvm-4.1.0.jar",
+      "bytes": 760623,
+      "sha256": "fec8b0335b7e50d0593e1406eeb82eedb8f9b4fcca9bfbcb1c7c008ff08e79a7"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-lang3-3.14.0.jar",
+      "bytes": 657952,
+      "sha256": "7b96bf3ee68949abb5bc465559ac270e0551596fa34523fddf890ec418dde13c"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-logging-1.3.0.jar",
+      "bytes": 70816,
+      "sha256": "66d3c980470b99b0c511dad3dfc0ae7b265ec1fb144e96bc0253a8a175fd34d9"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-math3-3.6.1.jar",
+      "bytes": 2213560,
+      "sha256": "1e56d7b058d28b65abd256b8458e3885b674c1d588fa43cd7d1cbb9c7ef2b308"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-net-3.10.0.jar",
+      "bytes": 322780,
+      "sha256": "2230eec44ef4b8112ea09cbeb6de826977abe792e627cee2770e35ca8c39dce1"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-pool2-2.12.0.jar",
+      "bytes": 150048,
+      "sha256": "6d3bd18df8410f3e31b031aca582cc109342358a62a2759ebd0c4cdf30d06f8b"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/commons-text-1.11.0.jar",
+      "bytes": 246659,
+      "sha256": "2acf30a070b19163d5a480eae411a281341e870020e3534c6d5d4c8472739e30"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-core-2.7.3.jar",
+      "bytes": 1547509,
+      "sha256": "82180588db345953b399a12a6ed0c7ef6cee08ea5a0dac926a69c0d4029f2b8b"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-extensions-rsyntaxarea-0.3.4.jar",
+      "bytes": 20650,
+      "sha256": "dc9b09fea1a786d8dcd004733fe6b47246719c3fda6e5e5f5baa2ca0d6e776ab"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-macos-2.7.3.jar",
+      "bytes": 93477,
+      "sha256": "3401f62733c3e7a92d628ab6bb2c1b280db6288036eec02a69c33c953d4b93d3"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-native-utils-2.7.3.jar",
+      "bytes": 8492,
+      "sha256": "40d1be883d8d6c66601c4fb1ce0f3cd876932bc13eed8313142cadda8b813e85"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-platform-base-2.7.3.jar",
+      "bytes": 4049,
+      "sha256": "76a2b1620876b642d5b9457b2583e510f07eb33f857b60f5ba80a5b99a6aceab"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-property-loader-2.7.3.jar",
+      "bytes": 98109,
+      "sha256": "0593abb3b390c140b0d666c2926207cbcc1b291d6e4be12e28d91a5d1eb2a32e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-theme-2.7.3.jar",
+      "bytes": 89456,
+      "sha256": "5ce297afd186f26bfc2c9aa51584b2a8bdb1dc50c5c7ccd37e171b227cacf084"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-utils-2.7.3.jar",
+      "bytes": 69133,
+      "sha256": "b5cdc7d4f719382280c0b5cf010aee2a260cbe5182079bef2042e14d106353b5"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/darklaf-windows-2.7.3.jar",
+      "bytes": 217795,
+      "sha256": "9fc9044f4cb060dd6e64522df594f16f00326e751692fa40ce5047e733cb3aaa"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/datamodel-jvm-4.1.0.jar",
+      "bytes": 353322,
+      "sha256": "3960e50f5375f14b94b9079860b58ac8e3b00a8f83610c607c4c51c3c7457539"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/dec-0.1.2.jar",
+      "bytes": 98115,
+      "sha256": "615c0c3efef990d77831104475fba6a1f7971388691d4bad1471ad84101f6d52"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/deprecated-in-v4-jvm-4.1.0.jar",
+      "bytes": 95287,
+      "sha256": "3823c0b0df151673f767015bba240447a281dce5b7b3a22f8d370c1f243ef94d"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/dnsjava-2.1.9.jar",
+      "bytes": 320748,
+      "sha256": "072bba34267ffad8907c30a99a6b68f900782f3191454d278e395e289d478446"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/error_prone_annotations-2.24.0.jar",
+      "bytes": 16829,
+      "sha256": "a88bd88124c8d4c9851ab823adc3a8f04b0a13af15c9d80b5ecf49f5a7a321d2"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_bolt.jar",
+      "bytes": 20442,
+      "sha256": "adac5675a694aaf3d3c0bb5e2b7d11a47d6703d970a79e67df7be643babeeec9"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_components.jar",
+      "bytes": 779820,
+      "sha256": "8995a26ad6949f52632736efc4e10edc56561ed643af5841b45d1b6496ee6eed"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_core.jar",
+      "bytes": 2036586,
+      "sha256": "7d3bbe4844f299e53c58aa336578e39721c87cc4eb7e475d8173f408edc8dd4d"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_ftp.jar",
+      "bytes": 15365,
+      "sha256": "d3c5cac20f76de52a955e79b3b065e81fc1d875c4795ca77f324ac98820f9dd5"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_functions.jar",
+      "bytes": 126011,
+      "sha256": "7ff29aff9b97b57cf3d788c6d2b43ef6ad42c69dc41997b647862b3a70b39c6a"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_http.jar",
+      "bytes": 565558,
+      "sha256": "d683037ecc7b7c12d657727eef104f6f760f540a1c0056b23419b684b6112005"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_java.jar",
+      "bytes": 52717,
+      "sha256": "db08dca730452d63bdc1c11e071713db87c0ee490804a022bb2cb702ac81fc08"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_jdbc.jar",
+      "bytes": 64718,
+      "sha256": "be7c36ed0a1a2defa892e9a31e19e0636d9fc7b3903e57091827088bd98d23cd"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_jms.jar",
+      "bytes": 97694,
+      "sha256": "284618dc0265f3729b4ed696daa6a2b5ef3abc4a8abb1055eb1c37ea3ad17b03"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_junit.jar",
+      "bytes": 21674,
+      "sha256": "5e7a2c6166998bd1a2349fd94106cd5a7af1b30fe1cab4246d1884a27e2a2eaf"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_ldap.jar",
+      "bytes": 49594,
+      "sha256": "a298ba0f408db5008691cad1a5e308e01336ec88426d18dd0d27470180e602ae"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_mail.jar",
+      "bytes": 59985,
+      "sha256": "c909eebd19e7d3c714c1738ab87421c2342c03fb32b92e638e5f9973e870ade5"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_mongodb.jar",
+      "bytes": 29900,
+      "sha256": "8b9d1fe6dac62ae9d69cc2f62e165766199ed1fcef6c9bcc23e2d4fabbe3d5eb"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_native.jar",
+      "bytes": 14290,
+      "sha256": "1f0e0935b25455925f04e82d626288441412f0743003617abe22ef8285859173"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ext/ApacheJMeter_tcp.jar",
+      "bytes": 30763,
+      "sha256": "5d32b7a0aec103416a63be9250bb4056616d240280ae97828d32bf6da8a65b21"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/freemarker-2.3.32.jar",
+      "bytes": 1736381,
+      "sha256": "04d65ec1bde6cea20e3495d5e78ef96ab774d9936434861d3254bd88e7e94f92"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/geronimo-jms_1.1_spec-1.1.1.jar",
+      "bytes": 32359,
+      "sha256": "18d9ff7b9066aa99cf89843f5055d2fe58b1abe4346ee9df0daf4ac18ca232d7"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-3.0.20.jar",
+      "bytes": 8046016,
+      "sha256": "1bcdd2fa1f8f062234cb6ed5b8c9c56a5876a9493afef3221f22dd4f92589736"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-datetime-3.0.20.jar",
+      "bytes": 15172,
+      "sha256": "2de4a2bc1dc5b063d30fc7dd7ddb4650da8ed94176ea2f85e99bb02af44a4d9e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-dateutil-3.0.20.jar",
+      "bytes": 7400,
+      "sha256": "75cae7acdcf46b13cb32768216ef375eca75f1a1dc2dfe06d00a3291961aec91"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-jmx-3.0.20.jar",
+      "bytes": 132982,
+      "sha256": "bb4100d324923a873eae366266682e55adb182c96de99f815cd0a15bacb3df6d"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-json-3.0.20.jar",
+      "bytes": 128872,
+      "sha256": "ea34a860bae73f916c8f4fc3ec6006462ae72e3b67d76ae8fa30db68ec754f7b"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-jsr223-3.0.20.jar",
+      "bytes": 16832,
+      "sha256": "f5fd449d8ac64009c569dd6e81b431408b27eda75d6b54db2f9983442d579974"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-sql-3.0.20.jar",
+      "bytes": 78909,
+      "sha256": "3cc75b90719ab516929bbc6b4dbc27a8a8df415ba1f95ce5cf57fb5a7233c842"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-templates-3.0.20.jar",
+      "bytes": 94157,
+      "sha256": "3485ae9cba0bf625ea3f5325833c194a6d59994cf01a28db5a976851b6564f7b"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/groovy-xml-3.0.20.jar",
+      "bytes": 291709,
+      "sha256": "45f8fc9e1e392ab902369e03c985e4230b3429e4c2b06c0e3bf09180c3ed5e8e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/hamcrest-2.2.jar",
+      "bytes": 123360,
+      "sha256": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/hamcrest-core-2.2.jar",
+      "bytes": 1499,
+      "sha256": "094f5d92b4b7d9c8a2bf53cc69d356243ae89c3499457bcb4b92f7ed3bf95879"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/hamcrest-date-2.0.8.jar",
+      "bytes": 109741,
+      "sha256": "033f38ebd71145efb2edfb14acaa0bc1accf1914fcbf5c6eb53e0c48715fffcb"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/httpasyncclient-4.1.5.jar",
+      "bytes": 181512,
+      "sha256": "0c1877489a9d1ba4fa50f6cfcab11d1123618858cb31d56afaab5afdd5064d99"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/httpclient-4.5.14.jar",
+      "bytes": 785639,
+      "sha256": "c8bc7e1c51a6d4ce72f40d2ebbabf1c4b68bfe76e732104b04381b493478e9d6"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/httpclient5-5.3.jar",
+      "bytes": 861640,
+      "sha256": "b5649c109a30f57692172a4c4fd373e7d8bfe686d38e52f29ba7a183f6154044"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/httpcore-4.4.16.jar",
+      "bytes": 327891,
+      "sha256": "6c9b3dd142a09dc468e23ad39aad6f75a0f2b85125104469f026e52a474e464f"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/httpcore-nio-4.4.16.jar",
+      "bytes": 368896,
+      "sha256": "4018736ede2d321034e8517ea90baefb31831a8608afccc446d8a699fb1d00d4"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/httpcore5-5.2.4.jar",
+      "bytes": 855013,
+      "sha256": "a7f62496113f66f9e27c26b84c44f5ce4555c6270083cdf2d45f255336cd52af"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/httpcore5-h2-5.2.4.jar",
+      "bytes": 237145,
+      "sha256": "dc1a95e73eb04db93451533d390ce02c53b301a10dc343d08c862f2934b3d30e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/httpmime-4.5.14.jar",
+      "bytes": 41727,
+      "sha256": "d401243d5c6eae928a37121b6e819158c8c32ea0584793e7285bb489ab2a3d17"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jackson-annotations-2.16.1.jar",
+      "bytes": 78480,
+      "sha256": "a4730771e6a495dd3793a42cdb8ce6bddb96c77e15f40c98fd8d9a7ae09e7286"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jackson-core-2.16.1.jar",
+      "bytes": 578125,
+      "sha256": "f5f8ef90609e64fec82eb908e497dc7d81b2eb983fe509b870292a193cde4dfb"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jackson-databind-2.16.1.jar",
+      "bytes": 1637611,
+      "sha256": "baf8a8ebee8f45ef68cdd5e2dd3923b3e296c0937b96ec0b4806aa3a31bccd1d"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/javax.activation-1.2.0.jar",
+      "bytes": 78030,
+      "sha256": "993302b16cd7056f21e779cc577d175a810bb4900ef73cd8fbf2b50f928ba9ce"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jcharts-0.7.5.jar",
+      "bytes": 142391,
+      "sha256": "c0fdb330280ff7223923e399be06b7575c1920451faaeb29333f9c2b0f5d2ddc"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jcl-over-slf4j-1.7.36.jar",
+      "bytes": 16555,
+      "sha256": "ab57ca8fd223772c17365d121f59e94ecbf0ae59d08c03a3cb5b81071c019195"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jmespath-core-0.6.0.jar",
+      "bytes": 489286,
+      "sha256": "14d000d71381d23041466c2b560506cbee1fb0a9d2bcb6d1c609ebe7adc66381"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jmespath-jackson-0.6.0.jar",
+      "bytes": 7090,
+      "sha256": "e0fec658325693c5db7405268fcc1a73033b92c7ed516237fea420197a24c1f9"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jodd-core-5.0.13.jar",
+      "bytes": 403497,
+      "sha256": "a77cf7400ef90c946a70ffa410920e9b62ac6bf9e0d8b2d6d185e894313b285b"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jodd-lagarto-5.0.13.jar",
+      "bytes": 220475,
+      "sha256": "47b35d8323e8ebc716f6a88d217b438d36dffafbdefa7724c5e9c85ac7c8bff2"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jodd-log-5.0.13.jar",
+      "bytes": 19858,
+      "sha256": "0fdf30d3b6c27ac78545a226a62c9f2f5675d3168ca91561968a5e0db73c232d"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jodd-props-5.0.13.jar",
+      "bytes": 26047,
+      "sha256": "f1029ee3be973df0c4a65dac2d18c718116d83c11a0e2fa526344dc7537a4f45"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jorphan.jar",
+      "bytes": 213591,
+      "sha256": "304d51667db74eb6732676273ae548cce94505db7542989e0b7281b48bd1fc4c"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/json-path-2.8.0.jar",
+      "bytes": 277582,
+      "sha256": "9601707e95cd79fb98570a01ea8cfb857b5cde948744d6e0edf733c11002c95b"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/json-smart-2.5.0.jar",
+      "bytes": 120233,
+      "sha256": "432b9e545848c4141b80717b26e367f83bf33f19250a228ce75da6e967da2bc7"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jsoup-1.17.1.jar",
+      "bytes": 473788,
+      "sha256": "9da350a86ec44adbe152a7258dbebad0030cb98aff74384b8b83f126223e51a5"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/jtidy-r938.jar",
+      "bytes": 249924,
+      "sha256": "6fc03e51e73fa884f06e7eae0761e045e56fdeb4e146a4d952e3023cc9e3fb43"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/junit-4.13.2.jar",
+      "bytes": 384581,
+      "sha256": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/kotlin-logging-jvm-2.0.5.jar",
+      "bytes": 32033,
+      "sha256": "c1d9a50adba57d4a948dea6bfa63136c18cb73bab6ae97aa820bff7a44a5903e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/kotlin-stdlib-1.9.22.jar",
+      "bytes": 1718956,
+      "sha256": "6abe146c27864138b874ccccfe5f534e3eb923c99a1b7b5d45494ee5694f3e0a"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/kotlin-stdlib-jdk7-1.9.10.jar",
+      "bytes": 959,
+      "sha256": "ac6361bf9ad1ed382c2103d9712c47cdec166232b4903ed596e8876b0681c9b7"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/kotlin-stdlib-jdk8-1.9.10.jar",
+      "bytes": 965,
+      "sha256": "a4c74d94d64ce1abe53760fe0389dd941f6fc558d0dab35e47c085a11ec80f28"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/kotlinx-coroutines-core-jvm-1.7.3.jar",
+      "bytes": 1551152,
+      "sha256": "1ab3acc38f3e7355c4f9d1ec62107a46fa73c899f3070d055e5d4373dfe67e12"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/kotlinx-coroutines-swing-1.7.3.jar",
+      "bytes": 9964,
+      "sha256": "3145fd68ad71ec6100924f74f1b6d52d22250dc2771a56b4f164c2a22fb50cac"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/lets-plot-batik-4.1.0.jar",
+      "bytes": 996,
+      "sha256": "bf5c2e4d92bccd91b24126d63be31ae21883ea920e3cc3cd619354baa4a87deb"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/lets-plot-common-4.1.0.jar",
+      "bytes": 996,
+      "sha256": "bf5c2e4d92bccd91b24126d63be31ae21883ea920e3cc3cd619354baa4a87deb"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/log4j-1.2-api-2.22.1.jar",
+      "bytes": 356564,
+      "sha256": "9a025b24d7df425e7b22590274546df8eb0b040ccb3aff3856f9a266fa787fd8"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/log4j-api-2.22.1.jar",
+      "bytes": 335001,
+      "sha256": "5d7beae7ff15d8516d6517121d7f12a79a6ac180df64b5fcec55d5be21056e53"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/log4j-core-2.22.1.jar",
+      "bytes": 1900022,
+      "sha256": "46dccecac556623d8e2ce8648496824a82951d139062a4e61148aff1a25ed18d"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/log4j-slf4j-impl-2.22.1.jar",
+      "bytes": 24583,
+      "sha256": "05e6b1a44022d9a30c4dd592c5ebd62309a857bdc6ccfd2f41a3e7495f5ec8b3"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/mail-1.5.0-b01.jar",
+      "bytes": 519087,
+      "sha256": "04f10be09bc598b4b65b93e5eb55bb380abe1ca76c440cf0c8233d86e868f1c7"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/miglayout-core-5.3.jar",
+      "bytes": 106949,
+      "sha256": "cf3cb12d94b76c2f80c113977d0372d037784002943e566fcdac6b92d076935e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/miglayout-swing-5.3.jar",
+      "bytes": 22576,
+      "sha256": "ae384b680242234170de6b939bebf56effa40dd483477e13cd898104ba1e1de1"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/mongo-java-driver-2.14.3.jar",
+      "bytes": 613352,
+      "sha256": "9c749e57cac3c10ad9e6719dc8e8fdeec384b18b8a4644ecbf78863b7576267e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/mxparser-1.2.2.jar",
+      "bytes": 29680,
+      "sha256": "aeeee23a3303d811bca8790ea7f25b534314861c03cff36dafdcc2180969eb97"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/neo4j-java-driver-4.4.13.jar",
+      "bytes": 5223562,
+      "sha256": "a66ee42db63dd4b02836eddb960b277c2805c98040bb46d5ba21e3799516699c"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/oro-2.0.8.jar",
+      "bytes": 65261,
+      "sha256": "e00ccdad5df7eb43fdee44232ef64602bf63807c2d133a7be83ba09fd49af26e"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ph-commons-10.2.5.jar",
+      "bytes": 1314621,
+      "sha256": "977587d023e96cd157194c0e94af22c63d3964f22fb8d8704cd160709bde1001"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/ph-css-6.5.0.jar",
+      "bytes": 530791,
+      "sha256": "821dd07ab64263d0700f7de9854acefa015cd6c30011da693acced3da0e54296"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/platf-awt-jvm-4.1.0.jar",
+      "bytes": 133403,
+      "sha256": "c5a5055678c0bc3139d1d1f91465e535a76a070ea60c995e7eddce2520f3f04a"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/platf-batik-jvm-4.1.0.jar",
+      "bytes": 81351,
+      "sha256": "b02c3ad6b1123610a96cc5fc043a14accca4dd55d423cd92866f01abf2933de4"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/plot-api-jvm-4.5.0.jar",
+      "bytes": 1353287,
+      "sha256": "38088741fbf5af08c43ee6942313b753c44ec79348b3be7eb4ec49c1d0a3338f"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/plot-base-jvm-4.1.0.jar",
+      "bytes": 1614468,
+      "sha256": "444fc9e37f3b8db0ccc91e9d43938d954b0bb379b023b12b89b3d9791b644a23"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/plot-builder-jvm-4.1.0.jar",
+      "bytes": 1283358,
+      "sha256": "4edf24b72ec64f1b3af5c0abbd7efe18bc25ca1b25a97a64c875600383cb8520"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/plot-stem-jvm-4.1.0.jar",
+      "bytes": 969648,
+      "sha256": "94e5a3102d70cc814abf6c5d6f1a76b2d1377dd01310574ad0a92ab71c3bb953"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/reactive-streams-1.0.4.jar",
+      "bytes": 11640,
+      "sha256": "f75ca597789b3dac58f61857b9ac2e1034a68fa672db35055a8fb4509e325f28"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/rhino-1.7.14.jar",
+      "bytes": 1383644,
+      "sha256": "c9290b0d801bf0dbbbc44338e0f769b7650a0c5d04e6bb1aeb85775c0211b003"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/rsyntaxtextarea-3.3.4.jar",
+      "bytes": 1297525,
+      "sha256": "cbcd2167afd58ffce616d9bd2d95c94dd3f951e62486b56462ce0abe3ca6f8ec"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/Saxon-HE-11.6.jar",
+      "bytes": 5104657,
+      "sha256": "6e482b8130b362fc38ef5c9dee4bac9b085b3aaa7d5bc91bc1888d765c8696f8"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/serializer-2.7.3.jar",
+      "bytes": 283536,
+      "sha256": "5f6804bacdfdb3ccc52d2538536fab8986696d61559b081054a420c653806667"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/slf4j-api-1.7.36.jar",
+      "bytes": 41125,
+      "sha256": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/svgSalamander-1.1.4.jar",
+      "bytes": 320794,
+      "sha256": "e0f1a4d91cc4f6ce08e8b441b1b326b898e250366a9f4c489371284c784d3211"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/swing-extensions-laf-support-0.1.3.jar",
+      "bytes": 10192,
+      "sha256": "0c8603056c78095e2b015e796d28684cbd0759cd68c8fa010cd891fc269cf7f8"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/swing-extensions-visual-padding-0.1.3.jar",
+      "bytes": 2539,
+      "sha256": "5f45461409505b35ede425e31f288e7a67d1196ab04cf5297571fd3515d0fd14"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/tika-core-1.28.5.jar",
+      "bytes": 736051,
+      "sha256": "e64b3dc06c60b98ecbdfb9dbc3857f4ab54f9548eedd449ee0de39c0df5e3170"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/tika-parsers-1.28.5.jar",
+      "bytes": 1588025,
+      "sha256": "ef3a343e1c107a7f2679f1e36b8c5c8f313a2846c46bee5be74562cf6b37ea7f"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xalan-2.7.3.jar",
+      "bytes": 3455761,
+      "sha256": "febd48bb133a96c447282213951a6b74ea7fb45c0d896121296c014316bda6b0"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xercesImpl-2.12.2.jar",
+      "bytes": 1446149,
+      "sha256": "6fc991829af1708d15aea50c66f0beadcd2cfeb6968e0b2f55c1b0909883fe16"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xml-apis-1.4.01.jar",
+      "bytes": 220536,
+      "sha256": "a840968176645684bb01aed376e067ab39614885f9eee44abe35a5f20ebe7fad"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xml-apis-ext-1.3.04.jar",
+      "bytes": 85686,
+      "sha256": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xmlgraphics-commons-2.9.jar",
+      "bytes": 678189,
+      "sha256": "2ebd333ab2a624514793c336e3af086608673286fe37ba1e639e0ac3e1b58be2"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xmlpull-1.1.3.1.jar",
+      "bytes": 7188,
+      "sha256": "34e08ee62116071cbb69c0ed70d15a7a5b208d62798c59f2120bb8929324cb63"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xmlresolver-5.2.1-data.jar",
+      "bytes": 1027769,
+      "sha256": "101ea528ca9007493b2c3bb2c4aaa8ce75d750fb8d95a0b409518b7b562a99b0"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xmlresolver-5.2.1.jar",
+      "bytes": 165689,
+      "sha256": "18c7b2d0a99c95d24c2ec9a7566afb88f3dc2bc5086666634d882c679a2037b4"
+    },
+    {
+      "arquivo": "tmp/jmeter-bootstrap/apache-jmeter-5.6.3/lib/xstream-1.4.20.jar",
+      "bytes": 644649,
+      "sha256": "87df0f0be57c92037d0110fbb225a30b651702dc275653d285afcfef31bc2e81"
+    }
+  ],
+  "backupBrutos": "pendente; registro local nao e copia independente"
+}

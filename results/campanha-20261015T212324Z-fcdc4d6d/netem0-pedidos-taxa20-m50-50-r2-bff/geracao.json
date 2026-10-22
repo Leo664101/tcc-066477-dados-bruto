@@ -1,0 +1,85 @@
+{
+  "erros": {
+    "web": 0,
+    "mobile": 0
+  },
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "geracaoValida": true,
+  "perfis": {
+    "web": {
+      "naoIniciadas": 0,
+      "agendadas": 4350,
+      "iniciadas": 4350,
+      "foraDosLimites": 0,
+      "atrasadas": 0,
+      "atrasoMaxMs": 67.0,
+      "atrasoMedioMs": 14.526206896551724,
+      "fases": {
+        "subida": {
+          "iniciadas": 150,
+          "atrasoMaxMs": 67,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.38,
+          "agendadas": 150,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "iniciadas": 1200,
+          "atrasoMaxMs": 23,
+          "atrasadas": 0,
+          "atrasoMedioMs": 14.584166666666667,
+          "agendadas": 1200,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "iniciadas": 3000,
+          "atrasoMaxMs": 23,
+          "atrasadas": 0,
+          "atrasoMedioMs": 14.460333333333333,
+          "agendadas": 3000,
+          "naoIniciadas": 0
+        }
+      }
+    },
+    "mobile": {
+      "naoIniciadas": 0,
+      "agendadas": 4350,
+      "iniciadas": 4350,
+      "foraDosLimites": 0,
+      "atrasadas": 0,
+      "atrasoMaxMs": 67.0,
+      "atrasoMedioMs": 14.523908045977011,
+      "fases": {
+        "subida": {
+          "iniciadas": 150,
+          "atrasoMaxMs": 67,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.38,
+          "agendadas": 150,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "iniciadas": 1200,
+          "atrasoMaxMs": 23,
+          "atrasadas": 0,
+          "atrasoMedioMs": 14.583333333333334,
+          "agendadas": 1200,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "iniciadas": 3000,
+          "atrasoMaxMs": 23,
+          "atrasadas": 0,
+          "atrasoMedioMs": 14.457333333333333,
+          "agendadas": 3000,
+          "naoIniciadas": 0
+        }
+      }
+    }
+  },
+  "amostras": {
+    "web": 3000,
+    "mobile": 3000
+  },
+  "errosBrutos": 0
+}

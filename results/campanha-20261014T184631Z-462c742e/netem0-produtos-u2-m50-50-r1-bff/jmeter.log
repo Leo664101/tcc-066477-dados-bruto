@@ -1,0 +1,83 @@
+2026-10-14 18:47:57,354 INFO o.a.j.u.JMeterUtils: Setting Locale to pt_BR
+2026-10-14 18:47:57,373 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3\bin\user.properties
+2026-10-14 18:47:57,374 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3\bin\system.properties
+2026-10-14 18:47:57,374 INFO o.a.j.JMeter: Loading additional properties from: C:/Users/Th3Br/Downloads/TCC_desenvolvimento/benchmarks/jmeter/jmeter.properties
+2026-10-14 18:47:57,374 INFO o.a.j.JMeter: Setting JMeter property: tcc.scenario=bff
+2026-10-14 18:47:57,374 INFO o.a.j.JMeter: Setting JMeter property: tcc.operation=produtos
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.users=2
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.webUsers=1
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.mobileUsers=1
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.ramp=2
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.warmup=5
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.duration=15
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.guard=82
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.pause=100
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.seed=20260929
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.webPort=8081
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.mobilePort=8082
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.host=127.0.0.1
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.output=C:/Users/Th3Br/Downloads/TCC_desenvolvimento/benchmarks/results/campanha-20261014T184631Z-462c742e/netem0-produtos-u2-m50-50-r1-bff
+2026-10-14 18:47:57,375 INFO o.a.j.JMeter: Setting JMeter property: tcc.scripts=C:/Users/Th3Br/Downloads/TCC_desenvolvimento/benchmarks/jmeter
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: java.version=21.0.2
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: os.name=Windows 11
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: os.version=10.0
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-14 18:47:57,381 INFO o.a.j.JMeter: Available Processors =12
+2026-10-14 18:47:57,388 INFO o.a.j.JMeter: Default Locale=português (Brasil)
+2026-10-14 18:47:57,389 INFO o.a.j.JMeter: JMeter  Locale=português (Brasil)
+2026-10-14 18:47:57,389 INFO o.a.j.JMeter: JMeterHome=C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3
+2026-10-14 18:47:57,389 INFO o.a.j.JMeter: user.dir  =C:\Users\Th3Br\Downloads\TCC_desenvolvimento
+2026-10-14 18:47:57,389 INFO o.a.j.JMeter: PWD       =C:\Users\Th3Br\Downloads\TCC_desenvolvimento
+2026-10-14 18:47:57,390 INFO o.a.j.JMeter: IP: 192.168.0.5 Name: Brisa FullName: Brisa
+2026-10-14 18:47:57,401 INFO o.a.j.s.FileServer: Default base='C:\Users\Th3Br\Downloads\TCC_desenvolvimento'
+2026-10-14 18:47:57,402 INFO o.a.j.s.FileServer: Set new base='C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\jmeter'
+2026-10-14 18:47:57,558 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-14 18:47:57,588 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-14 18:47:57,590 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-14 18:47:57,593 INFO o.a.j.s.SaveService: Loading file: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\jmeter\pedidos.jmx
+2026-10-14 18:47:57,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-14 18:47:57,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-14 18:47:57,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-14 18:47:57,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-14 18:47:57,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-14 18:47:57,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-14 18:47:57,663 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-14 18:47:57,676 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-14 18:47:57,676 INFO o.a.j.s.SampleEvent: List of sample_variables: [perfil, pedido_id, body_bytes, operacao, recurso_id, produto_id, chegada_id, agendada_ms]
+2026-10-14 18:47:57,676 INFO o.a.j.s.SampleEvent: List of sample_variables: [perfil, pedido_id, body_bytes, operacao, recurso_id, produto_id, chegada_id, agendada_ms]
+2026-10-14 18:47:57,680 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-14 18:47:57,680 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-14 18:47:57,877 INFO o.a.j.JMeter: Testes executando (1792003677877)
+2026-10-14 18:47:57,887 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : web
+2026-10-14 18:47:57,888 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group web.
+2026-10-14 18:47:57,888 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-14 18:47:57,888 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=2 delayedStart=false
+2026-10-14 18:47:57,890 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-14 18:47:57,892 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : mobile
+2026-10-14 18:47:57,892 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group mobile.
+2026-10-14 18:47:57,892 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-14 18:47:57,892 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=2 delayedStart=false
+2026-10-14 18:47:57,892 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-10-14 18:47:57,892 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-1
+2026-10-14 18:47:57,892 INFO o.a.j.t.JMeterThread: Thread started: web 1-1
+2026-10-14 18:47:57,894 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-14 18:47:58,731 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Brisa
+2026-10-14 18:47:58,735 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-14 18:47:58,736 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-14 18:47:58,737 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-14 18:47:58,737 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-14 18:47:58,737 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-14 18:48:00,001 INFO o.a.j.r.Summariser: summary +     15 in 00:00:02 =    7,1/s Avg:    17 Min:     9 Max:    66 Err:     0 (0,00%) Active: 2 Started: 2 Finished: 0
+2026-10-14 18:48:18,626 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-1
+2026-10-14 18:48:18,626 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-1
+2026-10-14 18:48:18,656 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-1
+2026-10-14 18:48:18,656 INFO o.a.j.t.JMeterThread: Thread finished: web 1-1
+2026-10-14 18:48:18,656 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-14 18:48:18,658 INFO o.a.j.r.Summariser: summary +    313 in 00:00:19 =   16,8/s Avg:     7 Min:     6 Max:    13 Err:     0 (0,00%) Active: 0 Started: 2 Finished: 2
+2026-10-14 18:48:18,658 INFO o.a.j.r.Summariser: summary =    328 in 00:00:21 =   15,8/s Avg:     8 Min:     6 Max:    66 Err:     0 (0,00%)

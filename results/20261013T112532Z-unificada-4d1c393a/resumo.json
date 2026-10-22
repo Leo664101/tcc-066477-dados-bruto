@@ -1,0 +1,28 @@
+{
+  "erros": {
+    "web": 0,
+    "mobile": 0
+  },
+  "comparacaoCpu": {
+    "habilitada": false,
+    "coletaValida": null
+  },
+  "janela": {
+    "todosIniciados": 1791890738293,
+    "inicio": 1791890741293,
+    "fim": 1791890756293
+  },
+  "recursos": {
+    "ciclosMedicao": 6,
+    "coletorConcluido": true,
+    "linhasMedicao": 24,
+    "ambienteEstavel": true
+  },
+  "amostras": {
+    "mobile": 639,
+    "web": 637
+  },
+  "descartadasPorJanela": 174,
+  "errosBrutos": 0,
+  "duracaoSegundos": 15
+}

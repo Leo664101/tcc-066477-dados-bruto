@@ -1,0 +1,3 @@
+"redeModelo","atrasoRedeMs","operacao","modeloCarga","taxaPorSegundo","baseMistura","mistura","execucao","usuarios","repeticao","cenario","misturaUsuarios","estadoExecutor","incluida","condicoesId","motivo"
+"",,"pedidos","chegadas-deterministicas-v1","20",,"50/50","netem0-pedidos-taxa20-m50-50-r1-bff",,"1","bff","50/50","falha","False","","Cannot find path 'C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\results\campanha-20261019T100216Z-a9dd4997\netem0-pedidos-taxa20-m50-50-r1-bff\configuracao.json' because it does not exist."
+"",,"pedidos","chegadas-deterministicas-v1","20",,"50/50","netem0-pedidos-taxa20-m50-50-r1-unificada",,"1","unificada","50/50","pendente","False","","Execucao pendente; nao consolidar como concluida."

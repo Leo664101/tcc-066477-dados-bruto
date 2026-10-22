@@ -1,0 +1,127 @@
+{
+  "descartadasPorJanela": null,
+  "rede": {
+    "modelo": "roteador-netem-v2",
+    "atrasoPorSentidoMs": 25,
+    "trecho": "cliente-entrada",
+    "limiteFilaPacotes": 10000,
+    "filaCompartilhadaSentidos": true
+  },
+  "recursos": {
+    "coletorConcluido": true,
+    "ambienteEstavel": true,
+    "linhasMedicao": 882,
+    "ciclosMedicao": 147
+  },
+  "comparacaoCpu": {
+    "habilitada": true,
+    "coletaValida": true
+  },
+  "amostras": {
+    "mobile": 23999,
+    "web": 23999
+  },
+  "janela": {
+    "inicioCarga": 1792510332145,
+    "todosIniciados": 1792510362145,
+    "inicio": 1792510662145,
+    "fim": 1792510962145,
+    "modeloCarga": "chegadas-deterministicas-v1"
+  },
+  "geracao": {
+    "geracaoValida": true,
+    "perfis": {
+      "mobile": {
+        "atrasoMedioMs": 13.487845528455285,
+        "iniciadas": 49200,
+        "iniciosAposFim": 2,
+        "atrasadas": 0,
+        "atrasoMaxMs": 63.0,
+        "fases": {
+          "medicao": {
+            "agendadas": 24000,
+            "atrasoMedioMs": 13.476583333333334,
+            "iniciadas": 24000,
+            "atrasoMaxMs": 23,
+            "atrasadas": 0,
+            "naoIniciadas": 0
+          },
+          "aquecimento": {
+            "agendadas": 24000,
+            "atrasoMedioMs": 13.473541666666666,
+            "iniciadas": 24000,
+            "atrasoMaxMs": 22,
+            "atrasadas": 0,
+            "naoIniciadas": 0
+          },
+          "subida": {
+            "agendadas": 1200,
+            "atrasoMedioMs": 13.999166666666667,
+            "iniciadas": 1200,
+            "atrasoMaxMs": 63,
+            "atrasadas": 0,
+            "naoIniciadas": 0
+          }
+        },
+        "agendadas": 49200,
+        "foraDosLimites": 0,
+        "naoIniciadas": 0
+      },
+      "web": {
+        "atrasoMedioMs": 13.48609756097561,
+        "iniciadas": 49200,
+        "iniciosAposFim": 2,
+        "atrasadas": 0,
+        "atrasoMaxMs": 63.0,
+        "fases": {
+          "medicao": {
+            "agendadas": 24000,
+            "atrasoMedioMs": 13.476541666666666,
+            "iniciadas": 24000,
+            "atrasoMaxMs": 23,
+            "atrasadas": 0,
+            "naoIniciadas": 0
+          },
+          "aquecimento": {
+            "agendadas": 24000,
+            "atrasoMedioMs": 13.469583333333333,
+            "iniciadas": 24000,
+            "atrasoMaxMs": 22,
+            "atrasadas": 0,
+            "naoIniciadas": 0
+          },
+          "subida": {
+            "agendadas": 1200,
+            "atrasoMedioMs": 14.0075,
+            "iniciadas": 1200,
+            "atrasoMaxMs": 63,
+            "atrasadas": 0,
+            "naoIniciadas": 0
+          }
+        },
+        "agendadas": 49200,
+        "foraDosLimites": 0,
+        "naoIniciadas": 0
+      }
+    },
+    "errosBrutos": 0,
+    "amostras": {
+      "mobile": 23999,
+      "web": 23999
+    },
+    "recorte": "inicio-coorte-v2",
+    "modeloCarga": "chegadas-deterministicas-v1",
+    "erros": {
+      "mobile": 0,
+      "web": 0
+    }
+  },
+  "erros": {
+    "mobile": 0,
+    "web": 0
+  },
+  "errosBrutos": 0,
+  "duracaoSegundos": 300,
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "operacao": "pedidos"
+}

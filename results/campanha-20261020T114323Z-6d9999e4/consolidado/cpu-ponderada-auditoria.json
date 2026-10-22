@@ -1,0 +1,66 @@
+[
+  {
+    "execucao": "netem0-pedidos-taxa160-m50-50-r1-bff",
+    "metodo": "cpu-tempo-amostrado-v1",
+    "estado": "calculada",
+    "motivo": "Pares validos; cobertura informada, sem limiar metodologico de suficiencia aprovado.",
+    "fontesSha256": [
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T114323Z-6d9999e4\\netem0-pedidos-taxa160-m50-50-r1-bff\\cpu-alinhado-bruto.jsonl",
+        "Hash": "4B604D6F961A1035E7D1EC57FFC42144F23469E7BBD5F25993B7BDF9A86506C2"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T114323Z-6d9999e4\\netem0-pedidos-taxa160-m50-50-r1-bff\\janela.json",
+        "Hash": "0C66830F6E3EFB9295D5B85548BFCB9CBCDBB8EDBCB3FD9E040D97F174233FC5"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T114323Z-6d9999e4\\netem0-pedidos-taxa160-m50-50-r1-bff\\ambiente-inicial.json",
+        "Hash": "D9F1840951857A2D607A909CD457A5071F7471664BCC09E94A604C39C7F3577A"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T114323Z-6d9999e4\\netem0-pedidos-taxa160-m50-50-r1-bff\\configuracao.json",
+        "Hash": "73FCF3872081C3723B74EE8E43E0A5C010C9A7E2BABFEEDE1BE39B0B885770F1"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cpu-ponderada.ps1",
+        "Hash": "FC72901F2D9CF4C2E36C08C17CFA9FAB3C29BF66C49E4258F0A8D224764E5483"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cpu-alinhado.ps1",
+        "Hash": "D76B91A135023247A09524BDEA820145BA294CB65068BD5DCBB5187D90E59EED"
+      }
+    ]
+  },
+  {
+    "execucao": "netem0-pedidos-taxa160-m50-50-r1-unificada",
+    "metodo": "cpu-tempo-amostrado-v1",
+    "estado": "calculada",
+    "motivo": "Pares validos; cobertura informada, sem limiar metodologico de suficiencia aprovado.",
+    "fontesSha256": [
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T114323Z-6d9999e4\\netem0-pedidos-taxa160-m50-50-r1-unificada\\cpu-alinhado-bruto.jsonl",
+        "Hash": "E15074CE2F8AC875F6AB7DB8B5EC1F601529C7515F7CDC87E7A2919B225AC966"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T114323Z-6d9999e4\\netem0-pedidos-taxa160-m50-50-r1-unificada\\janela.json",
+        "Hash": "34734046FA70AFB2A88265F86F05D0CA421FE1D3566309A75B4FB58C953E6F1F"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T114323Z-6d9999e4\\netem0-pedidos-taxa160-m50-50-r1-unificada\\ambiente-inicial.json",
+        "Hash": "31DECC622333306318F00996302B6594353331D1C3B037DD54AAD4EC07E58569"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T114323Z-6d9999e4\\netem0-pedidos-taxa160-m50-50-r1-unificada\\configuracao.json",
+        "Hash": "A315977E4D79BC18A2937153F39B480260D8D995D888EFD3A3ACCF00DCED352D"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cpu-ponderada.ps1",
+        "Hash": "FC72901F2D9CF4C2E36C08C17CFA9FAB3C29BF66C49E4258F0A8D224764E5483"
+      },
+      {
+        "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\cpu-alinhado.ps1",
+        "Hash": "D76B91A135023247A09524BDEA820145BA294CB65068BD5DCBB5187D90E59EED"
+      }
+    ]
+  }
+]

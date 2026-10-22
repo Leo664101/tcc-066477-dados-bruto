@@ -1,0 +1,6 @@
+{
+  "metodo": "mesmos contadores e read/preread; relogio do daemon",
+  "servidor": "29.7.2",
+  "api": "1.51",
+  "transporte": "npipe:////./pipe/dockerDesktopLinuxEngine"
+}

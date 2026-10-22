@@ -1,0 +1,5 @@
+"servico","quotaUs","periodoUs","intervaloSegundos","cpuMediaIntervaloPercent","periodos","periodosLimitados","periodosLimitadosPercent","tempoLimitadoSegundos"
+"usuarios","100000","100000","32.12999999999738","0.48692654839717636","71","0","0","0"
+"produtos","100000","100000","32.08999999999651","6.5092352757875585","234","1","0.42735042735042733","1.58E-05"
+"pedidos","100000","100000","32.080000000001746","0.4789513715710462","65","0","0","0"
+"api-unificada","200000","100000","32.054999999993015","10.741563562629075","236","0","0","0"

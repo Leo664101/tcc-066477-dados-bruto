@@ -1,0 +1,180 @@
+2026-10-19 21:55:36,105 INFO o.a.j.u.JMeterUtils: Setting Locale to pt_BR
+2026-10-19 21:55:36,119 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3\bin\user.properties
+2026-10-19 21:55:36,119 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3\bin\system.properties
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Loading additional properties from: C:/Users/Th3Br/Downloads/TCC_desenvolvimento/benchmarks/jmeter/jmeter.properties
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.scenario=bff
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.operation=pedidos
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.users=10
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.webUsers=80
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.mobileUsers=80
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.ramp=30
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.warmup=300
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.duration=300
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.guard=690
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.pause=0
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.seed=20260929
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.webPort=8081
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.mobilePort=8082
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.host=127.0.0.1
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.output=C:/Users/Th3Br/Downloads/TCC_desenvolvimento/benchmarks/results/campanha-20261019T215441Z-d701909e/netem25-pedidos-taxa160-m50-50-r1-bff
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.scripts=C:/Users/Th3Br/Downloads/TCC_desenvolvimento/benchmarks/jmeter
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.webRate=80
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.mobileRate=80
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.workers=8
+2026-10-19 21:55:36,120 INFO o.a.j.JMeter: Setting JMeter property: tcc.maxLag=250
+2026-10-19 21:55:36,123 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-19 21:55:36,123 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-19 21:55:36,123 INFO o.a.j.JMeter: java.version=21.0.2
+2026-10-19 21:55:36,123 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-10-19 21:55:36,124 INFO o.a.j.JMeter: os.name=Windows 11
+2026-10-19 21:55:36,124 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-19 21:55:36,124 INFO o.a.j.JMeter: os.version=10.0
+2026-10-19 21:55:36,124 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-19 21:55:36,124 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-19 21:55:36,124 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-19 21:55:36,124 INFO o.a.j.JMeter: Available Processors =12
+2026-10-19 21:55:36,129 INFO o.a.j.JMeter: Default Locale=português (Brasil)
+2026-10-19 21:55:36,129 INFO o.a.j.JMeter: JMeter  Locale=português (Brasil)
+2026-10-19 21:55:36,129 INFO o.a.j.JMeter: JMeterHome=C:\Users\Th3Br\Downloads\TCC_desenvolvimento\tmp\jmeter-bootstrap\apache-jmeter-5.6.3
+2026-10-19 21:55:36,129 INFO o.a.j.JMeter: user.dir  =C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\results\campanha-20261019T215441Z-d701909e\netem25-pedidos-taxa160-m50-50-r1-bff
+2026-10-19 21:55:36,129 INFO o.a.j.JMeter: PWD       =C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\results\campanha-20261019T215441Z-d701909e\netem25-pedidos-taxa160-m50-50-r1-bff
+2026-10-19 21:55:36,136 INFO o.a.j.JMeter: IP: 172.26.64.1 Name: Brisa FullName: Brisa.mshome.net
+2026-10-19 21:55:36,143 INFO o.a.j.s.FileServer: Default base='C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\results\campanha-20261019T215441Z-d701909e\netem25-pedidos-taxa160-m50-50-r1-bff'
+2026-10-19 21:55:36,144 INFO o.a.j.s.FileServer: Set new base='C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\jmeter'
+2026-10-19 21:55:36,244 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-19 21:55:36,265 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-19 21:55:36,267 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-19 21:55:36,269 INFO o.a.j.s.SaveService: Loading file: C:\Users\Th3Br\Downloads\TCC_desenvolvimento\benchmarks\jmeter\taxa.jmx
+2026-10-19 21:55:36,315 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-19 21:55:36,315 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-19 21:55:36,315 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-19 21:55:36,315 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-19 21:55:36,315 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-19 21:55:36,315 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-19 21:55:36,324 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-19 21:55:36,334 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-19 21:55:36,334 INFO o.a.j.s.SampleEvent: List of sample_variables: [perfil, pedido_id, body_bytes, operacao, recurso_id, produto_id, chegada_id, agendada_ms]
+2026-10-19 21:55:36,334 INFO o.a.j.s.SampleEvent: List of sample_variables: [perfil, pedido_id, body_bytes, operacao, recurso_id, produto_id, chegada_id, agendada_ms]
+2026-10-19 21:55:36,337 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-19 21:55:36,337 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-19 21:55:36,482 INFO o.a.j.JMeter: Testes executando (1792446936482)
+2026-10-19 21:55:36,482 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2026-10-19 21:55:36,483 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : Inicializar agenda 
+2026-10-19 21:55:36,483 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Inicializar agenda.
+2026-10-19 21:55:36,483 INFO o.a.j.e.StandardJMeterEngine: Test will stop abruptly on error
+2026-10-19 21:55:36,483 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
+2026-10-19 21:55:36,484 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-19 21:55:36,484 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2026-10-19 21:55:36,485 INFO o.a.j.t.JMeterThread: Thread started: Inicializar agenda 1-1
+2026-10-19 21:55:36,486 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-19 21:55:36,487 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-19 21:55:36,487 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-19 21:55:36,487 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-19 21:55:37,016 INFO o.a.j.t.JMeterThread: Thread is done: Inicializar agenda 1-1
+2026-10-19 21:55:37,016 INFO o.a.j.t.JMeterThread: Thread finished: Inicializar agenda 1-1
+2026-10-19 21:55:37,017 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2026-10-19 21:55:37,030 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : web
+2026-10-19 21:55:37,030 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group web.
+2026-10-19 21:55:37,030 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-19 21:55:37,030 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=8 ramp-up=0 delayedStart=false
+2026-10-19 21:55:37,031 INFO o.a.j.t.JMeterThread: Thread started: web 1-1
+2026-10-19 21:55:37,031 INFO o.a.j.t.JMeterThread: Thread started: web 1-2
+2026-10-19 21:55:37,031 INFO o.a.j.t.JMeterThread: Thread started: web 1-3
+2026-10-19 21:55:37,031 INFO o.a.j.t.JMeterThread: Thread started: web 1-4
+2026-10-19 21:55:37,031 INFO o.a.j.t.JMeterThread: Thread started: web 1-5
+2026-10-19 21:55:37,032 INFO o.a.j.t.JMeterThread: Thread started: web 1-6
+2026-10-19 21:55:37,032 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-19 21:55:37,032 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : mobile
+2026-10-19 21:55:37,032 INFO o.a.j.t.JMeterThread: Thread started: web 1-7
+2026-10-19 21:55:37,032 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group mobile.
+2026-10-19 21:55:37,032 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-19 21:55:37,032 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=8 ramp-up=0 delayedStart=false
+2026-10-19 21:55:37,032 INFO o.a.j.t.JMeterThread: Thread started: web 1-8
+2026-10-19 21:55:37,032 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-1
+2026-10-19 21:55:37,033 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-2
+2026-10-19 21:55:37,033 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-3
+2026-10-19 21:55:37,033 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-4
+2026-10-19 21:55:37,033 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-5
+2026-10-19 21:55:37,033 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-6
+2026-10-19 21:55:37,033 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-10-19 21:55:37,033 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-7
+2026-10-19 21:55:37,033 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-19 21:55:37,034 INFO o.a.j.t.JMeterThread: Thread started: mobile 2-8
+2026-10-19 21:55:38,726 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Brisa
+2026-10-19 21:55:38,729 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-19 21:56:00,010 INFO o.a.j.r.Summariser: summary +   1275 in 00:00:24 =   54,2/s Avg:    57 Min:    55 Max:   137 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 21:56:30,002 INFO o.a.j.r.Summariser: summary +   4622 in 00:00:30 =  154,1/s Avg:    55 Min:    53 Max:   107 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 21:56:30,003 INFO o.a.j.r.Summariser: summary =   5897 in 00:00:54 =  110,2/s Avg:    56 Min:    53 Max:   137 Err:     0 (0,00%)
+2026-10-19 21:57:00,003 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   111 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 21:57:00,003 INFO o.a.j.r.Summariser: summary =  10697 in 00:01:24 =  128,1/s Avg:    55 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 21:57:30,006 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   105 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 21:57:30,006 INFO o.a.j.r.Summariser: summary =  15497 in 00:01:54 =  136,5/s Avg:    54 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 21:58:00,000 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 21:58:00,001 INFO o.a.j.r.Summariser: summary =  20297 in 00:02:24 =  141,4/s Avg:    54 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 21:58:30,009 INFO o.a.j.r.Summariser: summary +   4802 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   105 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 21:58:30,009 INFO o.a.j.r.Summariser: summary =  25099 in 00:02:54 =  144,6/s Avg:    54 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 21:59:00,005 INFO o.a.j.r.Summariser: summary +   4798 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   105 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 21:59:00,005 INFO o.a.j.r.Summariser: summary =  29897 in 00:03:24 =  146,9/s Avg:    54 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 21:59:30,008 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   109 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 21:59:30,008 INFO o.a.j.r.Summariser: summary =  34697 in 00:03:54 =  148,6/s Avg:    54 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:00:00,005 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:00:00,005 INFO o.a.j.r.Summariser: summary =  39497 in 00:04:24 =  149,9/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:00:30,010 INFO o.a.j.r.Summariser: summary +   4802 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:00:30,010 INFO o.a.j.r.Summariser: summary =  44299 in 00:04:54 =  150,9/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:01:00,010 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:01:00,010 INFO o.a.j.r.Summariser: summary =  49099 in 00:05:24 =  151,8/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:01:30,008 INFO o.a.j.r.Summariser: summary +   4798 in 00:00:30 =  159,9/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:01:30,008 INFO o.a.j.r.Summariser: summary =  53897 in 00:05:54 =  152,5/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:02:00,008 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:02:00,008 INFO o.a.j.r.Summariser: summary =  58697 in 00:06:24 =  153,0/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:02:30,008 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   105 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:02:30,009 INFO o.a.j.r.Summariser: summary =  63497 in 00:06:54 =  153,6/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:03:00,014 INFO o.a.j.r.Summariser: summary +   4802 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:03:00,014 INFO o.a.j.r.Summariser: summary =  68299 in 00:07:24 =  154,0/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:03:30,010 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:03:30,010 INFO o.a.j.r.Summariser: summary =  73099 in 00:07:54 =  154,4/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:04:00,011 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:04:00,012 INFO o.a.j.r.Summariser: summary =  77899 in 00:08:24 =  154,7/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:04:30,000 INFO o.a.j.r.Summariser: summary +   4798 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   105 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:04:30,000 INFO o.a.j.r.Summariser: summary =  82697 in 00:08:54 =  155,0/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:05:00,001 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   105 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:05:00,001 INFO o.a.j.r.Summariser: summary =  87497 in 00:09:24 =  155,3/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:05:30,010 INFO o.a.j.r.Summariser: summary +   4802 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:05:30,010 INFO o.a.j.r.Summariser: summary =  92299 in 00:09:54 =  155,5/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:06:00,011 INFO o.a.j.r.Summariser: summary +   4800 in 00:00:30 =  160,0/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 16 Started: 16 Finished: 0
+2026-10-19 22:06:00,011 INFO o.a.j.r.Summariser: summary =  97099 in 00:10:24 =  155,7/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)
+2026-10-19 22:06:08,056 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-1
+2026-10-19 22:06:08,056 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-2
+2026-10-19 22:06:08,056 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-5
+2026-10-19 22:06:08,056 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-8
+2026-10-19 22:06:08,056 INFO o.a.j.t.JMeterThread: Thread finished: web 1-1
+2026-10-19 22:06:08,057 INFO o.a.j.t.JMeterThread: Thread finished: web 1-5
+2026-10-19 22:06:08,057 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-8
+2026-10-19 22:06:08,057 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-2
+2026-10-19 22:06:08,071 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-4
+2026-10-19 22:06:08,071 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-7
+2026-10-19 22:06:08,071 INFO o.a.j.t.JMeterThread: Thread finished: web 1-7
+2026-10-19 22:06:08,071 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-4
+2026-10-19 22:06:08,087 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-5
+2026-10-19 22:06:08,087 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-6
+2026-10-19 22:06:08,087 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-5
+2026-10-19 22:06:08,087 INFO o.a.j.t.JMeterThread: Thread finished: web 1-6
+2026-10-19 22:06:08,103 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-4
+2026-10-19 22:06:08,103 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-6
+2026-10-19 22:06:08,103 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-6
+2026-10-19 22:06:08,103 INFO o.a.j.t.JMeterThread: Thread finished: web 1-4
+2026-10-19 22:06:08,117 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-1
+2026-10-19 22:06:08,117 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-1
+2026-10-19 22:06:08,117 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-3
+2026-10-19 22:06:08,117 INFO o.a.j.t.JMeterThread: Thread finished: web 1-3
+2026-10-19 22:06:08,132 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-7
+2026-10-19 22:06:08,132 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: mobile 2-3
+2026-10-19 22:06:08,132 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-2
+2026-10-19 22:06:08,132 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-7
+2026-10-19 22:06:08,132 INFO o.a.j.t.JMeterThread: Thread finished: mobile 2-3
+2026-10-19 22:06:08,132 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: web 1-8
+2026-10-19 22:06:08,132 INFO o.a.j.t.JMeterThread: Thread finished: web 1-2
+2026-10-19 22:06:08,132 INFO o.a.j.t.JMeterThread: Thread finished: web 1-8
+2026-10-19 22:06:08,132 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-19 22:06:08,134 INFO o.a.j.r.Summariser: summary +   1301 in 00:00:08 =  160,2/s Avg:    53 Min:    52 Max:   104 Err:     0 (0,00%) Active: 0 Started: 16 Finished: 16
+2026-10-19 22:06:08,134 INFO o.a.j.r.Summariser: summary =  98400 in 00:10:32 =  155,8/s Avg:    53 Min:    52 Max:   137 Err:     0 (0,00%)

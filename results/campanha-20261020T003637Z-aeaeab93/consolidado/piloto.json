@@ -1,0 +1,50 @@
+{
+  "versao": "criterios-piloto-v1",
+  "geradoUtc": "2026-10-20T00:49:33.1581042Z",
+  "campanha": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T003637Z-aeaeab93",
+  "criterios": {
+    "cvAlertaPercent": 10,
+    "medicaoMinimaSegundos": 300,
+    "blocoSegundos": 30,
+    "pisoMs": 1,
+    "limiarRelativoPercent": 10,
+    "sucessosMinimosPorBloco": 200,
+    "blocos": 3
+  },
+  "execucoes": [
+    {
+      "execucao": "netem25-pedidos-taxa160-m50-50-r1-unificada",
+      "cenario": "unificada",
+      "condicoesId": "",
+      "estadoTecnico": "excluida",
+      "motivo": "Gerador nao cumpriu a agenda; preservar dados para diagnostico.",
+      "errosHttpBrutos": null,
+      "perfis": null
+    },
+    {
+      "execucao": "netem25-pedidos-taxa160-m50-50-r1-bff",
+      "cenario": "bff",
+      "condicoesId": "",
+      "estadoTecnico": "excluida",
+      "motivo": "Execucao pendente; nao consolidar como concluida.",
+      "errosHttpBrutos": null,
+      "perfis": null
+    }
+  ],
+  "variabilidade": [],
+  "limites": "Triagem exploratoria; nao aprova campanha oficial, nao ajusta janelas, nao exclui falhas HTTP nem calcula IC.",
+  "fontes": [
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\benchmarks\\results\\campanha-20261020T003637Z-aeaeab93\\campanha.json",
+      "Hash": "F4A8EB8EFEEAA842203B7879DC02166FF8F9901EF431B4ACEAFD14EC766D4CCE"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\criterios-piloto.ps1",
+      "Hash": "59BCBE6A14CC8100A885F19F65CD16695678B7B5545CF3A22492FCB5E3DEE71E"
+    },
+    {
+      "Path": "C:\\Users\\Th3Br\\Downloads\\TCC_desenvolvimento\\scripts\\analisar-piloto.ps1",
+      "Hash": "328E247D5B23068BA1CE74B6060CE321692AD3D96354F5F6C7256BCE0461A1A8"
+    }
+  ]
+}

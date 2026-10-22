@@ -1,0 +1,72 @@
+{
+  "versao": 1,
+  "finalidade": "validacao-piloto",
+  "inicioUtc": "2026-10-15T10:51:39.2258759Z",
+  "estado": "concluida",
+  "rede": "netem",
+  "atrasosRedeMs": 0,
+  "operacao": "produtos",
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "primeiroCenario": "unificada",
+  "repeticoes": 1,
+  "niveis": [
+    20
+  ],
+  "misturas": [
+    "50/50"
+  ],
+  "compararCpuAlinhada": false,
+  "parametros": {
+    "MaximoEmVooPorPerfil": 8,
+    "SubidaSegundos": 2,
+    "AtrasoMaximoMs": 250,
+    "DuracaoSegundos": 15,
+    "IntervaloRecursosSegundos": 2,
+    "AquecimentoSegundos": 5,
+    "Semente": 20260929
+  },
+  "execucoes": [
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "produtos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "unificada",
+      "pasta": "netem0-produtos-taxa20-m50-50-r1-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "rede": {
+        "modelo": "roteador-netem-v2",
+        "atrasoPorSentidoMs": 0,
+        "trecho": "cliente-entrada",
+        "limiteFilaPacotes": 10000,
+        "filaCompartilhadaSentidos": true
+      },
+      "operacao": "produtos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "50/50",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "bff",
+      "pasta": "netem0-produtos-taxa20-m50-50-r1-bff",
+      "estado": "concluida",
+      "erro": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "aprovado": true,
+  "diferencas": [
+    {
+      "cenario": "unificada",
+      "porta": 8080,
+      "caminho": "/api/v1/produtos/1",
+      "incrementoMedianaMs": 50.5995499988785
+    },
+    {
+      "cenario": "unificada",
+      "porta": 8080,
+      "caminho": "/api/v1/pedidos/1",
+      "incrementoMedianaMs": 51.56849999912083
+    },
+    {
+      "cenario": "bff",
+      "porta": 8081,
+      "caminho": "/api/v1/produtos/1",
+      "incrementoMedianaMs": 51.340950001758756
+    },
+    {
+      "cenario": "bff",
+      "porta": 8081,
+      "caminho": "/api/v1/pedidos/1",
+      "incrementoMedianaMs": 50.83120000199415
+    },
+    {
+      "cenario": "bff",
+      "porta": 8082,
+      "caminho": "/api/v1/produtos/1",
+      "incrementoMedianaMs": 50.98784999790951
+    },
+    {
+      "cenario": "bff",
+      "porta": 8082,
+      "caminho": "/api/v1/pedidos/1",
+      "incrementoMedianaMs": 51.322900000741356
+    }
+  ]
+}

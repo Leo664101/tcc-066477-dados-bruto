@@ -1,0 +1,56 @@
+{
+  "versao": 1,
+  "finalidade": "validacao-piloto",
+  "inicioUtc": "2026-10-13T22:32:03.4836108Z",
+  "estado": "concluida",
+  "operacao": "pedidos",
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "primeiroCenario": "unificada",
+  "repeticoes": 1,
+  "niveis": [
+    20
+  ],
+  "misturas": [
+    "80/20"
+  ],
+  "compararCpuAlinhada": false,
+  "parametros": {
+    "DuracaoSegundos": 15,
+    "AtrasoMaximoMs": 250,
+    "AquecimentoSegundos": 5,
+    "Semente": 20260929,
+    "MaximoEmVooPorPerfil": 8,
+    "SubidaSegundos": 2,
+    "IntervaloRecursosSegundos": 2
+  },
+  "execucoes": [
+    {
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "80/20",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "unificada",
+      "pasta": "pedidos-taxa20-m80-20-r1-unificada",
+      "estado": "concluida",
+      "erro": null
+    },
+    {
+      "operacao": "pedidos",
+      "modeloCarga": "chegadas-deterministicas-v1",
+      "taxaPorSegundo": 20,
+      "usuarios": null,
+      "mistura": "80/20",
+      "usuariosWeb": null,
+      "usuariosMobile": null,
+      "repeticao": 1,
+      "cenario": "bff",
+      "pasta": "pedidos-taxa20-m80-20-r1-bff",
+      "estado": "concluida",
+      "erro": null
+    }
+  ]
+}

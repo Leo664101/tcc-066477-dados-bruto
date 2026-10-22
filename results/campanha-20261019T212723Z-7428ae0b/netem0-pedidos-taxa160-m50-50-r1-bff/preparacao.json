@@ -1,0 +1,9 @@
+{
+  "modelo": "espera-monotonica-v1",
+  "fase": "preparacao",
+  "solicitadoSegundos": 30,
+  "inicioUtc": "2026-10-19T21:40:19.6708022Z",
+  "fimUtc": "2026-10-19T21:40:49.6712867Z",
+  "decorridoMs": 30000.472,
+  "concluida": true
+}

@@ -1,0 +1,3 @@
+"perfil","amostras","sucessos","erros","errosBrutosExecucao","drenadas","iniciosAposFim","latenciaMediaMs","medianaMs","p95Ms","p99Ms","latenciaMediaFalhasMs","errosPercent","payloadMedioSucessosBytes","taxaAlvoPerfilRps","taxaIniciosRps","vazaoRps","vazaoSucessosRps"
+"web","24000","24000","0","0","4","1","53.49016666666667","53","54","63",,"0","1037.1230416666667","80","80","80.00333333333333","80.00333333333333"
+"mobile","24000","24000","0","0","4","1","53.488791666666664","53","54","63",,"0","1037.1230416666667","80","80","80.00333333333333","80.00333333333333"

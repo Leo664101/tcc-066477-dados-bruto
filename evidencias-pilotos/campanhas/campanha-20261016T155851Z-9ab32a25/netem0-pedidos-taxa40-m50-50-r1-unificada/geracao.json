@@ -1,0 +1,85 @@
+{
+  "amostras": {
+    "web": 6000,
+    "mobile": 6000
+  },
+  "perfis": {
+    "web": {
+      "fases": {
+        "subida": {
+          "agendadas": 300,
+          "atrasoMaxMs": 65,
+          "atrasadas": 0,
+          "atrasoMedioMs": 16.5,
+          "iniciadas": 300,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "agendadas": 6000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.594166666666666,
+          "iniciadas": 6000,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 6000,
+          "atrasoMaxMs": 25,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.5605,
+          "iniciadas": 6000,
+          "naoIniciadas": 0
+        }
+      },
+      "iniciadas": 12300,
+      "atrasoMedioMs": 15.599837398373984,
+      "agendadas": 12300,
+      "naoIniciadas": 0,
+      "foraDosLimites": 0,
+      "atrasoMaxMs": 65.0,
+      "atrasadas": 0
+    },
+    "mobile": {
+      "fases": {
+        "subida": {
+          "agendadas": 300,
+          "atrasoMaxMs": 65,
+          "atrasadas": 0,
+          "atrasoMedioMs": 16.5,
+          "iniciadas": 300,
+          "naoIniciadas": 0
+        },
+        "medicao": {
+          "agendadas": 6000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.589833333333333,
+          "iniciadas": 6000,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 6000,
+          "atrasoMaxMs": 25,
+          "atrasadas": 0,
+          "atrasoMedioMs": 15.546,
+          "iniciadas": 6000,
+          "naoIniciadas": 0
+        }
+      },
+      "iniciadas": 12300,
+      "atrasoMedioMs": 15.590650406504064,
+      "agendadas": 12300,
+      "naoIniciadas": 0,
+      "foraDosLimites": 0,
+      "atrasoMaxMs": 65.0,
+      "atrasadas": 0
+    }
+  },
+  "errosBrutos": 0,
+  "erros": {
+    "web": 0,
+    "mobile": 0
+  },
+  "geracaoValida": true,
+  "modeloCarga": "chegadas-deterministicas-v1"
+}

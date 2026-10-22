@@ -1,0 +1,88 @@
+{
+  "geracaoValida": true,
+  "perfis": {
+    "mobile": {
+      "atrasoMedioMs": 14.77089430894309,
+      "iniciadas": 6150,
+      "iniciosAposFim": 0,
+      "atrasadas": 0,
+      "atrasoMaxMs": 78.0,
+      "fases": {
+        "medicao": {
+          "agendadas": 3000,
+          "atrasoMedioMs": 14.639333333333333,
+          "iniciadas": 3000,
+          "atrasoMaxMs": 23,
+          "atrasadas": 0,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 3000,
+          "atrasoMedioMs": 14.838666666666667,
+          "iniciadas": 3000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "naoIniciadas": 0
+        },
+        "subida": {
+          "agendadas": 150,
+          "atrasoMedioMs": 16.046666666666667,
+          "iniciadas": 150,
+          "atrasoMaxMs": 78,
+          "atrasadas": 0,
+          "naoIniciadas": 0
+        }
+      },
+      "agendadas": 6150,
+      "foraDosLimites": 0,
+      "naoIniciadas": 0
+    },
+    "web": {
+      "atrasoMedioMs": 14.772032520325203,
+      "iniciadas": 6150,
+      "iniciosAposFim": 0,
+      "atrasadas": 0,
+      "atrasoMaxMs": 78.0,
+      "fases": {
+        "medicao": {
+          "agendadas": 3000,
+          "atrasoMedioMs": 14.645,
+          "iniciadas": 3000,
+          "atrasoMaxMs": 23,
+          "atrasadas": 0,
+          "naoIniciadas": 0
+        },
+        "aquecimento": {
+          "agendadas": 3000,
+          "atrasoMedioMs": 14.835,
+          "iniciadas": 3000,
+          "atrasoMaxMs": 24,
+          "atrasadas": 0,
+          "naoIniciadas": 0
+        },
+        "subida": {
+          "agendadas": 150,
+          "atrasoMedioMs": 16.053333333333335,
+          "iniciadas": 150,
+          "atrasoMaxMs": 78,
+          "atrasadas": 0,
+          "naoIniciadas": 0
+        }
+      },
+      "agendadas": 6150,
+      "foraDosLimites": 0,
+      "naoIniciadas": 0
+    }
+  },
+  "errosBrutos": 0,
+  "amostras": {
+    "mobile": 3000,
+    "web": 3000
+  },
+  "recorte": "inicio-coorte-v2",
+  "modeloCarga": "chegadas-deterministicas-v1",
+  "erros": {
+    "mobile": 0,
+    "web": 0
+  }
+}

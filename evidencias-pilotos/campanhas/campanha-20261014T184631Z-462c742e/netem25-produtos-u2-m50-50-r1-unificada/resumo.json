@@ -1,0 +1,38 @@
+{
+  "descartadasPorJanela": 56,
+  "erros": {
+    "mobile": 0,
+    "web": 0
+  },
+  "duracaoSegundos": 15,
+  "comparacaoCpu": {
+    "habilitada": false,
+    "coletaValida": null
+  },
+  "errosBrutos": 0,
+  "amostras": {
+    "web": 87,
+    "mobile": 87
+  },
+  "modeloCarga": "usuarios-fechado-v1",
+  "geracao": null,
+  "janela": {
+    "todosIniciados": 1792003733175,
+    "inicio": 1792003738175,
+    "fim": 1792003753175
+  },
+  "rede": {
+    "modelo": "roteador-netem-v2",
+    "atrasoPorSentidoMs": 25,
+    "trecho": "cliente-entrada",
+    "limiteFilaPacotes": 10000,
+    "filaCompartilhadaSentidos": true
+  },
+  "operacao": "produtos",
+  "recursos": {
+    "linhasMedicao": 30,
+    "ambienteEstavel": true,
+    "coletorConcluido": true,
+    "ciclosMedicao": 6
+  }
+}

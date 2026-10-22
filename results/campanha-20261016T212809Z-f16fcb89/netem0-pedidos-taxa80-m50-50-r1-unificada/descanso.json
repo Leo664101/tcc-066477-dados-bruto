@@ -1,0 +1,9 @@
+{
+  "modelo": "espera-monotonica-v1",
+  "fase": "descanso",
+  "solicitadoSegundos": 60,
+  "inicioUtc": "2026-10-16T21:39:50.8539809Z",
+  "fimUtc": "2026-10-16T21:40:50.8623365Z",
+  "decorridoMs": 60008.3293,
+  "concluida": true
+}
